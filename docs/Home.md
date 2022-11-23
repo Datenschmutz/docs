@@ -2,12 +2,11 @@
 sidebar_position: 1
 id: Home
 ---
-:::danger Attention
-
-This page is currently under construction
-
-:::
 # Docs - Home
+
+:::danger Attention
+This page is currently under construction
+:::
 
 TBD
 
