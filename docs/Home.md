@@ -1,7 +1,11 @@
 ---
 sidebar_position: 1
-id: Home
+sidebar_label: 'Home'
+id: intro
+description: Home of Docs
+slug: /Home
 ---
+
 # Docs - Home
 
 :::danger Attention
