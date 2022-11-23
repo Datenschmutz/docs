@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Datenschmutz.dev',
-  tagline: 'Datenschmutz is cool',
+  tagline: 'Datenschmutz Documentation Page',
   url: 'https://docs.datenschmutz.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
