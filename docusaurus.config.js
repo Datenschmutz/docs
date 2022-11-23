@@ -95,11 +95,7 @@ const config = {
             items: [
               {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://stackoverflow.com/users/20582833/datenschmutz',
               },
               {
                 label: 'Twitter',
@@ -121,7 +117,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Datenschmutz Built with :heart: and Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Datenschmutz Built with ❤️ and Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
