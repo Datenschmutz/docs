@@ -3,7 +3,7 @@ sidebar_position: 1
 sidebar_label: 'Home'
 id: intro
 description: Home of Docs
-slug: /Home
+slug: /intro
 ---
 
 # Docs - Home
