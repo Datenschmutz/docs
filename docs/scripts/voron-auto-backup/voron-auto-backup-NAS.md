@@ -4,6 +4,9 @@ sidebar_label: 'Voron Network Share Backup'
 id: NAS-auto-backup
 description: Auto-Backup your printer config files to a network share (NAS, Windows share whatever)
 slug: /NAS-Auto-backup
+last_update:
+  author: Fabian
+  date: 11/25/2022
 ---
 
 # Backup your printer using S3 Storage
@@ -59,3 +62,7 @@ sudo nano /home/$USER/backup.sh
 **Requires G-Gcode Shell Command Extension (install with KIAUH)**.
 
 * Download the backup.cfg and include it in your printer.cfg
+
+:::info
+This tutorial and scirpt were created by [T4KUUY4](https://github.com/T4KUUY4/Voron-Stuff/tree/main/Automatic%20Backup) the tutorial was included by me in the docs because the function is similar and some people would like to know the other option.
+:::
