@@ -16,7 +16,7 @@ This script is WORK IN PROGRESS. BACKUP YOUR FILES MANUALLY!!!! I´m not respons
 ## Requirements
 
 * S3 Storage
-* Basic knowlage of rClone
+* Basic knowledge of rClone
 
 ## Installation
 
