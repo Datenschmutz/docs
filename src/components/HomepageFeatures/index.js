@@ -4,32 +4,31 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Work in progress',
+    Svg: require('@site/static/img/work-in-progress.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        We are just getting started with this website. So not everything is in place yet. We are working on it. 
+        Please get involved and share your knowledge, e.g. about tools not covered, bugs or improvements.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'TBD',
+    Svg: require('@site/static/img/dmz-logo.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+       <code>TBD</code>.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'You got the missing piece?',
+    Svg: require('@site/static/img/idea.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        You' ve found a bug or can add something to a documentation?
+        Feel free to use the <code>Edit this page</code> button at the bottom of the page and share your knowledge with others!
       </>
     ),
   },

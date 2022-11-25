@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Datenschmutz.dev',
-  tagline: 'Datenschmutz Documentation Page',
+  tagline: 'Documentations and How-To\'s',
   url: 'https://docs.datenschmutz.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -62,7 +62,7 @@ const config = {
       navbar: {
         title: 'Datenschmutz.dev',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Datenschmutz Logo',
           src: 'img/logo.png',
         },
         items: [
@@ -87,7 +87,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Docs - Home',
                 to: '/docs/intro',
               },
             ],
@@ -119,6 +119,11 @@ const config = {
             ],
           },
         ],
+        logo: {
+          alt: 'Datenschmutz logo',
+          src: '/img/dmz-logo-main-350x-border.png',
+          href: 'https://datenschmutz.org',
+        },
         copyright: `Copyright © ${new Date().getFullYear()} Datenschmutz Built with ❤️ and Docusaurus.`,
       },
       prism: {
