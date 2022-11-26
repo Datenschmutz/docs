@@ -20,7 +20,7 @@ This script is WORK IN PROGRESS. BACKUP YOUR FILES MANUALLY!!!! I´m not respons
 
 ## Installation
 
-```bash title="Download the installation script"
+```bash title="Download installation script"
 wget https://raw.githubusercontent.com/Datenschmutz/VORON/main/backup-script/install.sh
 ```
 
