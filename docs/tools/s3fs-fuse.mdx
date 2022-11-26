@@ -1,0 +1,88 @@
+---
+sidebar_position: 1
+sidebar_label: 's3fs-fuse'
+id: s3fs-fuse
+description: s3fs allows Linux, macOS, and FreeBSD to mount an S3 bucket via FUSE. s3fs preserves the native object format for files, allowing use of other tools like AWS CLI.
+slug: /s3fs-fuse
+last_update:
+  author: Fabian
+  date: 11/26/2022
+---
+
+# s3fs-fuse
+
+[s3fs-fuse](https://github.com/s3fs-fuse/s3fs-fuse) allows you to mount S3 buckets under windows, linux or macOS as a normal folder 
+
+import Tabs from '@theme/Tabs';
+
+import TabItem from '@theme/TabItem';
+
+:::tip s3fs-fuse platform install guide
+
+<Tabs>
+  <TabItem value="linux" label="Linux">Check <a href="#Installation"><code>installation</code></a> for instructions.</TabItem>
+  <TabItem value="macos" label="MacOS">Please follow the installation instruction like described on <a href="https://github.com/s3fs-fuse/s3fs-fuse">s3fs-fuse GitHub</a>.</TabItem>
+  <TabItem value="windows" label="Windows">Please follow the installation instruction like described on <a href="https://github.com/s3fs-fuse/s3fs-fuse">s3fs-fuse GitHub</a>.</TabItem>
+</Tabs>
+
+:::
+
+## Installation
+In case of Debian / Ubuntu system please perform following action[^1]:
+
+```bash
+sudo apt install s3fs
+```
+
+Here the way to mount a bucket which is not reboot safe is shown. All you will need is:
+
+* `access_key`
+* `secret_key`
+* S3 URL
+* your bucket name
+* folder (mount point) where you want make your bucket contents available
+
+For `access_key`, `secret_key` and the S3 URL please check your s3 Provider Panel.
+
+## Example
+
+* `access_key` = 82046e8110804a43bf29c1ae426a724d
+* `secret_key` = 82e69bd7a52076c527154297a76c2233
+* S3 URL = https://your.s3-storage.com
+* bucket name = `Backup`
+* mount point = ${HOME}/`Backup`
+
+```bash title='Create a settings file with your access_key:secret_key'
+echo access_key:secret_key > ${HOME}/.passwd-s3fs
+```
+```bash title='Set needed permissions'
+chmod 600 ${HOME}/.passwd-s3fs
+```
+```bash title='Create mount point'
+mkdir ${HOME}/Backup
+```
+```bash title='Mount bucket foo to ${HOME}/Backup'
+s3fs Backup ${HOME}/Backup -o passwd_file=${HOME}/.passwd-s3fs -o url=https://your.s3-storage.com -o use_path_request_style
+```
+```bash title='Access bucket content'
+ls -la ${HOME}/Backup
+```
+## Limitations[^2]
+
+<details>
+<summary>Generally S3 cannot offer the same performance or semantics as a local file system. More specifically:</summary>
+
+| |
+| --- |
+|random writes or appends to files require rewriting the entire object, optimized with multi-part upload copy|
+|metadata operations such as listing directories have poor performance due to network latency|
+|non-AWS providers may have eventual consistency so reads can temporarily yield stale data (AWS offers read-after-write consistency since Dec 2020)|
+|no atomic renames of files or directories|
+|no coordination between multiple clients mounting the same bucket|
+|no hard links|
+|inotify detects only local modifications, not external ones by other clients or tools|
+</details>
+
+
+[^1]: Variation of the s3fs-fuse documentation from Contabo - [Link](https://docs.contabo.com/docs/products/Object-Storage/Tools/s3fs-fuse)
+[^2]: From s3fs-fuse GitHub - [Link](https://github.com/s3fs-fuse/s3fs-fuse#limitations)

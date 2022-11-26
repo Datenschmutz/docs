@@ -4,6 +4,9 @@ sidebar_label: 'Voron S3 Backup'
 id: S3-auto-backup
 description: Auto-Backup your printer config files with rClone to S3.
 slug: /S3-Auto-backup
+last_update:
+  author: Fabian
+  date: 11/26/2022
 ---
 
 # Backup your printer using S3 Storage
