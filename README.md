@@ -27,6 +27,5 @@
 </h3>
 
 <h3>
-<p align="center">This Website is Built with ❤️ and 
-<a href="(https://github.com/facebook/docusaurus">Docusaurus</a>, a modern static website generator.</p>
+<p align="center">This Website is Built with ❤️ and <a href="(https://github.com/facebook/docusaurus">Docusaurus</a>, a modern static website generator.</p>
 </h3>
