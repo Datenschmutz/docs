@@ -18,4 +18,4 @@ Please feel free to give us feedback to that page on [GitHub](https://github.com
 
 ## Hint
 
-We are just starting with that page. So not yet everything is in place right now. We are working on it. Please participate and share your knowlegde e.g. for tools not covered, errors or improvements.
+We are just starting with this site. So not yet everything is in place right now. We are working on it. Please participate and share your knowlegde e.g. for tools not covered, errors or improvements.
