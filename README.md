@@ -1,3 +1,12 @@
+<h1 align="center">
+  <p align="center">Datenschmutz.dev</p>
+  <a href="https://docs.datenschmutz.org"><img src="./static/img/dmz-main-logo-c.svg" alt="Datenschmutz"></a>
+</h1>
+
+
+
+
+
 # Website
 
 This Website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
