@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdatenschmutz_docs=self.webpackChunkdatenschmutz_docs||[]).push([[795],{5350:s=>{s.exports=JSON.parse('{"permalink":"/blog/tags/first","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
