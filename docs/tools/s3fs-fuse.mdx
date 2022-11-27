@@ -46,14 +46,14 @@ For `access_key`, `secret_key` and the S3 URL please check your s3 Provider Pane
 
 ## Example
 
-* `access_key` = 82046e8110804a43bf29c1ae426a724d
-* `secret_key` = 82e69bd7a52076c527154297a76c2233
+* `access_key` = your_access_key
+* `secret_key` = your_secret_key
 * S3 URL = https://your.s3-storage.com
 * bucket name = `Backup`
 * mount point = ${HOME}/`Backup`
 
 ```bash title='Create a settings file with your access_key:secret_key'
-echo access_key:secret_key > ${HOME}/.passwd-s3fs
+echo your_access_key:your_secret_key > ${HOME}/.passwd-s3fs
 ```
 ```bash title='Set needed permissions'
 chmod 600 ${HOME}/.passwd-s3fs
