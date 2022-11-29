@@ -1,0 +1,181 @@
+---
+sidebar_position: 1
+sidebar_label: 'Teamspeak Installation'
+id: teamspeak-install
+description: This guide explains how to easily and quickly install a TeamSpeak server on your Linux Server. 
+slug: /teamspeak-install
+last_update:
+  author: Fabian
+  date: 11/29/2022
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import ImageUrl from '@site/static/img/docs/ts-first-start.png';
+
+# Install Teamspeak on Linux servers
+
+This guide explains how to easily and quickly install a TeamSpeak[^1] server on your Linux Server
+
+## Requirements
+
+* Hosted server running Linux
+* SSH Client e.g. [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)[^2]
+
+import Admonition from '@theme/Admonition';
+import PuTTYConnectionGuide from '@site/src/components/puttyconnection.js';
+
+##### <PuTTYConnectionGuide></PuTTYConnectionGuide>
+
+## Installation
+
+### Update server
+
+   ```bash
+    apt update && apt upgrade -y
+  ```
+
+:::note
+In this example, the name of the user is `"teamspeak"`. You can also specify a different name, but then you have to be aware to use your own user name instead of `"teamspeak"` in this guide.
+:::
+
+### Create a Teamspeak running user
+
+  ```bash
+  adduser --disabled-login teamspeak
+  ```
+
+  >The following queries like name, phone number can be skipped with the `ENTER` key.
+
+### Switch to TeamSpeak user
+
+  ```bash
+  su teamspeak
+  ```
+
+### Access home directory
+
+  ```bash
+  cd
+  ```
+
+  > The home directory is named identical as the user, so the path is "/home/teamspeak" <- Irrelevant right now but good to know
+
+### Copy Teamspeak download link
+
+* Copy download link of the latest TeamSpeak server from [Teamspeak](https://www.teamspeak.com/en/downloads/#server)
+
+> Click on the copy icon to the right of the server version, n most cases `Linux - Server 64-bit` should be the right one.
+
+### Open PuTTy and download server archive
+
+  ```bash
+  wget https://YOUR-COPIED-LINK.tar.bz2
+  ```
+
+  > You can paste content into PuTTY by `right-clicking` **NOT CTRL+V**.
+
+### Extract downloaded archive
+
+  ```bash title="Use the [TAB] key to auto complete the command."
+  tar xfvj teamsp
+  ```
+
+  > The result should look like this `tar xfvj teamspeak3-server_linux_amd64-3.13.7.tar.bz2`
+
+### Delete downloaded archive
+
+  ```bash title="Use the [TAB] key to auto complete the command."
+  rm teamsp
+  ```
+
+  > The result should look like this `rm teamspeak3-server_linux_amd64-3.13.7.tar.bz2`
+
+### Open Teamspeak directory
+
+  ```bash
+  cd teamspeak3-server_linux_amd64
+  ```
+
+### Accept license terms
+
+  ```bash
+  touch .ts3server_license_accepted
+  ```
+
+  > This creates a file which indicates that you **accepted** the license terms.
+
+### Start Teamspeak server
+
+:::caution SAVE YOUR ACCESS DATA!
+During the first startup process you will be given the server admin `Privilege Key` and `Server-Query credentials`, please make sure to save them
+:::
+
+<details>
+<summary>Should look like this</summary>
+<img src={ImageUrl} height="400" width="450" alt="Example banner" />
+</details>
+
+  ```bash
+  ./ts3server_startscript.sh start
+  ```
+
+### Use Privilege Key
+
+<Tabs>
+  <TabItem value="teamspeak3" label="Teamspeak3 Client" default>
+    Connect to your Teamspeak server and click "Permissions" -> "Use Privilege Key" in the top menu of your TeamSpeak 3 client.
+  </TabItem>
+  <TabItem value="new-teamspeak" label="All New Teamspeak (Ts5)">
+    Connect to your Teamspeak server and right click the server name in the top center of your TeamSpeak client and than select "Use Privilege Key" in the drop down menu.
+  </TabItem>
+</Tabs>
+
+### Ready to go
+
+* Your Teamspeak server is now fully operational and can be controlled according to your wishes.
+  
+## Control Teamspeak server
+
+> To control your Teamspeak server log back into your server via [SSH (PuTTY)](#puttyconnectionguideputtyconnectionguide), switch to the [teamspeak user](#switch-to-teamspeak-user), go to the teamspeak directory and execute the commands below
+
+```bash title="Access teamspeak directory"
+cd /home/teamspeak/teamspeak3-server_linux_amd64
+```
+
+### Server commands
+
+:::info
+The following commands work only in the Teamspeak directory!
+:::
+
+<Tabs>
+  <TabItem value="start" label="Start" default>
+
+  ```bash title="Start Teamspeak server"
+  ./ts3server_startscript.sh start
+  ```
+
+  </TabItem>
+  <TabItem value="stop" label="Stop">
+
+  ```bash title="Stop Teamspeak server"
+  ./ts3server_startscript.sh stop
+  ```
+
+  </TabItem>
+  <TabItem value="status" label="Status">
+
+  ```bash title="Show current Teamspeak server status"
+  ./ts3server_startscript.sh status
+  ```
+
+  </TabItem>
+</Tabs>
+
+---
+
+#### Mentions, Credits and Sources
+
+[^1] Teamspeak Website - [Link](https://www.teamspeak.com)<br/>
+[^2] More information about PuTTY - [Link](https://wikipedia.org/wiki/PuTTY)
