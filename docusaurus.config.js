@@ -120,7 +120,7 @@ const config = {
             ],
           },
           {
-            title: 'Other Projects & Friends',
+            title: 'Projects & Friends',
             items: [
               {
                 label: 'Projects',
