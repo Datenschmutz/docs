@@ -49,6 +49,10 @@ const config = {
           editUrl:
             'https://github.com/Datenschmutz/docs/tree/main',
         },
+        googleAnalytics: {
+          trackingID: 'G-M0F3MYSGDN',
+          anonymizeIP: true,
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
