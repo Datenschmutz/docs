@@ -81,6 +81,8 @@ const config = {
         sidebarPath: require.resolve('./sidebars.js'),
         editUrl:
           'https://github.com/datenschmutz/docs/tree/main',
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
         // ... other options
       },
     ],

@@ -4,6 +4,9 @@ sidebar_label: 'Markdown Cheat Sheet'
 id: markdown-cheat-sheet
 description: Markdown Cheat Sheet
 slug: /markdown-cheat-sheet
+last_update:
+  author: Fabian
+  date: 12/01/2022
 ---
 
 # Markdown Cheat Sheet
