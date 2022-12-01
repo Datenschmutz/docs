@@ -14,11 +14,12 @@ const FeatureList = [
     ),
   },
   {
-    title: 'TBD',
-    Svg: require('@site/static/img/dmz-logo.svg').default,
+    title: 'You are looking for something?',
+    Svg: require('@site/static/img/light-bulb.svg').default,
     description: (
       <>
-       <code>TBD</code>.
+        Well then we hope you find it here! If not and you think it would fit well in here, but do not want to create a doc yourself create a 
+        <a href="https://github.com/Datenschmutz/docs/issues"><code>GitHub Issue</code></a>. Maybe we will take care of it then.
       </>
     ),
   },
@@ -28,7 +29,7 @@ const FeatureList = [
     description: (
       <>
         You' ve found a bug or can add something to a documentation?
-        Feel free to use the <code>Edit this page</code> button at the bottom of the page and share your knowledge with others!
+        Feel free to use the <br/><code>Edit this page</code> button at the bottom of the page and share your knowledge with others!
       </>
     ),
   },

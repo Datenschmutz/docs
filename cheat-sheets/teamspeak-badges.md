@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 10
 sidebar_label: 'TeamSpeak Badges'
 id: teamspeak-badges
 description: Up to date TeamSpeak badge list
