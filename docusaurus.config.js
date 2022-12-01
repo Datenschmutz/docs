@@ -40,7 +40,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Datenschmutz/docs/tree/main',
+            'https://github.com/datenschmutz/docs/tree/main',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
@@ -49,7 +49,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Datenschmutz/docs/tree/main',
+            'https://github.com/datenschmutz/docs/tree/main',
         },
         googleAnalytics: {
           trackingID: 'G-M0F3MYSGDN',
@@ -79,6 +79,8 @@ const config = {
         path: 'cheat-sheets',
         routeBasePath: 'cheat-sheets',
         sidebarPath: require.resolve('./sidebars.js'),
+        editUrl:
+          'https://github.com/datenschmutz/docs/tree/main',
         // ... other options
       },
     ],
