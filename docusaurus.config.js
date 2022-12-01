@@ -176,7 +176,7 @@ const config = {
           src: '/img/dmz-logo-main-350x-border.png',
           href: 'https://datenschmutz.org',
         },
-        copyright: `Copyright © ${new Date().getFullYear()} Datenschmutz Built with ❤️ and Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Datenschmutz Built with ❤️`,
       },
       prism: {
         theme: lightCodeTheme,
