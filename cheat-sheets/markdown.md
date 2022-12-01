@@ -6,7 +6,7 @@ description: Markdown Cheat Sheet
 slug: /markdown-cheat-sheet
 ---
 
-# Github Markdown Cheat Sheet
+# Markdown Cheat Sheet
 
 To learn more about markdown visit [www.markdownguide.org](https://www.markdownguide.org/getting-started/#whats-markdown)
 
@@ -122,25 +122,25 @@ _You **can** combine them_
 
 ```markdown
 Format:  ![Alt Text](url)
-Example: ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+Example: ![Datenschmutz Logo](@site/static/img/dmz-logo-main-350x-border.png)
 ```
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Datenschmutz Logo](@site/static/img/dmz-logo-main-350x-border.png)
 
 ## Links
 
 ```markdown
-http://github.com - automatic!
+https://docsdatenschmutz.dev - automatic!
 ```
 
-http://github.com - automatic!
+https://docs.datenschmutz.dev - automatic!
 
 ```markdown
-Format:  [Test](url)
-Example: [GitHub](http://github.com)
+Format:  [Text](url)
+Example: [Docs](https://docs.datenschmutz.dev)
 ```
 
-[GitHub](http://github.com)
+[Docs](https://docs.datenschmutz.dev)
 
 ## Blockquotes
 
@@ -333,4 +333,6 @@ Markdown also supports raw HTML.
 
 :+1: :sparkles: :camel: :tada: :rocket:
 
-[//]: # (https://gist.github.com/Robert-96/048fddefc20e6860aeca6949a2443adf)
+***
+
+[Source](https://gist.github.com/Robert-96/048fddefc20e6860aeca6949a2443adf)
