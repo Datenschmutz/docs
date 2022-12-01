@@ -34,6 +34,8 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          path: 'docs',
+          routeBasePath: 'docs',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -59,7 +61,28 @@ const config = {
       }),
     ],
   ],
-
+  plugins: [
+    [
+      '@docusaurus/plugin-ideal-image',
+      {
+        quality: 70,
+        max: 1030, // max resized image's size.
+        min: 640, // min resized image's size. if original is lower, use that size.
+        steps: 2, // the max number of images generated between min and max (inclusive)
+        disableInDev: true,
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'cheat-sheets',
+        path: 'cheat-sheets',
+        routeBasePath: 'cheat-sheets',
+        sidebarPath: require.resolve('./sidebars.js'),
+        // ... other options
+      },
+    ],
+  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -76,8 +99,9 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/cheat-sheets/intro', label: 'Cheat Sheets', position: 'left'},
           {to: '/Projects', label: 'Projects', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/Datenschmutz/docs',
             label: 'GitHub',
@@ -94,6 +118,10 @@ const config = {
               {
                 label: 'Docs - Home',
                 to: '/docs/intro',
+              },
+              {
+                label: 'Cheat Sheets - Home',
+                to: '/cheat-sheets/intro',
               },
             ],
           },
@@ -158,18 +186,6 @@ const config = {
         respectPrefersColorScheme: false,
       },
     }),
-    plugins: [
-      [
-        '@docusaurus/plugin-ideal-image',
-        {
-          quality: 70,
-          max: 1030, // max resized image's size.
-          min: 640, // min resized image's size. if original is lower, use that size.
-          steps: 2, // the max number of images generated between min and max (inclusive)
-          disableInDev: true,
-        },
-      ],
-    ],
 };
 
 module.exports = config;
