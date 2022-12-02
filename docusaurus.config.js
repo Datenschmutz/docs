@@ -55,6 +55,10 @@ const config = {
           trackingID: 'G-M0F3MYSGDN',
           anonymizeIP: true,
         },
+        gtag: {
+          trackingID: 'G-M0F3MYSGDN',
+          anonymizeIP: true,
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -146,8 +150,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'TeamSpeak Badge List',
+                to: '/cheat-sheets/teamspeak-badges',
               },
               {
                 label: 'GitHub',
@@ -178,7 +182,7 @@ const config = {
           src: '/img/dmz-logo-main-350x-border.png',
           href: 'https://datenschmutz.org',
         },
-        copyright: `Copyright © ${new Date().getFullYear()} Datenschmutz Built with ❤️`,
+        copyright: `Copyright © ${new Date().getFullYear()} Datenschmutz - Built with ❤️`,
       },
       prism: {
         theme: lightCodeTheme,
