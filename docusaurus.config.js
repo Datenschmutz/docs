@@ -51,10 +51,6 @@ const config = {
           editUrl:
             'https://github.com/datenschmutz/docs/tree/main',
         },
-        googleAnalytics: {
-          trackingID: 'G-M0F3MYSGDN',
-          anonymizeIP: true,
-        },
         gtag: {
           trackingID: 'G-M0F3MYSGDN',
           anonymizeIP: true,
