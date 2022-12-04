@@ -1,5 +1,5 @@
-name: 📚 Documentation Request
-description: Report an issue related to documentation
+name: 📚 Documentation | Cheat Sheet Request
+description: Request a new/change documentation or Cheat Sheet
 labels: [documentation, 'needs triage']
 body:
   - type: markdown
