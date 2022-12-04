@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdatenschmutz_docs=self.webpackChunkdatenschmutz_docs||[]).push([[718],{631:s=>{s.exports=JSON.parse('{"label":"world","permalink":"/blog/tags/world","allTagsPath":"/blog/tags","count":1}')}}]);
