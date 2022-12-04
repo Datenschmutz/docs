@@ -7,21 +7,20 @@ body:
       value: |
         Common reasons for proposals include:
 
-        - Altering the infrastructure (e.g. swapping Webpack out with other bundlers);
         - Veränderung des Seiten aussehens
         - Hinzufügen einer Funktion. (z.B Suche)
 
 
-        This is not for Doc / Cheat Sheet requests, please use the template "Documentation | Cheat Sheet Request" for that
+        This is not for Doc / Cheat Sheet requests, please use the template "Documentation | Cheat Sheet Request" for that. Click [here](https://github.com/Datenschmutz/docs/issues/new/choose) to chnage your Template
 
         We give you maximum freedom to write an elaborated proposal illustrating why you think the change is beneficial for us, and what steps we should take to turn this into reality.
 
-#  - type: checkboxes
-#    attributes:
-#      label: Have you read the Contributing Guidelines on issues?
-#      options:
-#        - label: I have read the [Contributing Guidelines on issues](https://github.com/facebook/docusaurus/blob/main/CONTRIBUTING.md#reporting-new-issues).
-#          required: true
+  - type: checkboxes
+    attributes:
+      label: Have you read the Contributing Guidelines on issues?
+      options:
+        - label: I have read the [Contributing Guidelines on issues](https://github.com/Datenschmutz/docs/blob/main/CONTRIBUTING.md#New-Issues).
+          required: true
 
   - type: textarea
     attributes:

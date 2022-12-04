@@ -15,15 +15,15 @@ body:
         Make the bug obvious. Ideally, we should be able to understand it without running any code.
 
         Bugs are fixed faster if you include:
-        - A repro repository to inspect the code
         - An url to see the problem live (if possible)
+        - Browser details (see below)
 
-#  - type: checkboxes
-#    attributes:
-#      label: Have you read the Contributing Guidelines on issues?
-#      options:
-#        - label: I have read the [Contributing Guidelines on issues](https://github.com/facebook/docusaurus/blob/main/CONTRIBUTING.md#reporting-new-issues).
-#          required: true
+  - type: checkboxes
+    attributes:
+      label: Have you read the Contributing Guidelines on issues?
+      options:
+        - label: I have read the [Contributing Guidelines on issues](https://github.com/Datenschmutz/docs/blob/main/CONTRIBUTING.md#New-Issues).
+          required: true
 
   - type: checkboxes
     attributes:
@@ -35,7 +35,7 @@ body:
         - label: I have tried to reload the website with CTRL+F5
           required: true
         - label: I have tried to open the page with different browsers (e.g FireFox and Chrome)
-        - label: I have read the console error message carefully (if applicable).
+        - label: I have read the error message carefully (if applicable).
 
   - type: textarea
     attributes:
@@ -48,7 +48,7 @@ body:
     attributes:
       label: Reproducible demo
       description: |
-        Füge hier die URL der seite ein auf der du den Bug entdeckt hast.
+        Paste here the URL of the page where you found the bug.
         Thanks for helping us help you!
 
   - type: textarea
