@@ -133,6 +133,10 @@ const config = {
             title: 'Community',
             items: [
               {
+                label: 'Code of Conduct',
+                to: '/CODE_OF_CONDUCT',
+              },
+              {
                 label: 'Stack Overflow',
                 href: 'https://stackoverflow.com/users/20582833/datenschmutz',
               },
