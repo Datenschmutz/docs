@@ -12,8 +12,10 @@ last_update:
 # Backup your printer using S3 Storage
 
 :::danger Disclaimer
-
 This script is WORK IN PROGRESS. BACKUP YOUR FILES MANUALLY!!!! I´m not responsible for any not functioning printers or lost files!
+:::
+
+:::note **Corresponding  [GitHub](https://github.com/Datenschmutz/Voron-Backup-Script) Repository** 
 :::
 
 ## Requirements
@@ -24,7 +26,7 @@ This script is WORK IN PROGRESS. BACKUP YOUR FILES MANUALLY!!!! I´m not respons
 ## Installation
 
 ```bash title="Download installation script"
-wget https://raw.githubusercontent.com/Datenschmutz/VORON/main/backup-script/install.sh
+wget https://raw.githubusercontent.com/datenschmutz/Voron-Backup-Script/main/install.sh
 ```
 
 :::info
