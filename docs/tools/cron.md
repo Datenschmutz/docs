@@ -15,7 +15,7 @@ The "Cron" service is already pre-installed under Linux as a package with the sa
 
 :::caution Check Server time
 For the automatic execution chron uses the locally set time. You can check it with the command `/timedatectl`.
-If the time is not correct, you can adjust it using [this guide](COMMING-SOON)
+If the time is not correct, you can adjust it using [this guide](#)
 :::
 
 ## Create Cronjobs
