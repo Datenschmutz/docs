@@ -44,13 +44,13 @@ const config = {
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
-        blog: {
-          showReadingTime: true,
+        blog: false, //{
+          //showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/datenschmutz/docs/tree/main',
-        },
+          //editUrl:
+            //'https://github.com/datenschmutz/docs/tree/main',
+        //},
         gtag: {
           trackingID: 'G-M0F3MYSGDN',
           anonymizeIP: true,
@@ -105,7 +105,7 @@ const config = {
           },
           {to: '/cheat-sheets/intro', label: 'Cheat Sheets', position: 'left'},
           {to: '/Projects', label: 'Projects', position: 'left'},
-          {to: '/blog', label: 'Blog', position: 'left'},
+          //{to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/Datenschmutz/docs',
             label: 'GitHub',
