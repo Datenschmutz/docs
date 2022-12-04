@@ -1,0 +1,102 @@
+name: 🐛 Bug Report
+description: Submit a bug report to help us improve
+labels: [bug, 'needs triage']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Please help us help you!
+
+        Before filing your issue, ask yourself:
+        - Have you tried to reload the page with CTRL+F5 ("Ctrl + F5" reloads web page and cache)?
+        - Does the problem occur only in one browser (e.g. Chrome) or in more than one?
+        - Do I have basic ideas about where it goes wrong? (For example, if there are stack traces, are they pointing to one file?)
+
+        Make the bug obvious. Ideally, we should be able to understand it without running any code.
+
+        Bugs are fixed faster if you include:
+        - A repro repository to inspect the code
+        - An url to see the problem live (if possible)
+
+#  - type: checkboxes
+#    attributes:
+#      label: Have you read the Contributing Guidelines on issues?
+#      options:
+#        - label: I have read the [Contributing Guidelines on issues](https://github.com/facebook/docusaurus/blob/main/CONTRIBUTING.md#reporting-new-issues).
+#          required: true
+
+  - type: checkboxes
+    attributes:
+      label: Prerequisites
+      description: Please check the following items before creating a issue. This way we know you've done these steps first.
+      options:
+        - label: I use the latest version of my browser (e.g FireFox)
+          required: true
+        - label: I have tried to reload the website with CTRL+F5
+          required: true
+        - label: I have tried to open the page with different browsers (e.g FireFox and Chrome)
+        - label: I have read the console error message carefully (if applicable).
+
+  - type: textarea
+    attributes:
+      label: Description
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Reproducible demo
+      description: |
+        Füge hier die URL der seite ein auf der du den Bug entdeckt hast.
+        Thanks for helping us help you!
+
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+      description: Write down the steps to reproduce the bug.
+      placeholder: |
+        E.g:
+        1. Step 1. Opend Cheat-Sheets 
+        2. Step 2. visited Markdown  
+        3. Step 3. Tried to open Link
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Expected behavior
+      description: |
+        How did you expect. Write down what you thought would happen.
+      placeholder: Write what you thought would happen.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Actual behavior
+      description: |
+        Did something go wrong? Is something broken, or not behaving as you expected?
+        Describe this section in detail, and attach screenshots if possible. Don't only say "it doesn't work"!
+        > Please read error messages carefully: it often tells you exactly what you are doing wrong.
+      placeholder: Write what happened. Add screenshots, if applicable.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Your environment
+      description: Include as many relevant details about the environment you experienced the bug in.
+      value: |
+        - The browser you use incl. version (e.g. FireFox 107):
+        - Page URL:
+        - Operating system and version (e.g. Ubuntu 20.04.2 LTS):
+
+  - type: checkboxes
+    attributes:
+      label: Self-service
+      description: |
+        If you feel like you could contribute to this issue, please check the box below. This would tell us and other people looking for contributions that someone's working on it.
+        If you do check this box, please send a pull request within 7 days so we can still delegate this to someone else.
+      options:
+        - label: I'd be willing to fix this bug myself.
