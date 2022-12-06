@@ -11,6 +11,8 @@ last_update:
 
 # Time and Date under Linux
 
+This guide explains how to set Time and Date under Linux. 
+
 ## Display Current Time and Date
 
 Enter the following command into the Linux command prompt to show basic Time and Date information.
