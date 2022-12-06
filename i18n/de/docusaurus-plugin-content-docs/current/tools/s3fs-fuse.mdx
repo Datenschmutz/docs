@@ -1,0 +1,65 @@
+---
+sidebar_position: 1
+sidebar_label: 's3fs-fuse'
+id: s3fs-fuse
+description: s3fs allows Linux, macOS, and FreeBSD to mount an S3 bucket via FUSE. s3fs preserves the native object format for files, allowing use of other tools like AWS CLI.
+slug: /s3fs-fuse
+last_update:
+  author: Fabian
+  date: 12/06/2022
+---
+
+# s3fs-fuse
+
+[s3fs-fuse](https://github.com/s3fs-fuse/s3fs-fuse) allows you to mount S3 buckets under windows, linux or macOS as a normal folder 
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+:::tip s3fs-fuse platform install guide
+
+<Tabs>
+  <TabItem value="linux" label="Linux">Check <a href="#Installation"><code>installation</code></a> for instructions.</TabItem>
+  <TabItem value="macos" label="MacOS">Please follow the installation instruction like described on <a href="https://github.com/s3fs-fuse/s3fs-fuse">s3fs-fuse GitHub</a>.</TabItem>
+  <TabItem value="windows" label="Windows">Please follow the installation instruction like described on <a href="https://github.com/s3fs-fuse/s3fs-fuse">s3fs-fuse GitHub</a>.</TabItem>
+</Tabs>
+
+:::
+
+## Installation
+In case of Debian / Ubuntu system please perform following action:
+
+```bash
+sudo apt install s3fs
+```
+
+:::info
+To access the actual guide how to mount a bucket with s3fs-fuse [**click here**](./mount-s3-storage)!
+:::
+
+## Features[^1]
+
+* large subset of POSIX including reading/writing files, directories, symlinks, mode, uid/gid, and extended attributes
+* compatible with Amazon S3, and other S3-based object stores
+* allows random writes and appends
+* large files via multi-part upload
+* renames via server-side copy
+* optional server-side encryption
+* data integrity via MD5 hashes
+* in-memory metadata caching
+* local disk data caching
+* user-specified regions, including Amazon GovCloud
+* authenticate via v2 or v4 signatures
+
+
+## Limitations[^1]
+
+*random writes or appends to files require rewriting the entire object, optimized with multi-part upload copy
+* metadata operations such as listing directories have poor performance due to network latency
+* non-AWS providers may have eventual consistency so reads can temporarily yield stale data (AWS offers read-after-write consistency since Dec 2020)
+* no atomic renames of files or directories
+* no coordination between multiple clients mounting the same bucket
+* no hard link
+* inotify detects only local modifications, not external ones by other clients or tools
+
+[^1]: From s3fs-fuse GitHub - [Link](https://github.com/s3fs-fuse/s3fs-fuse#limitations)
