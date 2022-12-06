@@ -14,7 +14,6 @@ last_update:
 [s3fs-fuse](https://github.com/s3fs-fuse/s3fs-fuse) allows you to mount S3 buckets under windows, linux or macOS as a normal folder 
 
 import Tabs from '@theme/Tabs';
-
 import TabItem from '@theme/TabItem';
 
 :::tip s3fs-fuse platform install guide
@@ -28,61 +27,35 @@ import TabItem from '@theme/TabItem';
 :::
 
 ## Installation
-In case of Debian / Ubuntu system please perform following action[^1]:
+In case of Debian / Ubuntu system please perform following action:
 
 ```bash
 sudo apt install s3fs
 ```
 
-Here the way to mount a bucket which is not reboot safe is shown. All you will need is:
+## Features[^1]
 
-* `access_key`
-* `secret_key`
-* S3 URL
-* your bucket name
-* folder (mount point) where you want make your bucket contents available
-
-For `access_key`, `secret_key` and the S3 URL please check your s3 Provider Panel.
-
-## Example
-
-* `access_key` = your_access_key
-* `secret_key` = your_secret_key
-* S3 URL = https://your.s3-storage.com
-* bucket name = `Backup`
-* mount point = ${HOME}/`Backup`
-
-```bash title='Create a settings file with your access_key:secret_key'
-echo your_access_key:your_secret_key > ${HOME}/.passwd-s3fs
-```
-```bash title='Set needed permissions'
-chmod 600 ${HOME}/.passwd-s3fs
-```
-```bash title='Create mount point'
-mkdir ${HOME}/Backup
-```
-```bash title='Mount bucket foo to ${HOME}/Backup'
-s3fs Backup ${HOME}/Backup -o passwd_file=${HOME}/.passwd-s3fs -o url=https://your.s3-storage.com -o use_path_request_style
-```
-```bash title='Access bucket content'
-ls -la ${HOME}/Backup
-```
-## Limitations[^2]
-
-<details>
-<summary>Generally S3 cannot offer the same performance or semantics as a local file system. More specifically:</summary>
-
-| |
-| --- |
-|random writes or appends to files require rewriting the entire object, optimized with multi-part upload copy|
-|metadata operations such as listing directories have poor performance due to network latency|
-|non-AWS providers may have eventual consistency so reads can temporarily yield stale data (AWS offers read-after-write consistency since Dec 2020)|
-|no atomic renames of files or directories|
-|no coordination between multiple clients mounting the same bucket|
-|no hard links|
-|inotify detects only local modifications, not external ones by other clients or tools|
-</details>
+* large subset of POSIX including reading/writing files, directories, symlinks, mode, uid/gid, and extended attributes
+* compatible with Amazon S3, and other S3-based object stores
+* allows random writes and appends
+* large files via multi-part upload
+* renames via server-side copy
+* optional server-side encryption
+* data integrity via MD5 hashes
+* in-memory metadata caching
+* local disk data caching
+* user-specified regions, including Amazon GovCloud
+* authenticate via v2 or v4 signatures
 
 
-[^1]: Variation of the s3fs-fuse documentation from Contabo - [Link](https://docs.contabo.com/docs/products/Object-Storage/Tools/s3fs-fuse)
-[^2]: From s3fs-fuse GitHub - [Link](https://github.com/s3fs-fuse/s3fs-fuse#limitations)
+## Limitations[^1]
+
+*random writes or appends to files require rewriting the entire object, optimized with multi-part upload copy
+* metadata operations such as listing directories have poor performance due to network latency
+* non-AWS providers may have eventual consistency so reads can temporarily yield stale data (AWS offers read-after-write consistency since Dec 2020)
+* no atomic renames of files or directories
+* no coordination between multiple clients mounting the same bucket
+* no hard link
+* inotify detects only local modifications, not external ones by other clients or tools
+
+[^1]: From s3fs-fuse GitHub - [Link](https://github.com/s3fs-fuse/s3fs-fuse#limitations)
