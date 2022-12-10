@@ -19,10 +19,11 @@ This guide explains how to Mount a S3 Object Storage as Linux folder[^1]
 
 ## Requirements
 
-* `access_key`
-* `secret_key`
-* S3 URL
-* your bucket name
+* S3 Storage
+  * `access_key`
+  * `secret_key`
+  * S3 Bucket URL
+  * S3 bucket name
 * folder (mount point) where you want make your bucket contents available
 * s3fs-fuse
 
@@ -50,7 +51,7 @@ sudo apt install s3fs
 
 ## Create settings file
 
-#### Create a settings file with your access_key:secret_key
+#### Create a settings file with access_key:secret_key
 
 ```bash title='${HOME}/'
 echo your_access_key:your_secret_key > ${HOME}/.passwd-s3fs

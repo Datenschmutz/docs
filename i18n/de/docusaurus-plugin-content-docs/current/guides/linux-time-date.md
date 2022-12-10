@@ -1,30 +1,30 @@
 ---
 sidebar_position: 3
-sidebar_label: 'Linux Time and Date'
+sidebar_label: 'Linux Uhrzeit und Datum'
 id: linux-time-date
-description: This guide explains how to set Time and Date under Linux. 
+description: Diese Anleitung erklärt, wie du Uhrzeit und Datum unter Linux einstellst.
 slug: /linux-time-date
 last_update:
   author: Fabian
   date: 12/06/2022
 ---
 
-# Time and Date under Linux
+# Uhrzeit und Datum unter Linux
 
-This guide explains how to set Time and Date under Linux. 
+Diese Anleitung erklärt, wie du Uhrzeit und Datum unter Linux einstellst.
 
-## Display Current Time and Date
+## Aktuelle Uhrzeit und Datum anzeigen
 
-Enter the following command into the Linux command prompt to show basic Time and Date information.
+Gib den folgenden Befehl in die Linux-Eingabeaufforderung ein, um grundlegende Zeit- und Datumsinformationen anzuzeigen.
 
 ```bash
 date
 ```
 
-Response should look something like this:
+Die Rückmeldung sollte in etwa so aussehen:
 >Tue 2022-12-06 16:18:53 CET
 
-### Advanced configuration with timedatectl
+### Erweiterte Konfiguration mit timedatectl
 
 Enter the following command into the Linux command prompt to show **Advanced** Time and Date information.
 
@@ -32,7 +32,7 @@ Enter the following command into the Linux command prompt to show **Advanced** T
 timedatectl
 ```
 
-Response should look something like this:
+Die Rückmeldung sollte in etwa so aussehen:
 
 >Local time: Tue 2022-12-06 16:18:53 CET<br/>
 >Universal time: Tue 2022-12-06 15:18:53 UTC<br/>
@@ -42,9 +42,9 @@ Response should look something like this:
 >NTP service: n/a<br/>
 >RTC in local TZ: no
 
-### Display Hardware Clock (RTC)
+### Anzeige der Hardware-Uhr (RTC)
 
-Use one of the following hwclock command's to display the Hardware Clock time on screen:
+Verwende einen der folgenden hwclock-Befehle, um die Hardware-Uhrzeit anzuzeigen:
 
 ```bash title="Option 1"
 hwclock -r
@@ -54,59 +54,59 @@ hwclock -r
 hwclock --show
 ```
 
-## Adjust Time and Date
+## Uhrzeit und Datum einstellen
 
-**In many cases the time would fit only the time zone is wrong [Click here](#change-time-zone) to jump directly to section Change Time Zone**
+**In vielen Fällen würde die Zeit passen, nur die Zeitzone ist nicht korrekt [Klick hier](#zeitzone-ändern), um direkt zum Abschnitt Zeitzone ändern zu gelangen**
 
 :::info
-Although it is possible to set a fixed time, we **strongly recommend** that you **use NTP (Network Time Protocol)**. This will also keep the time **synchronized**.
+Obwohl es möglich ist, eine feste Zeit einzustellen, **empfehlen** wir Ihnen dringend, **NTP (Network Time Protocol)** zu verwenden. Dadurch wird auch die Zeit **synchronisiert**.
 :::
 
 ### NTP
 
 :::note
-Once NTP is enabled, it sets the time of the current time zone. You can adjust this as described [here](#change-time-zone).
+Sobald NTP aktiviert ist, wird die Zeit der aktuellen Zeitzone eingestellt. Du kannst dies wie [hier](#zeitzone-ändern) beschrieben einstellen.
 :::
 
-#### Enable
+#### Aktivieren
 
 ```bash
 sudo timedatectl set-ntp true
 ```
 
-#### Disable
+#### Deaktivieren
 
 ```bash
 sudo timedatectl set-ntp false
 ```
 
-### Change Time Zone
+### Zeitzone ändern
 
-#### Available Time Zones
+#### Verfügbare Zeitzonen
 
-You can display the available time zones with the following command. Search for your continent and the nearest capital city
+Mit dem folgenden Befehl kannst du dir die verfügbaren Zeitzonen anzeigen lassen. Suche nach deinem Kontinent und der nächstgelegenen Hauptstadt.
 
 ```bash
 sudo timedatectl list-timezones
 ```
 
 :::note
-Use the `F` and `B` key on your keyboard to **scroll forward and backward** through the listed timezones. **Alternatively**, you can use the `arrow` keys for scrolling. **You can exit the list with `CTRL+C`**
+Verwende die `F`- und `B`-Taste auf deiner Tastatur, um **vorwärts und rückwärts** durch die aufgelisteten Zeitzonen zu blättern. **Alternativ** kannst du auch die `Pfeiltasten` zum Scrollen verwenden. **Mit `STRG+C` verläßt du die Liste**.
 :::
 
-#### Select Time Zone
+#### Zeitzone auswählen
 
-Once you Identified your time zone, you can select it using following command:
+Sobald du deine Zeitzone gefunden hast, kannst du sie mit dem folgenden Befehl auswählen:
 
-```bash title="In this example Europe/Vienna"
+```bash title="In diesem Beispiel Europe/Vienna"
 sudo timedatectl set-timezone Europe/Vienna
 ```
 
-### Manual
+### Manuell
 
-To set the time manually use the following command.
+Um die Zeit manuell einzustellen, verwende den folgenden Befehl.
 
-```bash title="In this example the time is set to 12 o'clock midnight"
+```bash title="In diesem Beispiel wird die Uhrzeit auf 12 Uhr Mitternacht eingestellt."
 sudo timedatectl set-time 00:00:00
 ```
 

@@ -16,23 +16,23 @@
     "description": "The label for category Scripts in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Scripts.link.generated-index.description": {
-    "message": "Script documentation",
+    "message": "Script dokumentation",
     "description": "The generated-index page description for category Scripts in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Voron Backup Automation": {
-    "message": "Voron Backup Automation",
+    "message": "Voron Backup Automatisierung",
     "description": "The label for category Voron Backup Automation in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Voron Backup Automation.link.generated-index.description": {
-    "message": "Installation documentation for automated backups of Voron 3D printers",
+    "message": "Installations dokumentation für automatische Backups von Voron 3D-Druckern",
     "description": "The generated-index page description for category Voron Backup Automation in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Guides": {
-    "message": "Guides",
+    "message": "Anleitungen",
     "description": "The label for category Guides in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Guides.link.generated-index.description": {
-    "message": "Guide collection",
+    "message": "Anleitungs sammlung",
     "description": "The generated-index page description for category Guides in sidebar tutorialSidebar"
   }
 }

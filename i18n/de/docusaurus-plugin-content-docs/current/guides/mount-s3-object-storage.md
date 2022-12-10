@@ -1,35 +1,36 @@
 ---
 sidebar_position: 4
-sidebar_label: 'Mount S3 Storage Bucket'
+sidebar_label: 'S3 Storage Bucket Mounten'
 id: mount-s3-object-storage
-description: This guide explains how to Mount a S3 Object Storage as Linux Folder. 
+description: Diese Anleitung erklärt, wie man einen S3-Objektspeicher als Linux-Ordner einbindet.
 slug: /mount-s3-storage
 last_update:
   author: Fabian
   date: 12/06/2022
 ---
 
-# Mount S3 Storage bucket under Linux
+# S3-Speicher Bucket unter Linux mounten (einbinden)
 
 :::danger
-**The way shown here to mount a bucket is _not_ reboot safe!**
+**Der hier gezeigte weg, einen Bucket zu mounten, ist _nicht_ rebootsicher!**
 :::
 
-This guide explains how to Mount a S3 Object Storage as Linux folder[^1]
+Diese Anleitung erklärt, wie man einen S3-Objektspeicher als Linux-Ordner einbindet.[^1]
 
-## Requirements
+## Voraussetzungen
 
-* `access_key`
-* `secret_key`
-* S3 URL
-* your bucket name
-* folder (mount point) where you want make your bucket contents available
+* S3 Storage
+  * `access_key`
+  * `secret_key`
+  * S3 Bucket URL
+  * S3 bucket name
+* Ordner (Mount-Punkt), in dem du den Inhalt deines Buckets verfügbar machen willst
 * s3fs-fuse
 
-For `access_key`, `secret_key` and the S3 URL please check your s3 Provider Panel.
+Für `access_key`, `secret_key` und die S3 URL schau bitte in deinem S3 Provider Panel nach.
 
 :::caution
-The following variables are **`placeholders`** for the installation **replace them accordingly**!
+Die folgenden Variablen sind **`Platzhalter`** für die Installation **Ersetze sie entsprechend**!
 
 * Access Key = `your_access_key`
 * Secret key = `your_secret_key`
@@ -38,63 +39,62 @@ The following variables are **`placeholders`** for the installation **replace th
 * mount point = `${HOME}/Backup`
 :::
 
-## Install s3fs-fuse
+## s3fs-fuse Installieren
 
 :::info
-To learn more about s3fs-fuse click [here](./s3fs-fuse).
+Um mehr über s3fs-fuse zu erfahren, klick [hier](./s3fs-fuse).
 :::
 
 ```bash
 sudo apt install s3fs
 ```
 
-## Create settings file
+## Konfigurationsdatei erstellen
 
-#### Create a settings file with your access_key:secret_key
+#### Erstelle eine Konfigurationsdatei mit access_key:secret_key
 
 ```bash title='${HOME}/'
 echo your_access_key:your_secret_key > ${HOME}/.passwd-s3fs
 ```
 
-#### Set needed permissions
+#### Erforderliche Berechtigungen festlegen
 
 ```bash title='${HOME}/'
 chmod 600 ${HOME}/.passwd-s3fs
 ```
 
-## Create mount point
+## Mountpunkt erstellen
 
 ```bash title='${HOME}'
 mkdir ${HOME}/Backup
 ```
 
-## Mount bucket
+## Bucket Mounten
 
-Mount bucket Backup to ${HOME}/Backup
+Bucket `Backup` nach ${HOME}/Backup mounten
 
 ```bash title='${HOME}/Backup'
 s3fs Backup ${HOME}/Backup -o passwd_file=${HOME}/.passwd-s3fs -o url=https://your.s3-storage.com -o use_path_request_style
 ```
 
-## Show bucket contents
+## Bucket inhalt anzeigen
 
 ```bash title='${HOME}'
 ls -la ${HOME}/Backup
 ```
 
 <details>
-<summary>Generally S3 cannot offer the same performance or semantics as a local file system. More specifically:</summary>
+<summary>Im Allgemeinen kann S3 nicht die gleiche Leistung oder Semantik wie ein lokales Dateisystem bieten. Genauer gesagt:</summary>
 
 | |
 | --- |
-|random writes or appends to files require rewriting the entire object, optimized with multi-part upload copy|
-|metadata operations such as listing directories have poor performance due to network latency|
-|non-AWS providers may have eventual consistency so reads can temporarily yield stale data (AWS offers read-after-write consistency since Dec 2020)|
-|no atomic renames of files or directories|
-|no coordination between multiple clients mounting the same bucket|
-|no hard links|
-|inotify detects only local modifications, not external ones by other clients or tools|
+|Zufällige Schreibvorgänge oder Anhänge an Dateien erfordern das Neuschreiben des gesamten Objekts, optimiert mit mehrteiliger Upload-Kopie|
+|Metadatenoperationen wie das Auflisten von Verzeichnissen sind aufgrund der Netzwerklatenz schlecht|
+|Anbieter, die nicht über AWS verfügen, verfügen möglicherweise über eine eventuelle Konsistenz, so dass Lesevorgänge vorübergehend veraltete Daten liefern können (AWS bietet seit Dezember 2020 eine Lese-nach-Schreib-Konsistenz).|
+|keine atomaren Umbenennungen von Dateien oder Verzeichnissen|
+|keine Koordinierung zwischen mehreren Clients, die denselben Bucket bestücken|
+|keine hard links|
+|inotify erkennt nur lokale Änderungen, keine externen Änderungen durch andere Clients oder Tools|
 </details>
 
-
-[^1]: Variation of the s3fs-fuse documentation from Contabo - [Link](https://docs.contabo.com/docs/products/Object-Storage/Tools/s3fs-fuse)
+[^1]: Variation der s3fs-fuse-Dokumentation von Contabo - [Link](https://docs.contabo.com/docs/products/Object-Storage/Tools/s3fs-fuse)
