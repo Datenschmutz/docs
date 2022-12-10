@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdatenschmutz_docs=self.webpackChunkdatenschmutz_docs||[]).push([[659],{6533:e=>{e.exports=JSON.parse('[{"label":"TeamSpeak","permalink":"/cheat-sheets/tags/team-speak","count":1},{"label":"List","permalink":"/cheat-sheets/tags/list","count":1},{"label":"Badge","permalink":"/cheat-sheets/tags/badge","count":1}]')}}]);
