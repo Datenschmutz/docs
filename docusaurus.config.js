@@ -52,6 +52,7 @@ const config = {
             'https://github.com/datenschmutz/docs/tree/main',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
+          editLocalizedFiles: true,
         },
         blog: false, //{
           //showReadingTime: true,
@@ -92,6 +93,7 @@ const config = {
           'https://github.com/datenschmutz/docs/tree/main',
         showLastUpdateAuthor: true,
         showLastUpdateTime: true,
+        editLocalizedFiles: true,
         // ... other options
       },
     ],
