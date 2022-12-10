@@ -24,8 +24,17 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en-GB',
-    locales: ['en-GB'],
+    defaultLocale: 'en',
+    locales: ['en', 'de'],
+    localeConfigs: {
+      en: {
+//        label: 'English',
+        htmlLang: 'en-GB'
+      },
+      de: {
+        htmlLang: 'en-GB'
+      }
+    }
   },
 
   presets: [
@@ -43,6 +52,7 @@ const config = {
             'https://github.com/datenschmutz/docs/tree/main',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
+          editLocalizedFiles: true,
         },
         blog: false, //{
           //showReadingTime: true,
@@ -83,6 +93,7 @@ const config = {
           'https://github.com/datenschmutz/docs/tree/main',
         showLastUpdateAuthor: true,
         showLastUpdateTime: true,
+        editLocalizedFiles: true,
         // ... other options
       },
     ],
@@ -106,6 +117,10 @@ const config = {
           {to: '/cheat-sheets/intro', label: 'Cheat Sheets', position: 'left'},
           {to: '/Projects', label: 'Projects', position: 'left'},
           //{to: '/blog', label: 'Blog', position: 'left'},
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          },
           {
             href: 'https://github.com/Datenschmutz/docs',
             label: 'GitHub',

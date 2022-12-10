@@ -1,0 +1,62 @@
+{
+  "link.title.Docs": {
+    "message": "Docs",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.Community": {
+    "message": "Community",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.More": {
+    "message": "More",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.title.Projects & Friends": {
+    "message": "Projects & Friends",
+    "description": "The title of the footer links column with title=Projects & Friends in the footer"
+  },
+  "link.item.label.Docs - Home": {
+    "message": "Docs - Home",
+    "description": "The label of footer link with label=Docs - Home linking to /docs/intro"
+  },
+  "link.item.label.Cheat Sheets - Home": {
+    "message": "Cheat Sheets - Home",
+    "description": "The label of footer link with label=Cheat Sheets - Home linking to /cheat-sheets/intro"
+  },
+  "link.item.label.Code of Conduct": {
+    "message": "Code of Conduct",
+    "description": "The label of footer link with label=Code of Conduct linking to /CODE_OF_CONDUCT"
+  },
+  "link.item.label.Stack Overflow": {
+    "message": "Stack Overflow",
+    "description": "The label of footer link with label=Stack Overflow linking to https://stackoverflow.com/users/20582833/datenschmutz"
+  },
+  "link.item.label.Twitter": {
+    "message": "Twitter",
+    "description": "The label of footer link with label=Twitter linking to https://twitter.com/datenschmutz"
+  },
+  "link.item.label.TeamSpeak Badge List": {
+    "message": "TeamSpeak Badge Liste",
+    "description": "The label of footer link with label=TeamSpeak Badge List linking to /cheat-sheets/teamspeak-badges"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/Datenschmutz/docs"
+  },
+  "link.item.label.Projects": {
+    "message": "Projects",
+    "description": "The label of footer link with label=Projects linking to /Projects"
+  },
+  "link.item.label.Gaming-Lounge": {
+    "message": "Gaming-Lounge",
+    "description": "The label of footer link with label=Gaming-Lounge linking to https://www.gaming-lounge.at"
+  },
+  "link.item.label.T4KUUY4": {
+    "message": "T4KUUY4",
+    "description": "The label of footer link with label=T4KUUY4 linking to https://github.com/T4KUUY4"
+  },
+  "copyright": {
+    "message": "Copyright © 2022 Datenschmutz - Erstellt mit ❤️",
+    "description": "The footer copyright"
+  }
+}

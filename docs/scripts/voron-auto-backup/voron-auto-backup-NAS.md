@@ -9,7 +9,7 @@ last_update:
   date: 11/25/2022
 ---
 
-# Backup your printer using S3 Storage
+# Backup your printer using a Network share
 
 :::danger Disclaimer
 This script is WORK IN PROGRESS. BACKUP YOUR FILES MANUALLY!!!! I´m not responsible for any not functioning printers or lost files!

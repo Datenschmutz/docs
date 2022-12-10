@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "Datenschmutz.dev",
+    "description": "The title in the navbar"
+  },
+  "item.label.Docs": {
+    "message": "Docs",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Cheat Sheets": {
+    "message": "Cheat Sheets",
+    "description": "Navbar item with label Cheat Sheets"
+  },
+  "item.label.Projects": {
+    "message": "Projects",
+    "description": "Navbar item with label Projects"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

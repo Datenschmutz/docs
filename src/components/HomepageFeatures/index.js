@@ -1,36 +1,36 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import Translate from '@docusaurus/Translate';
 
 const FeatureList = [
   {
-    title: 'Work in progress',
+    title: <Translate description="Homepage left text section Title">Work in progress</Translate>,
     Svg: require('@site/static/img/work-in-progress.svg').default,
     description: (
-      <>
+      <Translate description="Homepage left text section conent">
         We are just getting started with this website. So not everything is in place yet. We are working on it. 
         Please get involved and share your knowledge, e.g. about tools not covered, bugs or improvements.
-      </>
+      </Translate>
     ),
   },
   {
-    title: 'You are looking for something?',
+    title: <Translate description="Homepage middle text section Title">You are looking for something?</Translate>,
     Svg: require('@site/static/img/light-bulb.svg').default,
     description: (
-      <>
-        Well then we hope you find it here! If not and you think it would fit well in here, but do not want to create a doc yourself create a 
-        <a href="https://github.com/Datenschmutz/docs/issues"><code>GitHub Issue</code></a>. Maybe we will take care of it then.
-      </>
+      <Translate description="Homepage middle text section Title">
+        Well then we hope you find it here! If not and you think it would fit well in here, but do not want to create a doc yourself create a GitHub Issue. Maybe we will take care of it then.
+      </Translate>
     ),
   },
   {
-    title: 'You got the missing piece?',
+    title: <Translate description="Homepage right text section Title">You got the missing piece?</Translate>,
     Svg: require('@site/static/img/idea.svg').default,
     description: (
-      <>
-        You' ve found a bug or can add something to a documentation?
-        Feel free to use the <br/><code>Edit this page</code> button at the bottom of the page and share your knowledge with others!
-      </>
+      <Translate id="Homepage.right.txt.cont" description="Homepage right text section conent">
+          You' ve found a bug or can add something to a documentation?
+          Feel free to use the "Edit this page" button at the bottom of the page and share your knowledge with others!
+      </Translate>
     ),
   },
 ];
