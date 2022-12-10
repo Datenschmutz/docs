@@ -7,6 +7,10 @@ slug: /teamspeak-badges
 last_update:
   author: Fabian
   date: 12/01/2022
+ tags:
+  - TeamSpeak
+  - List
+  - Badge
 ---
 # TeamSpeak Badge List
 
