@@ -2,7 +2,7 @@
 sidebar_position: 1
 sidebar_label: 'TeamSpeak Installation'
 id: teamspeak-install
-description: This guide explains how to easily and quickly install a TeamSpeak server on your Linux Server. 
+description: Diese Anleitung erklärt, wie man schnell und einfach einen TeamSpeak-Server auf einem Linux-Server installiert.
 slug: /teamspeak-install
 last_update:
   author: Fabian
@@ -13,14 +13,14 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import ImageUrl from '@site/static/img/docs/ts-first-start.png';
 
-# Install TeamSpeak on Linux servers
+# TeamSpeak auf Linux-Servern installieren
 
-This guide explains how to easily and quickly install a TeamSpeak[^1] server on your Linux Server
+Diese Anleitung erklärt, wie man schnell und einfach einen TeamSpeak-Server[^1] auf einem Linux-Server installiert.
 
-## Requirements
+## Voraussetzungen
 
-* Hosted server running Linux
-* SSH Client e.g. [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)[^2]
+* Gehosteter Server unter Linux
+* SSH Client z.B. [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)[^2]
 
 import Admonition from '@theme/Admonition';
 import PuTTYConnectionGuide from '@site/src/components/puttyconnection.js';
@@ -29,90 +29,90 @@ import PuTTYConnectionGuide from '@site/src/components/puttyconnection.js';
 
 ## Installation
 
-### Update server
+### Server Updaten
 
    ```bash
     apt update && apt upgrade -y
   ```
 
 :::note
-In this example, the name of the user is `"teamspeak"`. You can also specify a different name, but then you have to be aware to use your own user name instead of `"teamspeak"` in this guide.
+In diesem Beispiel ist der Name des Benutzers `"teamspeak"`. Du kannst auch einen anderen Namen angeben, aber dann musst du darauf achten, dass du deinen eigenen Benutzernamen anstelle von `"teamspeak"` in dieser Anleitung verwendest.
 :::
 
-### Create a TeamSpeak running user
+### TeamSpeak ausführungs Benutzer erstellen
 
   ```bash
   adduser --disabled-login teamspeak
   ```
 
-  >The following queries like name, phone number can be skipped with the `ENTER` key.
+  >Die folgenden Abfragen wie Name, Telefonnummer können mit der Taste `ENTER` übersprungen werden.
 
-### Switch to TeamSpeak user
+### Zu TeamSpeak-Benutzer wechseln
 
   ```bash
   su teamspeak
   ```
 
-### Access home directory
+### Stammverzeichnis aufrufen
 
   ```bash
   cd
   ```
 
-  > The home directory is named identical as the user, so the path is "/home/teamspeak" <- Irrelevant right now but good to know
+  >Das Stammverzeichnis ist identisch mit dem Namen des Benutzers, der Pfad lautet also "/home/teamspeak" <- Im Moment irrelevant, aber gut zu wissen
 
-### Copy TeamSpeak download link
+### TeamSpeak Download-Link kopieren
 
-* Copy download link of the latest TeamSpeak server from [TeamSpeak](https://www.teamspeak.com/en/downloads/#server)
+* Kopiere den Download-Link des neuesten TeamSpeak-Servers von [TeamSpeak](https://www.teamspeak.com/en/downloads/#server)
 
-> Click on the copy icon to the right of the server version, in most cases `Linux - Server 64-bit` should be the right one.
+>Klicke auf das Kopiersymbol rechts neben der Serverversion, in den meisten Fällen sollte `Linux - Server 64-bit` die richtige Version sein.
 
-### Open PuTTy and download server archive
+### PuTTy öffnen und Server-Archiv herunterladen
 
   ```bash
   wget https://YOUR-COPIED-LINK.tar.bz2
   ```
 
-  > You can paste content into PuTTY by `right-clicking` **NOT CTRL+V**.
+  >Inhalte lassen sich mit einem `Rechtsklick` in PuTTY einfügen **NICHT mit STRG+V**.
 
-### Extract downloaded archive
+### Heruntergeladenes Archiv entpacken
 
-  ```bash title="Use the [TAB] key to auto complete the command."
+  ```bash title="Verwende die [TAB]-Taste, um den Befehl automatisch zu vervollständigen."
   tar xfvj teamsp
   ```
 
-  > The result should look like this `tar xfvj teamspeak3-server_linux_amd64-3.13.7.tar.bz2`
+  >Das Ergebnis sollte wie folgt aussehen `tar xfvj teamspeak3-server_linux_amd64-3.13.7.tar.bz2`
 
-### Delete downloaded archive
+### Heruntergeladenes Archiv löschen
 
-  ```bash title="Use the [TAB] key to auto complete the command."
+  ```bash title="Verwende die [TAB]-Taste, um den Befehl automatisch zu vervollständigen."
   rm teamsp
   ```
 
-  > The result should look like this `rm teamspeak3-server_linux_amd64-3.13.7.tar.bz2`
+  >Das Ergebnis sollte wie folgt aussehen `rm teamspeak3-server_linux_amd64-3.13.7.tar.bz2`
 
-### Open TeamSpeak directory
+### TeamSpeak-Verzeichnis öffnen
 
   ```bash
   cd teamspeak3-server_linux_amd64
   ```
 
-### Accept license terms
+### Lizenzbedingungen akzeptieren
 
   ```bash
   touch .ts3server_license_accepted
   ```
 
-  > This creates a file which indicates that you **accepted** the license terms.
+  >Dadurch wird eine Datei erstellt, die anzeigt, dass du die Lizenzbedingungen **akzeptiert** hast.
 
-### Start TeamSpeak server
+### TeamSpeak-Server starten
 
-:::caution SAVE YOUR ACCESS DATA!
-During the first startup process you will be given the server admin `Privilege Key` and `Server-Query credentials`, please make sure to save them
+:::caution ZUGANGSDATEN SICHERN!
+Während des ersten Startvorgangs erhältst du den Server-Admin `Privilege Key`(Berechtigungsschlüssel) und `Server-Query Anmeldedaten`, bitte stelle sicher, dass du sie speicherst
 :::
 
 <details>
-<summary>Should look like this</summary>
+<summary>Sollte wie folgt aussehen</summary>
 <img src={ImageUrl} height="400" width="450" alt="Example banner" />
 </details>
 
@@ -120,53 +120,53 @@ During the first startup process you will be given the server admin `Privilege K
   ./ts3server_startscript.sh start
   ```
 
-### Use Privilege Key
+### Berechtigungsschlüssel verwenden
 
 <Tabs>
   <TabItem value="teamspeak3" label="Teamspeak3 Client" default>
-    Connect to your TeamSpeak server and click "Permissions" -> "Use Privilege Key" in the top menu of your TeamSpeak 3 client.
+    Verbinde dich mit deinem TeamSpeak Server und klicke auf "Rechte" -> " Berechtigungsschlüssel verwenden" im oberen Menü deines TeamSpeak 3 Clients.
   </TabItem>
   <TabItem value="new-teamspeak" label="All New TeamSpeak (Ts5)">
-    Connect to your TeamSpeak server and right click the server name in the top center of your TeamSpeak client and then select "Use Privilege Key" in the drop-down menu.
+    Verbinde dich mit deinem TeamSpeak-Server und klicke mit der rechten Maustaste auf den Servernamen oben in der Mitte deines TeamSpeak-Clients und wähle dann " Berechtigungsschlüssel verwenden" aus dem Dropdown-Menü.
   </TabItem>
 </Tabs>
 
-### Ready to go
+### Startklar
 
-* Your TeamSpeak server is now fully operational and can be controlled according to your wishes.
+* Dein TeamSpeak-Server ist nun voll funktionsfähig und kann nach deinen Wünschen verwaltet werden.
   
-## Control TeamSpeak server
+## TeamSpeak-Server steuern
 
-> To control your TeamSpeak server log back into your server via [SSH (PuTTY)](#puttyconnectionguideputtyconnectionguide), switch to the [teamspeak user](#switch-to-teamspeak-user), go to the teamspeak directory and execute the commands below
+>Um deinen TeamSpeak Server zu kontrollieren, logge dich über [SSH (PuTTY)](#puttyconnectionguideputtyconnectionguide) in deinen Server ein, wechsle zum [teamspeak user](#zu-teamspeak-benutzer-wechseln), gehe in das teamspeak Verzeichnis und führe die folgenden Befehle aus
 
-```bash title="Access TeamSpeak directory"
+```bash title="Aufrufen des TeamSpeak-Verzeichnisses"
 cd /home/teamspeak/teamspeak3-server_linux_amd64
 ```
 
-### Server commands
+### Server-Befehle
 
 :::info
-The following commands work only in the TeamSpeak directory!
+Die folgenden Befehle funktionieren nur im TeamSpeak-Verzeichnis!
 :::
 
 <Tabs>
   <TabItem value="start" label="Start" default>
 
-  ```bash title="Start TeamSpeak server"
+  ```bash title="TeamSpeak-Server starten"
   ./ts3server_startscript.sh start
   ```
 
   </TabItem>
   <TabItem value="stop" label="Stop">
 
-  ```bash title="Stop TeamSpeak server"
+  ```bash title="TeamSpeak-Server stoppen"
   ./ts3server_startscript.sh stop
   ```
 
   </TabItem>
   <TabItem value="status" label="Status">
 
-  ```bash title="Show current TeamSpeak server status"
+  ```bash title="Aktuellen TeamSpeak-Server-Status anzeigen"
   ./ts3server_startscript.sh status
   ```
 
@@ -175,7 +175,7 @@ The following commands work only in the TeamSpeak directory!
 
 ---
 
-#### Mentions, Credits and Sources
+#### Erwähnungen, Danksagungen und Quellenangaben
 
 [^1] TeamSpeak Website - [Link](https://www.teamspeak.com)<br/>
-[^2] More information about PuTTY - [Link](https://wikipedia.org/wiki/PuTTY)
+[^2] Weitere Informationen über PuTTY - [Link](https://wikipedia.org/wiki/PuTTY)
