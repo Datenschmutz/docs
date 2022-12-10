@@ -2,7 +2,7 @@
 sidebar_position: 1
 sidebar_label: 's3fs-fuse'
 id: s3fs-fuse
-description: s3fs allows Linux, macOS, and FreeBSD to mount an S3 bucket via FUSE. s3fs preserves the native object format for files, allowing use of other tools like AWS CLI.
+description: s3fs ermöglicht es Linux, macOS und FreeBSD, einen S3-Bucket über FUSE zu mounten. s3fs bewahrt das native Objektformat für Dateien und ermöglicht die Verwendung anderer Tools wie AWS CLI.
 slug: /s3fs-fuse
 last_update:
   author: Fabian
@@ -11,7 +11,7 @@ last_update:
 
 # s3fs-fuse
 
-[s3fs-fuse](https://github.com/s3fs-fuse/s3fs-fuse) allows you to mount S3 buckets under windows, linux or macOS as a normal folder 
+[s3fs-fuse](https://github.com/s3fs-fuse/s3fs-fuse) ermöglicht es dir, S3-Buckets unter Windows, Linux oder macOS wie einen normalen Ordner zu mounten 
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -19,47 +19,47 @@ import TabItem from '@theme/TabItem';
 :::tip s3fs-fuse platform install guide
 
 <Tabs>
-  <TabItem value="linux" label="Linux">Check <a href="#Installation"><code>installation</code></a> for instructions.</TabItem>
-  <TabItem value="macos" label="MacOS">Please follow the installation instruction like described on <a href="https://github.com/s3fs-fuse/s3fs-fuse">s3fs-fuse GitHub</a>.</TabItem>
-  <TabItem value="windows" label="Windows">Please follow the installation instruction like described on <a href="https://github.com/s3fs-fuse/s3fs-fuse">s3fs-fuse GitHub</a>.</TabItem>
+  <TabItem value="linux" label="Linux">Siehe <a href="#Installation"><code>installation</code></a> für anweisungen.</TabItem>
+  <TabItem value="macos" label="MacOS">Bitte befolge die folgenden Installationsanweisungen <a href="https://github.com/s3fs-fuse/s3fs-fuse">s3fs-fuse GitHub</a>.</TabItem>
+  <TabItem value="windows" label="Windows">Bitte befolge die folgenden Installationsanweisungen <a href="https://github.com/s3fs-fuse/s3fs-fuse">s3fs-fuse GitHub</a>.</TabItem>
 </Tabs>
 
 :::
 
 ## Installation
-In case of Debian / Ubuntu system please perform following action:
+Im Falle von Debian / Ubuntu-Systemen führe bitte folgende Aktion durch:
 
 ```bash
 sudo apt install s3fs
 ```
 
 :::info
-To access the actual guide how to mount a bucket with s3fs-fuse [**click here**](./mount-s3-storage)!
+Um auf die aktuelle Anleitung zum Mounten eines Buckets mit s3fs-fuse zuzugreifen [**hier klicken**](./mount-s3-storage)!
 :::
 
-## Features[^1]
+## Besonderheiten[^1]
 
-* large subset of POSIX including reading/writing files, directories, symlinks, mode, uid/gid, and extended attributes
-* compatible with Amazon S3, and other S3-based object stores
-* allows random writes and appends
-* large files via multi-part upload
-* renames via server-side copy
-* optional server-side encryption
-* data integrity via MD5 hashes
-* in-memory metadata caching
-* local disk data caching
-* user-specified regions, including Amazon GovCloud
-* authenticate via v2 or v4 signatures
+* große Teilmenge von POSIX einschließlich Lesen/Schreiben von Dateien, Verzeichnissen, Symlinks, Modus, uid/gid und erweiterten Attributen
+* kompatibel mit Amazon S3 und anderen S3-basierten Objektspeichern
+* Erlaubt zufälliges Schreiben und Anhängen
+* große Dateien über mehrteiligen Upload
+* Umbenennung über serverseitige Kopie
+* optionale serverseitige Verschlüsselung
+* Datenintegrität über MD5-Hashes
+* In-Memory-Metadaten-Caching
+* Caching von Daten auf der lokalen Festplatte
+* Benutzerdefinierte Regionen, einschließlich Amazon GovCloud
+* Authentifizierung über v2 oder v4 Signaturen
 
 
-## Limitations[^1]
+## Einschränkungen[^1]
 
-*random writes or appends to files require rewriting the entire object, optimized with multi-part upload copy
-* metadata operations such as listing directories have poor performance due to network latency
-* non-AWS providers may have eventual consistency so reads can temporarily yield stale data (AWS offers read-after-write consistency since Dec 2020)
-* no atomic renames of files or directories
-* no coordination between multiple clients mounting the same bucket
-* no hard link
-* inotify detects only local modifications, not external ones by other clients or tools
+* Zufällige Schreibvorgänge oder Anhänge an Dateien erfordern das Neuschreiben des gesamten Objekts, was durch mehrteilige Upload-Kopien optimiert wird.
+* Metadaten-Operationen wie das Auflisten von Verzeichnissen haben aufgrund von Netzwerklatenz eine schlechte Leistung
+* Anbieter, die nicht über AWS verfügen, verfügen möglicherweise über eventuelle Konsistenz, so dass Lesevorgänge vorübergehend veraltete Daten liefern können (AWS bietet seit Dezember 2020 Lese-nach-Schreib-Konsistenz)
+* keine atomaren Umbenennungen von Dateien oder Verzeichnissen
+* keine Koordination zwischen mehreren Clients, die denselben Bucket mounten
+* kein Hard Link
+* inotify erkennt nur lokale Änderungen, keine externen Änderungen durch andere Clients oder Tools
 
-[^1]: From s3fs-fuse GitHub - [Link](https://github.com/s3fs-fuse/s3fs-fuse#limitations)
+[^1]: Quelle: s3fs-fuse GitHub - [Link](https://github.com/s3fs-fuse/s3fs-fuse#limitations)

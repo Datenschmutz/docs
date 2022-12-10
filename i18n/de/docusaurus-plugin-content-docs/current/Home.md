@@ -1,12 +1,12 @@
 ---
 sidebar_position: 1
-sidebar_label: 'Home'
+sidebar_label: 'Start'
 id: intro
 description: Home of Docs
 slug: /intro
 ---
 
-# Docs - Home
+# Docs - Start
 
 :::danger Achtung
 Diese Seite befindet sich derzeit im Aufbau

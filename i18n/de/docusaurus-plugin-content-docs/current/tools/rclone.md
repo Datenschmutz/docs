@@ -2,7 +2,7 @@
 sidebar_position: 3
 sidebar_label: 'rclone'
 id: rclone
-description: rclone is a free tool for manging files and folders on cloud storage.
+description: rclone ist ein kostenloses Tool zum Verwalten von Dateien und Ordnern auf einem Cloud-Speicher.
 slug: /rclone
 last_update:
   author: Fabian
@@ -11,31 +11,31 @@ last_update:
 
 # Rclone
 
-Rclone is a command line toole for managing files on cloud storage.
+Rclone ist ein Befehlszeilentool zur Verwaltung von Dateien auf einem Cloud-Speicher.
 
 ## Installation[^1]
 
-In case of Debian / Ubuntu system please perform following action:
+Im Falle von Debian / Ubuntu-Systemen führe bitte folgende Befehl aus:
 
 ```bash
 sudo -v ; curl https://rclone.org/install.sh | sudo bash
 ```
 
-## Setup
+## Einrichtung
 
-Since Rclone is compatible with many cloud storage solutions and this would go beyond the scope of this article, simply have a look at the [**Rclone website**](https://rclone.org/#providers).
+Da Rclone mit vielen Cloud-Speicherlösungen kompatibel ist und dies den Rahmen dieses Artikels sprengen würde, wirf einfach einen Blick auf die [**Rclone-Website**] (https://rclone.org/#providers).
 
-## Features
+## Besonderheiten
 
-* Backup (and encrypt) files to cloud storage
-* Restore (and decrypt) files from cloud storage
-* Mirror cloud data to other cloud services or locally
-* Migrate data to the cloud, or between cloud storage vendors
-* Mount multiple, encrypted, cached or diverse cloud storage as a disk
-* Analyse and account for data held on cloud storage using lsf, ljson, size, ncdu
-* Union file systems together to present multiple local and/or cloud file systems as one
+* Sichern (und verschlüsseln) von Dateien auf einem Cloud-Speicher
+* Wiederherstellen (und Entschlüsseln) von Dateien aus dem Cloud-Speicher
+* Spiegeln von Cloud-Daten auf andere Cloud-Dienste oder lokal
+* Migrieren von Daten in die Cloud oder zwischen Cloud-Speicheranbietern
+* Einbinden mehrerer verschlüsselter, zwischengespeicherter oder unterschiedlicher Cloud-Speicher als Festplatte
+* Analyse und Abrechnung von Daten auf Cloud-Speicher mit lsf, ljson, size, ncdu
+* Zusammenführen von Dateisystemen, um mehrere lokale und/oder Cloud-Dateisysteme als ein einziges darzustellen
 
 
-#### Mentions, Credits and Sources
+#### Erwähnungen, Danksagungen und Quellenangaben
 
-[^1]: From rclone download page - [Link](https://rclone.org/downloads/)
+[^1]: Von der rclone Download-Seite - [Link](https://rclone.org/downloads/)

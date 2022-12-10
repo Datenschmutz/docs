@@ -2,7 +2,7 @@
 sidebar_position: 2
 sidebar_label: 'Cron - Cronjobs'
 id: cron
-description: Automate the execution of tasks at (recurring) times defined by you.
+description: Automatische Ausführung von Aufgaben zu von dir festgelegten (wiederkehrenden) Zeiten.
 slug: /cron
 last_update:
   author: Fabian
@@ -11,26 +11,25 @@ last_update:
 
 # Cron - Cronjobs
 
-The "Cron" service is already pre-installed under Linux as a package with the same name. With the help of cron jobs, you can have certain tasks executed automatically at (recurring) times defined by you. Cron jobs are therefore useful for automatic backups, for example.
+Der "Cron"-Dienst ist unter Linux als gleichnamiges Paket bereits vorinstalliert. Mit Hilfe von Cron-Jobs kannst du bestimmte Aufgaben zu von dir festgelegten (wiederkehrenden) Zeiten automatisch ausführen lassen. Cron-Jobs sind daher z.B. für automatische Backups nützlich.
 
-:::caution Check Server time
-For the automatic execution chron uses the locally set time. You can check it with the command `/timedatectl`.
-If the time is not correct, you can adjust it using [this guide](./linux-time-date)
+:::caution Serverzeit prüfen
+Für die automatische Ausführung verwendet cron die lokal eingestellte Zeit. Du kannst sie mit dem Befehl `timedatectl` überprüfen.
+Wenn die Zeit nicht korrekt ist, kannst du sie mit [dieser Anleitung](./linux-time-date) anpassen
 :::
 
-## Create Cronjobs
+## Crontab
+Die einzelnen Cronjobs werden in einer Tabelle, der sogenannten "Crontab", gespeichert. In dieser Tabelle wird pro Zeile ein Cronjob definiert. Jede Zeile enthält den Zeitpunkt, zu dem der Befehl ausgeführt werden soll, und den Befehl selbst. Die Syntax einer Crontab-Zeile sieht wie folgt aus:
 
-To edit the crontab of the currently logged in user, use the command.
+## Cronjobs Erstellen
+
+Um die crontab des aktuell angemeldeten Benutzers zu bearbeiten, verwende den Befehl.
 
 ```bash
 crontab -e.
 ```
 
-## Crontab
-
-The individual cronjobs are stored in a table, the so-called "Crontab". In this table, one cronjob is defined per line. Each line contains the time when the command should be executed and the command itself. The syntax of a crontab line looks as follows:
-
-### Crontab line Syntax
+### Crontab-Zeilen Syntax
 
 ```bash
 0 12 * * * Command
@@ -38,97 +37,97 @@ The individual cronjobs are stored in a table, the so-called "Crontab". In this 
 
 | 0 | 12 | * | * | * | Command |
 |---|---|---|---|---|---|
-| Minute (0-59) | Hour (0-23) | Day (1-31) | Month (1-12) | Weekday (1-7) | command to be executed |
+| Minute (0-59) | Stunde (0-23) | Tag (1-31) | Monat (1-12) | Wochentag (1-7) | Auszuführender Befehl |
 
->For all time specifications, a "*" can also be used to indicate that the execution should take place at any minute, hour, etc.
+>Bei allen Zeitangaben kann auch ein "*" verwendet werden, um anzugeben, dass die Ausführung zu einer beliebigen Minute, Stunde usw. erfolgen soll.
 
->In the example above, the command is executed every day at 12:00.
+>Im obigen Beispiel wird der Befehl jeden Tag um 12:00 Uhr ausgeführt.
 
 :::tip
-The creation of a cronjob with the below seen additions can be a real pain therefore the usage of an [online cronjob generator](https://www.google.com/search?q=crontab+generator) is strongly recommended.
+Die Erstellung eines Cronjobs mit den unten aufgeführten Ergänzungen kann sehr mühsam sein, daher wird die Verwendung eines [Online-Cronjob-Generators] (https://www.google.com/search?q=crontab+generator) dringend empfohlen.
 :::
 
-#### It is possible to define more than one value per time entry by separating them with a `,`.
+#### Es ist möglich, mehr als einen Wert pro Zeiteintrag zu definieren, indem man sie mit einem `,` trennt.
 
 ```bash
 0 6,18 1,28 1,6,12 * Command
 ```
 
->Above cronjob will be executed on the 1st and 28th day of January, June and December at 06:00 and 18:00 respectively
+>Der obige Cronjob wird am 1. und 28. Tag im Januar, Juni und Dezember jeweils um 06:00 und 18:00 Uhr ausgeführt
 
-#### In addition to using fixed times, it is also possible to specify an interval by using a `/`.
+#### Neben der Verwendung fester Zeiten ist es auch möglich, ein Intervall durch die Verwendung eines `/` anzugeben.
 
 ```bash
 */5 * * * * Command
 ```
 
->Above command is executed every 5 minutes
+>Der obige Befehl wird alle 5 Minuten ausgeführt
 
-#### Last but not least it is also possible to execute a command automatically on restart
+#### Zu guter Letzt ist es auch möglich, einen Befehl automatisch beim Neustart auszuführen.
 
 ```bash
 @reboot Command
 ```
 
->Above command is executed on reboot
+>Der obige Befehl wird beim Neustart ausgeführt
 
-## Cronjob output
+## Cronjob ausgabe
 
-By default, all output delivered by commands or scripts when executed via cronjobs is sent by email to the respective user on the server who has stored the cronjob in his crontab.
+Standardmäßig werden alle Ausgaben von Befehlen oder Skripten, die über Cronjobs ausgeführt werden, per E-Mail an den jeweiligen Benutzer auf dem Server gesendet, der den Cronjob in seiner Crontab gespeichert hat.
 
-However, it is possible to redirect this output to a (log) file or to Disable it completely if desired.
+Es ist jedoch möglich, diese Ausgabe in eine (Log-)Datei umzuleiten oder ganz zu deaktivieren, falls gewünscht.
 
-### Log Cronjob output
+### Cronjob Log ausgabe
 
-To redirect the output of a command or script to a logfile, you have to write `">>"` after the command or script in your crontab line followed by the path of the file to which this output should be redirected.
+Um die Ausgabe eines Befehls oder Skripts in eine Logdatei umzuleiten, musst du in deiner Crontab-Zeile nach dem Befehl oder Skript `>>` schreiben, gefolgt von dem Pfad der Datei, in die diese Ausgabe umgeleitet werden soll.
 
-After the path of the file must also be `"2>&1"`, this ensures that not only the normal output, but also errors are redirected to this file.
+Nach dem Pfad der Datei muss auch `2>&1` stehen, damit nicht nur die normale Ausgabe, sondern auch Fehler in diese Datei umgeleitet werden.
 
-```bash example of full cronjob with log
+```bash Beispiel für einen vollständigen Cronjob mit Log
 0 12 * * * /usr/bin/script.sh >> /var/log/script.log 2>&1
 ```
 
->Above command executes the script every 12 hours and sends command results to a logfile
+>Der obige Befehl führt das Skript alle 12 Stunden aus und sendet die Ergebnisse des Befehls in eine Logdatei
 
-### Disable Cronjob output
+### Cronjob-Ausgabe deaktivieren
 
-To disable the output use `"> /dev/null"` instead of the double greater-than sign and the path of the output file after the command or script. This is the so-called [Null Device](https://en.wikipedia.org/wiki/Null_device) under Linux.
+Um die Ausgabe zu deaktivieren, verwende `> /dev/null` anstelle des doppelten Größer-als-Zeichens und den Pfad der Ausgabedatei nach dem Befehl oder Skript. Dies ist das sogenannte [Null Device](https://en.wikipedia.org/wiki/Null_device) unter Linux.
 
-After the path of the file must also be `"2>&1"`, this ensures that not only the normal output, but also errors are redirected to the Null Device.
+Nach den Pfad der Datei muss auch `"2>&1"` sein, dies stellt sicher, dass nicht nur die normale Ausgabe, sondern auch Fehler auf das Null Device umgeleitet werden.
 
-```bash example of full cronjob with log
+```bash Beispiel für einen vollständigen Cronjob mit deaktiviertem Log
 0 12 * * * /usr/bin/script.sh > /dev/null 2>&1
 ```
 
->Above command executes the script every 12 hours and sends command results to the Null Device (deletes them)
+>Der obige Befehl führt das Skript alle 12 Stunden aus und sendet die Befehlsergebnisse an das Null-Device (löscht sie)
 
-## Full Crontab line breakdown
+## Vollständige Aufschlüsselung der Crontab-Zeilen
 
-| Minute (0-59) | Hour (0-23) | Day (1-31) | Month (1-12) | Weekday (1-7) | Command | > sends output<br/> >> sends output without overwriting destination | output destination | also sends errors to destination |
+| Minute (0-59) | Stunde (0-23) | Tag (1-31) | Monat (1-12) | Wochentag (1-7) | Befehl | > Sendet ausgabe<br/> >> Sendet ausgabe ohne ziel zu überschreiben | Ausgabe Ziel | Sendet auch fehler ans ziel |
 |---|---|---|---|---|---|---|---|---|
 | 0 | 12 | * | * | * | /usr/bin/script.sh | >> | /var/log/script.log | 2>&1 |
 | 0 | 12 | * | * | * | /usr/bin/script.sh | > | /dev/null| 2>&1 |
 
-```bash example of full cronjob with log
+```bash Beispiel für einen vollständigen Cronjob mit Protokoll
 0 12 * * * /usr/bin/script.sh >> /var/log/script.log 2>&1
 ```
 
-```bash example of full cronjob with log
+```bash Beispiel für einen vollständigen Cronjob mit deaktiviertem Log
 0 12 * * * /usr/bin/script.sh > /dev/null 2>&1
 ```
 
-- `> /dev/null`: This is the so-called [Null Device](https://en.wikipedia.org/wiki/Null_device) everything sent to it will be deleted.
-- `2>&1`: this ensures that not only normal output but also errors are redirected to desetiantion.
+- `> /dev/null`: Dies ist das so genannte [Null Device](https://en.wikipedia.org/wiki/Null_device), an das alles gesendet wird, was gelöscht wird.
+- `2>&1`: stellt sicher, dass nicht nur normale Ausgaben, sondern auch Fehler in die Löschung umgeleitet werden.
 
-## Cronjob folder
+## Cronjob ordner
 
-In addition to crontab, there are also predefined folders for specific time intervals.
+Zusätzlich zu crontab gibt es auch vordefinierte Ordner für bestimmte Zeitintervalle.
 
-The following folders exist:
+Es gibt die folgenden Ordner:
 
 - `/etc/cron.daily/`
 - `/etc/cron.hourly/`
 - `/etc/cron.weekly/`
 - `/etc/cron.monthly/`
 
-Pretty self-explanatory all executable files (e.g. scripts) are executed with the interwall specified in the folder name
+Ziemlich selbsterklärend werden alle ausführbaren Dateien (z. B. Skripte) mit der im Ordnernamen angegebenen Interwall ausgeführt.

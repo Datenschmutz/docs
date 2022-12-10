@@ -1,70 +1,70 @@
 ---
 sidebar_position: 2
-sidebar_label: 'Voron Network Share Backup'
+sidebar_label: 'Voron Netzwerkfreigabe-Backup'
 id: NAS-auto-backup
-description: Auto-Backup your printer config files to a network share (NAS, Windows share whatever)
+description: Automatische Sicherung Ihrer Druckerkonfigurationsdateien auf einer Netzwerkfreigabe (NAS, Windows-Freigabe, was auch immer)
 slug: /NAS-Auto-backup
 last_update:
   author: Fabian
   date: 11/25/2022
 ---
 
-# Backup your printer using S3 Storage
+# Automatisiertes Drucker Backup per Netzwerkfreigabe
 
 :::danger Disclaimer
-This script is WORK IN PROGRESS. BACKUP YOUR FILES MANUALLY!!!! I´m not responsible for any not functioning printers or lost files!
+Dieses Skript ist WORK IN PROGRESS. SICHERN SIE IHRE DATEIEN MANUELL!!! Wir sind nicht verantwortlich für nicht funktionierende Drucker oder verlorene Dateien!
 :::
 
-:::note **Corresponding  [GitHub](https://github.com/T4KUUY4/Voron-Stuff/tree/main/Automatic%20Backup) Repository** 
+:::note **Entsprechendes [GitHub](https://github.com/T4KUUY4/Voron-Stuff/tree/main/Automatic%20Backup) Repository** 
 :::
 
-## Requirements
+## Voraussetzungen
 
-* Network Share (Windows, Linux, Synology). The host has to be online and have a fixed Hostname or IP. Click the link below for your platform if you have difficulties creating one. Also create a **DEDICATED** user.
+* Netzwerkfreigabe (Windows, Linux, Synology). Der Host muss online sein und einen festen Hostnamen oder eine feste IP haben. Klicke auf den untenstehenden Link für deine Plattform, wenn du Schwierigkeiten hast, einen zu erstellen. Erstelle auch einen **dedizierten** Benutzer.
 
 * Windows:
-  * Create a new user for the shared folder
-  * Open  `File Explorer`  and browse to the folder you want to share.
-  * Right-click it and select `Properties`.
-  * Select the `Sharing` tab > `Share`.
-  * Within the `Network access` window, select the new user you just created.
-  * Click  `Add` -> `Share`.
-  * Copy the network path.
-  * Click  `Done`.
+  * Erstelle einen neuen Benutzer für den gemeinsamen Ordner.
+  * Öffne den "Datei-Explorer" und navigiere zu dem Ordner, den du freigeben möchtest.
+  * Klicke ihn mit der rechten Maustaste an und wähle "Eigenschaften".
+  * Wähle die Registerkarte "Freigabe" > "Freigeben".
+  * Wähle im Fenster "Netzwerkzugang" den neuen Benutzer, den du gerade erstellt hast.
+  * Klick auf "Hinzufügen" -> "Freigabe".
+  * Kopiere den Netzwerkpfad.
+  * Klick auf `Fertig`.
 
-* Linux: Refer to <https://docs.fedoraproject.org/en-US/quick-docs/samba/>
-* Synology: Refer to <https://kb.synology.com/en-global/DSM/help/DSM/AdminCenter/file_share_create?version=7>
+* Linux: Siehe <https://docs.fedoraproject.org/en-US/quick-docs/samba/>
+* Synology: Siehe <https://kb.synology.com/en-global/DSM/help/DSM/AdminCenter/file_share_create?version=7>
 
 ## Installation
 
-```bash title="Download the installation script"
+```bash title="Installationsskript herunterladen"
 wget https://raw.githubusercontent.com/T4KUUY4/Voron-Stuff/main/Automatic%20Backup/install.sh
 ```
 
-```bash title="Run installation script"
+```bash title="Installationsskript ausführen"
 bash install.sh
 ```
 
-## Configuration
+## Konfiguration
 
-* Follow the instructions given in the script
-* You can also include any other folder if you feel the need.
-* The Syntax is: `sudo cp -r /YOUR/FOLDER/ "$MNTPATH"`
+* Folge den Anweisungen im Skript.
+* Du kannst auch weitere Ordner einbinden, wenn du es für nötig hältst.
+* Die Syntax lautet: `sudo cp -r /DEIN/ORDNER/ "$MNTPATH"`
 
-### Additional configuration options
+### Zusätzliche Konfigurationsmöglichkeiten
 
-* The backup script has some additional configuration options. Open it with the following command.
+* Das Backup-Skript verfügt über einige zusätzliche Konfigurationsoptionen. Öffne es mit dem folgenden Befehl.
 
 ```bash
 sudo nano /home/$USER/backup.sh
 ```
 
-## Want a Mainsail/Fluidd Backup Macro?
+## Willst du ein Mainsail/Fluidd Backup Makro?
 
-**Requires G-Gcode Shell Command Extension (install with KIAUH)**.
+**Erfordert die G-Gcode Shell Command Extension (mit KIAUH installieren)**.
 
-* Download the backup.cfg and include it in your printer.cfg
+* Lade die backup.cfg herunter und füge sie in deine printer.cfg ein.
 
 :::info
-This tutorial and scirpt were created by [T4KUUY4](https://github.com/T4KUUY4/Voron-Stuff/tree/main/Automatic%20Backup) the tutorial was included by me in the docs because the function is similar and some people would like to know the other option.
+Dieses Tutorial und Scirpt wurden von [T4KUUY4](https://github.com/T4KUUY4/Voron-Stuff/tree/main/Automatic%20Backup) erstellt. Das Tutorial wurde von mir in die Docs aufgenommen, da die Funktion ähnlich ist und einige Leute die andere Option kennenlernen möchten.
 :::

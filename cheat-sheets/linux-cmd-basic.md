@@ -43,6 +43,13 @@ slug: /linux-cmd-basic
 * `!!` - repeats the last command
 * `exit` – log out of current session
 
+## File Permissions
+
+* `chmod octal file` – change the permissions of file to octal, which can be found separately for user, group, and world by adding:
+  * 4 – read (r)
+  * 2 – write (w)
+  * 1 – execute (x)
+
 ## Network/Download
 
 * `wget file` – download file
@@ -72,13 +79,6 @@ slug: /linux-cmd-basic
 * `bg` – lists stopped or background jobs; resume a stopped job in the background
 * `fg` – brings the most recent job to foreground
 * `fg n` – brings job n to the foreground
-
-## File Permissions
-
-* `chmod octal file` – change the permissions of file to octal, which can be found separately for user, group, and world by adding:
-  * 4 – read (r)
-  * 2 – write (w)
-  * 1 – execute (x)
 
 ### Examples
 
