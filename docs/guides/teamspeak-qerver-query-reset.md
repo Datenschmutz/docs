@@ -6,7 +6,14 @@ description: This guide explains how to reset the TeamSpeak Server-Query login.
 slug: /teamspeak-qerver-query-reset
 last_update:
   author: Fabian
-  date: 11/29/2022
+  date: 12/11/2022
+tags:
+- TeamSpeak
+- Server
+- Linux
+- Shell
+- Terminal
+- Server-Query
 ---
 
 # Reset TeamSpeak Server-Query login on Linux servers

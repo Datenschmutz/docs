@@ -4,6 +4,12 @@ sidebar_label: 'Linux Cheat Sheet - Basic'
 id: linux-cmd-basic
 description: Linux CMD Cheat Sheet
 slug: /linux-cmd-basic
+tags:
+- Cheat Sheet
+- Linux
+- Commands
+- Shell
+- Bash
 ---
 
 # Linux CMD Cheat Sheet - Basic

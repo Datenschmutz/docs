@@ -6,7 +6,15 @@ description: Auto-Backup your printer config files to a network share (NAS, Wind
 slug: /NAS-Auto-backup
 last_update:
   author: Fabian
-  date: 11/25/2022
+  date: 12/11/2022
+tags:
+- Script
+- Voron
+- Backup
+- NAS
+- Network Share
+- 3D-Printing
+- Raspberry
 ---
 
 # Backup your printer using a Network share

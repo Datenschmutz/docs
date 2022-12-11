@@ -6,7 +6,15 @@ description: Automatische Ausführung von Aufgaben zu von dir festgelegten (wied
 slug: /cron
 last_update:
   author: Fabian
-  date: 12/04/2022
+  date: 12/11/2022
+tags:
+- Tool
+- Cron
+- Cronjobs
+- Linux
+- Shell
+- Terminal
+- German/Deutsch
 ---
 
 # Cron - Cronjobs
