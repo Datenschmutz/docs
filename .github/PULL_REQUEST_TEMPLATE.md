@@ -9,7 +9,7 @@ Thank you for sending the Pull request! We appreciate you spending the time to w
 
 ## Checklist
 
-<!-- - [ ] I have read the [Contributing Guidelines on pull requests](TBDd#pull-requests).-WIP -->
+- [ ] I have read the [Contributing Guidelines](https://github.com/Datenschmutz/docs/blob/main/CONTRIBUTING.md).
 - [ ] I have performed a self-review of my code
 - [ ] **If this solves a Open GitHub-issue**: I have added the issue number and link
 - [ ] **If this is a new Doc**: My doc complies with applicable licenses (not copy pasted without permission or license)
