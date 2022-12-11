@@ -8,10 +8,6 @@ slug: /intro
 
 # Cheat Sheets - Start
 
-:::danger Achtung
-Diese Seite befindet sich derzeit im Aufbau
-:::
-
 Bitte gib uns Feedback zu dieser Seite auf [GitHub] (https://github.com/datenschmutz/documentation/issues) und beteilige dich über die Links "Diese Seite bearbeiten" auf jeder Seite oder direkt über [GitHub] (https://github.com/datenschmutz/docs).
 
 ## Hinweis
