@@ -6,7 +6,7 @@ description: This guide explains how to Mount a S3 Object Storage as Linux Folde
 slug: /mount-s3-storage
 last_update:
   author: Fabian
-  date: 12/06/2022
+  date: 12/11/2022
 tags:
 - Linux
 - S3

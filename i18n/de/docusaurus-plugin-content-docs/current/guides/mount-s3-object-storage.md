@@ -6,7 +6,12 @@ description: Diese Anleitung erklärt, wie man einen S3-Objektspeicher als Linux
 slug: /mount-s3-storage
 last_update:
   author: Fabian
-  date: 12/06/2022
+  date: 12/11/2022
+tags:
+- Linux
+- S3
+- Mount
+- Object Storage
 ---
 
 # S3-Speicher Bucket unter Linux mounten (einbinden)
