@@ -13,7 +13,7 @@ tags:
 
 # Markdown Cheat Sheet
 
-To learn more about markdown visit [www.markdownguide.org](https://www.markdownguide.org/getting-started/#whats-markdown)
+> Weitere Informationen über Markdown findest du unter [www.markdownguide.org](https://www.markdownguide.org/getting-started/#whats-markdown)
 
 ## Headers
 
