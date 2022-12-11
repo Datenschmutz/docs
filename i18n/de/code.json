@@ -290,10 +290,6 @@
     "message": "Website in Arbeit",
     "description": "Homepage left text section Title"
   },
-  "We are just getting started with this website. So not everything is in place yet. We are working on it. Please get involved and share your knowledge, e.g. about tools not covered, bugs or improvements.": {
-    "message": "Wir fangen gerade erst mit dieser Website an. Es ist also noch nicht alles an Ort und Stelle. Wir arbeiten daran. Bitte beteilige dich und teile dein Wissen, z.B. über nicht abgedeckte Tools, Fehler oder Verbesserungen.",
-    "description": "Homepage left text section conent"
-  },
   "You are looking for something?": {
     "message": "Du suchst etwas Bestimmtes?",
     "description": "Homepage middle text section Title"
@@ -309,5 +305,22 @@
   "Homepage.right.txt.cont": {
     "message": "Du hast einen Fehler gefunden oder kannst etwas zu einer Dokumentation hinzufügen? Benutze den Button \"Diese Seite bearbeiten\" unten auf der Seite und teile dein Wissen mit anderen!",
     "description": "Homepage right text section conent"
+  },
+  "A gaming project by Fabian with associated Teamspeak and forum": {
+    "message": "Ein Gaming-Projekt von Fabian mit zugehörigem Teamspeak und Forum"
+  },
+  "A 3D printing store run by Thomas(T4KUUY4) which is currently under construction.": {
+    "message": "Ein von Thomas(T4KUUY4) betriebener 3D-Druck Shop, das sich derzeit im Aufbau befindet."
+  },
+  "Main website of datenschmutz.": {
+    "message": "Hauptwebsite von datenschmutz."
+  },
+  "Check it out!": {
+    "message": "Schau Vorbei!",
+    "description": "Projects-Visit-Button"
+  },
+  "We are just getting started with this website. Please get involved and share your knowledge, e.g. about tools not covered, bugs or improvements.": {
+    "message": "Wir fangen gerade erst mit dieser Website an. Wir arbeiten daran. Bitte beteilige dich und teile dein Wissen, z.B. über nicht abgedeckte Tools, Fehler oder Verbesserungen.",
+    "description": "Homepage left text section conent"
   }
 }

@@ -9,7 +9,7 @@ const FeatureList = [
     Svg: require('@site/static/img/work-in-progress.svg').default,
     description: (
       <Translate description="Homepage left text section conent">
-        We are just getting started with this website. So not everything is in place yet. We are working on it. 
+        We are just getting started with this website. 
         Please get involved and share your knowledge, e.g. about tools not covered, bugs or improvements.
       </Translate>
     ),

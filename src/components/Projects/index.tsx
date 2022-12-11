@@ -2,6 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import Image from '@theme/IdealImage';
+import Translate from '@docusaurus/Translate';
 
 const Projects = [
   {
@@ -9,9 +10,9 @@ const Projects = [
     image: require('@site/static/img/Projects/Gaming-Lounge.png'),
     url: 'https://gaming-lounge.at',
     description: (
-      <a>
+      <Translate>
         A gaming project by Fabian with associated Teamspeak and forum
-      </a>
+      </Translate>
     ),
   },
   {
@@ -19,9 +20,9 @@ const Projects = [
     image: require('@site/static/img/Projects/Simulatronics.png'),
     url: 'https://simulatronics.com',
     description: (
-      <a>
+      <Translate>
         A 3D printing store run by Thomas(T4KUUY4) which is currently under construction.
-      </a>
+      </Translate>
     ),
   },
   {
@@ -29,9 +30,9 @@ const Projects = [
     image: require('@site/static/img/dmz-logo-main-350x-border.png'),
     url: 'https://datenschmutz.org',
     description: (
-      <a>
+      <Translate>
         Main website of datenschmutz.
-      </a>
+      </Translate>
     ),
   },
 ];
@@ -59,7 +60,9 @@ function ProjectsCard({name, image, url, description}: Props) {
         <div className="card__footer">
           <div className="button-group button-group--block">
             <Link className="button button--secondary" to={url}>
-              <a>Check it out!</a>
+              <Translate description='Projects-Visit-Button'>
+                Check it out!
+              </Translate>
             </Link>
           </div>
         </div>
