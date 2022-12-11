@@ -11,7 +11,7 @@
 
 <h3 align="center">
 <a href="https://docs.datenschmutz.org"><img src="./static/img/work-in-progress.svg" width="500" height="250" alt="Datenschmutz Work in Progress"></a>
-<p align="center">We are just starting with this site. So not yet everything is in place right now. We are working on it. Please participate and share your knowlegde e.g. for tools not covered, errors or improvements.</p>
+<p align="center">We are just starting with this site. Please participate and share your knowlegde e.g. for tools not covered, errors or improvements.</p>
 </h3>
 
 # Contributors
