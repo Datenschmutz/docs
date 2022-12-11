@@ -6,7 +6,15 @@ description: This guide explains how to set Time and Date under Linux.
 slug: /linux-time-date
 last_update:
   author: Fabian
-  date: 12/06/2022
+  date: 12/11/2022
+tags:
+- Guide
+- Linux
+- Time
+- Date
+- Bash
+- Terminal
+- Shell
 ---
 
 # Time and Date under Linux
