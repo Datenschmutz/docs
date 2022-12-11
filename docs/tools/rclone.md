@@ -6,7 +6,12 @@ description: rclone is a free tool for manging files and folders on cloud storag
 slug: /rclone
 last_update:
   author: Fabian
-  date: 12/06/2022
+  date: 12/11/2022
+tags:
+- Tool
+- rclone
+- Linux
+- Backup
 ---
 
 # Rclone

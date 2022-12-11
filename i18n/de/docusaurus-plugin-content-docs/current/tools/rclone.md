@@ -6,7 +6,13 @@ description: rclone ist ein kostenloses Tool zum Verwalten von Dateien und Ordne
 slug: /rclone
 last_update:
   author: Fabian
-  date: 12/06/2022
+  date: 12/11/2022
+tags:
+- Tool
+- rclone
+- Linux
+- Backup
+- German/Deutsch
 ---
 
 # Rclone

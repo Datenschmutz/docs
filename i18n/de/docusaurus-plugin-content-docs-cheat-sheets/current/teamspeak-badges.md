@@ -6,11 +6,13 @@ description: Aktuelle TeamSpeak-Badge-Liste
 slug: /teamspeak-badges
 last_update:
   author: Fabian
-  date: 12/01/2022
+  date: 12/11/2022
 tags:
   - TeamSpeak
-  - Liste
+  - List
   - Badge
+  - Codes
+  - German/Deutsch
 ---
 # TeamSpeak Badge Liste
 

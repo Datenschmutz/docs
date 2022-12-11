@@ -8,10 +8,14 @@ last_update:
   author: Fabian
   date: 12/11/2022
 tags:
+- Guide
 - Linux
 - S3
 - Mount
 - Object Storage
+- Bash
+- Terminal
+- Shell
 ---
 
 # Mount S3 Storage bucket under Linux

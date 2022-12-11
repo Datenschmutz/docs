@@ -8,9 +8,11 @@ last_update:
   author: Fabian
   date: 12/11/2022
 tags:
+- Guide
 - Linux
 - SSH
 - Terminal
+- Shell
 - Welcome message
 ---
 # Change Linux SSH Welcome message

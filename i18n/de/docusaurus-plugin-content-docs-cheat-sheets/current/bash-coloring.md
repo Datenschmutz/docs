@@ -5,10 +5,13 @@ id: linux-bash-coloring
 description: Linux Bash Färbung
 slug: /linux-bash-coloring
 tags:
+- Cheat Sheet
 - Linux
 - Bash
+- Shell
 - Terminal
 - Color
+- German/Deutsch
 ---
 
 # Linux Bash/Shell Färbung

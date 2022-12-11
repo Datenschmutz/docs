@@ -4,6 +4,10 @@ sidebar_label: 'Markdown Cheat Sheet'
 id: markdown-cheat-sheet
 description: Markdown Cheat Sheet
 slug: /markdown-cheat-sheet
+tags:
+- Cheat Sheets
+- Markdown
+- Formating
 ---
 
 # Markdown Cheat Sheet

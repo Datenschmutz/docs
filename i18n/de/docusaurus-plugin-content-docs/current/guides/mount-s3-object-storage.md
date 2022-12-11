@@ -8,10 +8,15 @@ last_update:
   author: Fabian
   date: 12/11/2022
 tags:
+- Guide
 - Linux
 - S3
 - Mount
 - Object Storage
+- Bash
+- Shell
+- Terminal
+- German/Deutsch
 ---
 
 # S3-Speicher Bucket unter Linux mounten (einbinden)

@@ -7,6 +7,15 @@ slug: /linux-time-date
 last_update:
   author: Fabian
   date: 12/06/2022
+tags:
+- Guide
+- Linux
+- Time
+- Date
+- Bash
+- Terminal
+- Shell
+- German/Deutsch
 ---
 
 # Uhrzeit und Datum unter Linux
