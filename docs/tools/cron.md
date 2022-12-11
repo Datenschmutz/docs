@@ -6,7 +6,14 @@ description: Automate the execution of tasks at (recurring) times defined by you
 slug: /cron
 last_update:
   author: Fabian
-  date: 12/04/2022
+  date: 12/11/2022
+tags:
+- Tool
+- Cron
+- Cronjobs
+- Linux
+- Shell
+- Terminal
 ---
 
 # Cron - Cronjobs
