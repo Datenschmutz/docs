@@ -7,6 +7,11 @@ slug: /mount-s3-storage
 last_update:
   author: Fabian
   date: 12/06/2022
+tags:
+- Linux
+- S3
+- Mount
+- Object Storage
 ---
 
 # Mount S3 Storage bucket under Linux
