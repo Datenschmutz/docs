@@ -6,7 +6,18 @@ description: Automatisches Sichern der Druckerkonfigurationsdateien mit rClone a
 slug: /S3-Auto-backup
 last_update:
   author: Fabian
-  date: 11/26/2022
+  date: 12/11/2022
+tags:
+- Script
+- Voron
+- Backup
+- S3
+- s3fs
+- rclone
+- Object Storage
+- 3D-Printing
+- Raspberry
+- German/Deutsch
 ---
 
 # Automatisiertes Drucker Backup per S3 Speicher

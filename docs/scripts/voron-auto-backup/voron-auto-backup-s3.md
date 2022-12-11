@@ -6,7 +6,17 @@ description: Auto-Backup your printer config files with rClone to S3.
 slug: /S3-Auto-backup
 last_update:
   author: Fabian
-  date: 11/26/2022
+  date: 12/11/2022
+tags:
+- Script
+- Voron
+- Backup
+- S3
+- s3fs
+- rclone
+- Object Storage
+- 3D-Printing
+- Raspberry
 ---
 
 # Backup your printer using S3 Storage

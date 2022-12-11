@@ -6,7 +6,16 @@ description: Automatische Sicherung Ihrer Druckerkonfigurationsdateien auf einer
 slug: /NAS-Auto-backup
 last_update:
   author: Fabian
-  date: 11/25/2022
+  date: 12/11/2022
+tags:
+- Script
+- Voron
+- Backup
+- NAS
+- Network Share
+- 3D-Printing
+- Raspberry
+- German/Deutsch
 ---
 
 # Automatisiertes Drucker Backup per Netzwerkfreigabe
