@@ -116,15 +116,15 @@ const config = {
           },
           {to: '/cheat-sheets/intro', label: 'Cheat Sheets', position: 'left'},
           {to: '/Projects', label: 'Projects', position: 'left'},
-          //{to: '/blog', label: 'Blog', position: 'left'},
           {
             type: 'localeDropdown',
             position: 'right',
           },
           {
-            href: 'https://github.com/Datenschmutz/docs',
-            label: 'GitHub',
+            href: 'https://github.com/datenschmutz/docs',
             position: 'right',
+            className: 'header-github',
+            'aria-label': 'GitHub Repository',
           },
         ],
       },
