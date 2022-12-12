@@ -15,20 +15,15 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Datenschmutz', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  organizationName: 'Datenschmutz',
+  projectName: 'docs',
   deploymentBranch: "gh-pages",
 
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'de'],
     localeConfigs: {
       en: {
-//        label: 'English',
         htmlLang: 'en-GB'
       },
       de: {
@@ -46,7 +41,6 @@ const config = {
           path: 'docs',
           routeBasePath: 'docs',
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/datenschmutz/docs/tree/main',
@@ -56,7 +50,6 @@ const config = {
         },
         blog: false, //{
           //showReadingTime: true,
-          // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl:
             //'https://github.com/datenschmutz/docs/tree/main',
