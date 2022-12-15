@@ -14,9 +14,5 @@
   "item.label.Projects": {
     "message": "Projects",
     "description": "Navbar item with label Projects"
-  },
-  "item.label.GitHub": {
-    "message": "GitHub",
-    "description": "Navbar item with label GitHub"
   }
 }
