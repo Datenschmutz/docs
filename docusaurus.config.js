@@ -121,6 +121,15 @@ const config = {
           },
         ],
       },
+      algolia: {
+      // The application ID provided by Algolia
+      appId: 'RUM87DTR7N',
+      // Public API key: it is safe to commit it
+      apiKey: 'f39edca439efb43fa184e501216178bc',
+      indexName: 'datenschmutz',
+      // Optional: ensures that search results are relevant to the current language and version.
+      contextualSearch: true,
+    },
       footer: {
         style: 'dark',
         links: [
