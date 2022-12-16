@@ -335,11 +335,11 @@
     "description": "The search page title for non-empty query"
   },
   "theme.SearchPage.emptyResultsTitle": {
-    "message": "Suche in der Dokumentation",
+    "message": "Dokumentation durchsuchen",
     "description": "The search page title for empty query"
   },
   "theme.SearchPage.inputPlaceholder": {
-    "message": "Geben Sie hier Ihre Suche ein",
+    "message": "Gib hier deine Suchanfrage ein",
     "description": "The placeholder for search page input"
   },
   "theme.SearchPage.inputLabel": {
@@ -375,15 +375,15 @@
     "description": "The title for recent searches"
   },
   "theme.SearchModal.startScreen.noRecentSearchesText": {
-    "message": "No recent searches",
+    "message": "Keine kürzlichen Suchanfragen",
     "description": "The text when no recent searches"
   },
   "theme.SearchModal.startScreen.saveRecentSearchButtonTitle": {
-    "message": "Save this search",
+    "message": "Suche speichern",
     "description": "The label for save recent search button"
   },
   "theme.SearchModal.startScreen.removeRecentSearchButtonTitle": {
-    "message": "Diese Suche aus dem Verlauf entfernen",
+    "message": "Suche aus Verlauf entfernen",
     "description": "The label for remove recent search button"
   },
   "theme.SearchModal.startScreen.favoriteSearchesTitle": {
@@ -391,7 +391,7 @@
     "description": "The title for favorite searches"
   },
   "theme.SearchModal.startScreen.removeFavoriteSearchButtonTitle": {
-    "message": "Diese Suche aus den Favoriten entfernen",
+    "message": "Suche aus Favoriten entfernen",
     "description": "The label for remove favorite search button"
   },
   "theme.SearchModal.errorScreen.titleText": {
