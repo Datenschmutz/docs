@@ -25,7 +25,7 @@
 
 # Contributing
 <h3>
-<p align="center">You' ve found a bug or can add something to a documentation? Feel free to use the -Edit this page- button at the bottom of the page or start a Pull request directly from GitHub and share your knowledge with others!</p>
+<p align="center">You' ve found a bug or can add something to a documentation? Feel free to use the -Edit this page- button at the bottom of the page or start a Pull request directly from GitHub and share your knowledge with others! Look <a href="./CONTRIBUTING.md">here</a> to get more information on how you can contribute</p>
 </h3>
 
 <h3>
