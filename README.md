@@ -1,16 +1,18 @@
 <h1 align="center">
 <!--  <p align="center">Datenschmutz.dev</p> -->
-  <a href="https://docs.datenschmutz.org"><img src="./static/img/dmz-main-logo-c.svg" alt="Datenschmutz"></a>
+  <a href="https://docs.datenschmutz.dev"><img src="./static/img/dmz-main-logo-c.svg" alt="Datenschmutz"></a>
 </h1>
 
 <p align="center">
 <img alt="GitHub" src="https://img.shields.io/github/license/Datenschmutz/docs?style=flat-square">
 <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr-raw/Datenschmutz/docs?style=flat-square">
+<img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/datenschmutz/docs?style=flat-square">
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/datenschmutz/docs?style=flat-square">
+<img alt="GitHub milestones" src="https://img.shields.io/github/milestones/all/datenschmutz/docs?style=flat-square">
 </p>
 
 <h3 align="center">
-<a href="https://docs.datenschmutz.org"><img src="./static/img/work-in-progress.svg" width="500" height="250" alt="Datenschmutz Work in Progress"></a>
+<a href="https://docs.datenschmutz.dev"><img src="./static/img/work-in-progress.svg" width="500" height="250" alt="Datenschmutz Work in Progress"></a><br/>
 <p align="center">We are just starting with this site. Please participate and share your knowlegde e.g. for tools not covered, errors or improvements.</p>
 </h3>
 
