@@ -47,7 +47,7 @@ The individual cronjobs are stored in a table, the so-called "Crontab". In this 
 |---|---|---|---|---|---|
 | Minute (0-59) | Hour (0-23) | Day (1-31) | Month (1-12) | Weekday (1-7) | command to be executed |
 
->For all time specifications, a "*" can also be used to indicate that the execution should take place at any minute, hour, etc.
+>For all time specifications, a `*` can also be used to indicate that the execution should take place at any minute, hour, etc.
 
 >In the example above, the command is executed every day at 12:00.
 

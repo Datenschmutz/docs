@@ -47,7 +47,7 @@ crontab -e.
 |---|---|---|---|---|---|
 | Minute (0-59) | Stunde (0-23) | Tag (1-31) | Monat (1-12) | Wochentag (1-7) | Auszuführender Befehl |
 
->Bei allen Zeitangaben kann auch ein "*" verwendet werden, um anzugeben, dass die Ausführung zu einer beliebigen Minute, Stunde usw. erfolgen soll.
+>Bei allen Zeitangaben kann auch ein `*` verwendet werden, um anzugeben, dass die Ausführung zu einer beliebigen Minute, Stunde usw. erfolgen soll.
 
 >Im obigen Beispiel wird der Befehl jeden Tag um 12:00 Uhr ausgeführt.
 
