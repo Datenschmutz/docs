@@ -60,8 +60,8 @@ I use S3 storage from [Contabo](https://contabo.com/object-storage/) based on Cl
 
 * Press `n` for new remote storage
 * Specify a rClone Destination *name*, e.g. `MyS3-Storage`
-* Press `4` for *Amazon S3 Compliant Storage Providers including AWS, Alibaba, Ceph, Digital Ocean, Dreamhost, IBM COS, Minio, SeaweedFS, and Tencent COS*
-* Select the S3 storage solution e.g. `3` *for Ceph Object Storage*
+* Press `4` for *Amazon S3 Compliant Storage Providers including AWS, Alibaba, **Ceph**, Digital Ocean, Dreamhost, IBM COS, Minio, SeaweedFS, and Tencent COS*
+* Select the S3 storage solution e.g. `3` *for **Ceph** Object Storage*
 * Press `1` for Enter AWS credentials in the next step.
 * Specify your `access_key`, *e.g. 82046e8110804a43bf29c1ae426a724d* for *access_key_id*
 * Specify your `secret_key`, *e.g. 82e69bd7a52076c527154297a76c2233* for *secret_access_key*
