@@ -6,7 +6,7 @@ description: Automatisches Sichern der Druckerkonfigurationsdateien mit rClone a
 slug: /S3-Auto-backup
 last_update:
   author: Fabian
-  date: 12/11/2022
+  date: 12/19/2022
 tags:
 - Script
 - Voron
@@ -61,8 +61,8 @@ Ich verwende für mein Tutorial S3-Speicher von [Contabo](https://contabo.com/ob
 
 * Drücke `n` für neuen entfernten Speicher
 * Gib einen rClone Ziel *Namen* an, z.B. `MyS3-Storage`
-* Drücke `4` für *Amazon S3-kompatible Speicheranbieter wie AWS, Alibaba, Ceph, Digital Ocean, Dreamhost, IBM COS, Minio, SeaweedFS und Tencent COS*
-* Wähle die S3-Speicherlösung, z. B. `3` *für Ceph Object Storage*.
+* Drücke `4` für *Amazon S3-kompatible Speicheranbieter wie AWS, Alibaba, **Ceph**, Digital Ocean, Dreamhost, IBM COS, Minio, SeaweedFS und Tencent COS*
+* Wähle die S3-Speicherlösung, z. B. `3` *für **Ceph** Object Storage*.
 * Drücke `1` für AWS-Anmeldedaten im nächsten Schritt eingeben.
 * Gib deinen `access_key` an, *z.B. 82046e8110804a43bf29c1ae426a724d* für *access_key_id*
 * Gib deinen `secret_key` an, *z.B. 82e69bd7a52076c527154297a76c2233* für *secret_access_key*

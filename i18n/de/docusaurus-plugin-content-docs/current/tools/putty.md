@@ -6,7 +6,7 @@ description: PuTTY ist ein kostenloser SSH- und Telnet-Client für Windows und U
 slug: /putty
 last_update:
   author: Fabian
-  date: 12/15/2022
+  date: 12/19/2022
 tags:
 - Tool
 - PuTTY
@@ -42,7 +42,7 @@ import TabItem from '@theme/TabItem';
 
   Terminal öffnen mit `STRG + ALT + T`
 
-  ```bash title="Update server"
+  ```bash title="Updates Installieren"
   sudo apt-get update
   ```
 
