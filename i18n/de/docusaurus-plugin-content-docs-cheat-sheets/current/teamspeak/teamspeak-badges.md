@@ -1,12 +1,12 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 sidebar_label: 'TeamSpeak Badges'
 id: teamspeak-badges
 description: Aktuelle TeamSpeak-Badge-Liste
 slug: /teamspeak-badges
 last_update:
   author: Fabian
-  date: 12/11/2022
+  date: 12/18/2022
 tags:
   - TeamSpeak
   - List
