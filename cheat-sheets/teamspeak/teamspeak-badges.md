@@ -1,34 +1,33 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 sidebar_label: 'TeamSpeak Badges'
 id: teamspeak-badges
-description: Aktuelle TeamSpeak-Badge-Liste
+description: Up to date TeamSpeak badge list
 slug: /teamspeak-badges
 last_update:
   author: Fabian
-  date: 12/11/2022
+  date: 12/18/2022
 tags:
   - TeamSpeak
   - List
   - Badge
   - Codes
-  - German/Deutsch
 ---
-# TeamSpeak Badge Liste
+# TeamSpeak Badge List
 
 :::info
-Letzte Aktualisierung: 01.12.2022 (1. Dezember 2022)<br/>
-Datumsformat: tt-mm-jjjj
+Last Update: 01.12.2022 (Dec. 1st, 2022)<br/>
+Date Format: dd-mm-yyyy
 :::
 
 <details>
-<summary>Verwendung von Badge-Codes</summary>
+<summary>How to use badge codes</summary>
 
-1. Du brauchst ein MyTeamSpeak-Konto, das du <a href="https://www.myteamspeak.com">hier</a> anlegen kannst.
+1. You need a MyTeamSpeak account which you can create <a href="https://www.myteamspeak.com">here</a>.
 
-2. Gib den Badge-Code auf der <a href="https://www.myteamspeak.com/userarea/badges/redeem">MyTeamSpeak Reedem-Seite</a> ein.
+2. Enter the badge code on the <a href="https://www.myteamspeak.com/userarea/badges/redeem">MyTeamSpeak Reedem page</a>.
 
-3. Konfiguriere deine Badges so, dass sie im Teamspeak-Client angezeigt werden. (Du kannst eine Menge Anleitungen dazu auf Google finden).
+3. Configure your badges to be displayed in the Teamspeak client. (You can find a lot of instructions for that on Google).
 
 </details>
 
