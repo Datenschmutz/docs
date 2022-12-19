@@ -1,8 +1,8 @@
 ---
 sidebar_position: 2
-sidebar_label: 'TeamSpeak Permissions'
+sidebar_label: 'TeamSpeak Berechtigungen'
 id: teamspeak-permissions
-description: A list with all available TeamSpeak permissions.
+description: Eine Liste mit allen verfügbaren TeamSpeak-Berechtigungen.
 slug: /teamspeak-permissions
 last_update:
   author: Fabian
@@ -11,15 +11,18 @@ tags:
   - TeamSpeak
   - List
   - Permissions
+  - German/Deutsch
 ---
 
-# TeamSpeak Permissions List
+# TeamSpeak Berechtigungs Liste
 
-i18n Tranlation of TeamSpeak Permissions List -WIP
+Eine Liste mit allen verfügbaren TeamSpeak-Berechtigungen.
 
-A list with all available TeamSpeak permissions.
+:::caution
+ACHTUNG! die **Beschreibungen** sind **auto generiert** und nur die gröbsten fehler ausgebessert aber **wir benötigen definitiv hilfe bei der Übersetzung!** [**Klick hier**](https://github.com/datenschmutz/docs/tree/main/i18n/de/docusaurus-plugin-content-docs-cheat-sheets/current/teamspeak/teamspeak-permissions.md) um uns auf GitHub zu helfen. Danke :)
+:::
 
-| name                                                       | description                                                                    |
+| Name                                                       | Beschreibung                                                                   |
 |------------------------------------------------------------|--------------------------------------------------------------------------------|
 | `unknown`                                                  | Kann bei Fehlerrückgaben ohne zugehörige Berechtigung auftreten                |
 | `b_serverinstance_help_view`                               | Abrufen von Informationen über ServerQuery-Befehle                             |
@@ -184,44 +187,44 @@ A list with all available TeamSpeak permissions.
 | `b_virtualserver_channelclient_permission_list`            | Channel-Client-Berechtigungen auflisten                                        |
 | `b_virtualserver_servergroup_create`                       | Servergruppen erstellen                                                        |
 | `b_virtualserver_channelgroup_create`                      | Channel-Gruppen erstellen                                                      |
-| `i_group_modify_power`                                     | Gruppen Power ändern                                                           |
-| `i_group_needed_modify_power`                              | Benötigte Gruppenveränderungs Power ändern                                     |
-| `i_group_member_add_power`                                 | Gruppenmitglied hinzufügen Power                                               |
-| `i_group_needed_member_add_power`                          | Benötigtes Gruppenmitglied fügt Power hinzu                                 |
-| `i_group_member_remove_power`                              | Gruppenmitglied löscht Power                                                |
-| `i_group_needed_member_remove_power`                       | Benötigtes Gruppenmitglied löscht Power                                     |
-| `i_permission_modify_power`                                | Erlaubnis Energie ändern                                                       |
-| `b_permission_modify_power_ignore`                         | Benötigte Berechtigung zum Ändern der Power ignorieren                      |
+| `i_group_modify_power`                                     | Gruppenänderungs Power                                                         |
+| `i_group_needed_modify_power`                              | Benötigte Gruppenänderungs Power                                               |
+| `i_group_member_add_power`                                 | Gruppenmitglied hinzufügungs Power                                             |
+| `i_group_needed_member_add_power`                          | Benötigte Gruppenmitglied hinzufügungs Power                                   |
+| `i_group_member_remove_power`                              | Gruppenmitglied entfern Power                                                  |
+| `i_group_needed_member_remove_power`                       | Benötigte Gruppenmitglied entfernungs Power                                    |
+| `i_permission_modify_power`                                | Berechtigungs veränderungs Power                                               |
+| `b_permission_modify_power_ignore`                         | Benötigte Berechtigung zum Ändern der Berechtigungs Power ignorieren           |
 | `b_virtualserver_servergroup_delete`                       | Servergruppen löschen                                                          |
-| `b_virtualserver_channelgroup_delete`                      | Channelgruppen löschen                                                           |
-| `i_client_permission_modify_power`                         | Client-Erlaubnis Power ändern                                               |
-| `i_client_needed_permission_modify_power`                  | Erforderliche Client-Erlaubnis Power ändern                                 |
+| `b_virtualserver_channelgroup_delete`                      | Channelgruppen löschen                                                         |
+| `i_client_permission_modify_power`                         | Client-Berechtigung veränderungs Power                                         |
+| `i_client_needed_permission_modify_power`                  | Erforderliche Client-Berechtigung veränderungs Power                           |
 | `i_client_max_clones_uid`                                  | Max. zusätzliche Verbindungen pro Client-Identität                             |
 | `i_client_max_idletime`                                    | Maximale Leerlaufzeit in Sekunden                                              |
 | `i_client_max_avatar_filesize`                             | Maximale Dateigröße des Avatars in Bytes                                       |
-| `i_client_max_channel_subscriptions`                       | Maximale Channelabonnements                                                      |
+| `i_client_max_channel_subscriptions`                       | Maximale Channelabonnements                                                    |
 | `b_client_is_priority_speaker`                             | Client ist vorrangiger Sprecher                                                |
-| `b_client_skip_channelgroup_permissions`                   | Channelgruppenberechtigungen ignorieren                                          |
+| `b_client_skip_channelgroup_permissions`                   | Channelgruppenberechtigungen ignorieren                                        |
 | `b_client_force_push_to_talk`                              | Push-To-Talk-Erfassungsmodus erzwingen                                         |
 | `b_client_ignore_bans`                                     | Verbote ignorieren                                                             |
 | `b_client_ignore_antiflood`                                | Antiflood-Messungen ignorieren                                                 |
 | `b_client_issue_client_query_command`                      | Abfragebefehle vom Client ausgeben                                             |
 | `b_client_use_reserved_slot`                               | Einen reservierten Steckplatz verwenden                                        |
 | `b_client_use_channel_commander`                           | Channel-Commander verwenden                                                    |
-| `b_client_request_talker`                                  | GesprächsPower anfordern können                                             |
+| `b_client_request_talker`                                  | Gesprächspower anfordern können                                                |
 | `b_client_avatar_delete_other`                             | Löschen von Avataren anderer Klienten zulassen                                 |
-| `b_client_is_sticky`                                       | Klient bleibt am aktuellen Channel hängen                                        |
+| `b_client_is_sticky`                                       | Klient bleibt in aktuellem Channel hängen                                      |
 | `b_client_ignore_sticky`                                   | Klient ignoriert Sticky-Flag                                                   |
 | `b_client_info_view`                                       | Abrufen von Client-Informationen                                               |
 | `b_client_permissionoverview_view`                         | Übersicht der Client-Berechtigungen abrufen                                    |
 | `b_client_permissionoverview_own`                          | Übersicht über die eigenen Berechtigungen des Clients abrufen                  |
 | `b_client_remoteaddress_view`                              | IP-Adresse und Port des Clients anzeigen                                       |
-| `i_client_serverquery_view_power`                          | Power der ServerQuery-Ansicht                                               |
-| `i_client_needed_serverquery_view_power`                   | Benötigte Power der ServerQuery-Ansicht                                     |
+| `i_client_serverquery_view_power`                          | Power der ServerQuery-Ansicht                                                  |
+| `i_client_needed_serverquery_view_power`                   | Benötigte Power der ServerQuery-Ansicht                                        |
 | `b_client_custom_info_view`                                | Benutzerdefinierte Felder anzeigen                                             |
 | `i_client_kick_from_server_power`                          | Client Kick Power vom Server                                                   |
-| `i_client_needed_kick_from_server_power`                   | Benötigte Client-KickPower vom Server                                       |
-| `i_client_kick_from_channel_power`                         | Client-Kick-Power vom Channel                                                 |
+| `i_client_needed_kick_from_server_power`                   | Benötigte Client-KickPower vom Server                                          |
+| `i_client_kick_from_channel_power`                         | Client-Kick-Power vom Channel                                                  |
 | `i_client_needed_kick_from_channel_power`                  | Benötigte Client-Kick-Power vom Channel                                        |
 | `i_client_ban_power`                                       | Client-Bann-Power                                                              |
 | `i_client_needed_ban_power`                                | Benötigte Client-Ban-Power                                                     |
@@ -237,13 +240,13 @@ A list with all available TeamSpeak permissions.
 | `b_client_ban_delete_own`                                  | Eigene Bans löschen                                                            |
 | `b_client_ban_delete`                                      | Banns löschen                                                                  |
 | `i_client_ban_max_bantime`                                 | Maximale Bannzeit                                                              |
-| `i_client_private_textmessage_power`                       | Private NachrichtenPower des Clients                                        |
-| `i_client_needed_private_textmessage_power`                | Benötigte Power für private Client-Nachrichten                              |
+| `i_client_private_textmessage_power`                       | Private NachrichtenPower des Clients                                           |
+| `i_client_needed_private_textmessage_power`                | Benötigte Power für private Client-Nachrichten                                 |
 | `b_client_server_textmessage_send`                         | Senden von Textnachrichten an den virtuellen Server                            |
-| `b_client_channel_textmessage_send`                        | Senden von Textnachrichten an den Channel                                        |
+| `b_client_channel_textmessage_send`                        | Senden von Textnachrichten an den Channel                                      |
 | `b_client_offline_textmessage_send`                        | Senden von Offline-Nachrichten an Clients                                      |
-| `i_client_talk_power`                                      | Client-GesprächsPower                                                       |
-| `i_client_needed_talk_power`                               | Benötigte Client-GesprächsPower                                             |
+| `i_client_talk_power`                                      | Client-Sprech Power                                                            |
+| `i_client_needed_talk_power`                               | Benötigte Client-Sprech Power                                                  |
 | `i_client_poke_power`                                      | Client-Stocherkraft                                                            |
 | `i_client_needed_poke_power`                               | Benötigte Client-Poke-Power                                                    |
 | `b_client_set_flag_talker`                                 | Setzen Sie das Talker-Flag für Clients und erlauben Sie ihnen zu sprechen      |
@@ -254,19 +257,19 @@ A list with all available TeamSpeak permissions.
 | `b_client_modify_dbproperties`                             | Bearbeiten der Eigenschaften eines Kunden in der Datenbank                     |
 | `b_client_delete_dbproperties`                             | Löschen der Eigenschaften eines Kunden in der Datenbank                        |
 | `b_client_create_modify_serverquery_login`                 | Eigenes ServerQuery-Konto erstellen oder ändern                                |
-| `b_ft_ignore_password`                                     | Dateien ohne Channelpasswort durchsuchen                                         |
+| `b_ft_ignore_password`                                     | Dateien ohne Channelpasswort durchsuchen                                       |
 | `b_ft_transfer_list`                                       | Abrufen der Liste der laufenden Dateiübertragungen                             |
-| `i_ft_file_upload_power`                                   | Datei-Upload-Power                                                          |
-| `i_ft_needed_file_upload_power`                            | Benötigte Datei-Upload-Power                                                |
-| `i_ft_file_download_power`                                 | Dateidownload-Power                                                         |
-| `i_ft_needed_file_download_power`                          | Benötigte Power für den Dateidownload                                       |
-| `i_ft_file_delete_power`                                   | Power zum Löschen von Dateien                                               |
-| `i_ft_needed_file_delete_power`                            | Benötigte DateilöschPower                                                   |
-| `i_ft_file_rename_power`                                   | Datei umbenennen Power                                                      |
-| `i_ft_needed_file_rename_power`                            | Benötigte Power zum Umbenennen von Dateien                                  |
-| `i_ft_file_browse_power`                                   | Power "Datei durchsuchen                                                    |
-| `i_ft_needed_file_browse_power`                            | Benötigte Power "Datei durchsuchen                                          |
-| `i_ft_directory_create_power`                              | Power "Verzeichnis erstellen                                                |
-| `i_ft_needed_directory_create_power`                       | Benötigte Power zum Erstellen eines Verzeichnisses                          |
+| `i_ft_file_upload_power`                                   | Datei-Upload-Power                                                             |
+| `i_ft_needed_file_upload_power`                            | Benötigte Datei-Upload-Power                                                   |
+| `i_ft_file_download_power`                                 | Dateidownload-Power                                                            |
+| `i_ft_needed_file_download_power`                          | Benötigte Power für den Dateidownload                                          |
+| `i_ft_file_delete_power`                                   | Power zum Löschen von Dateien                                                  |
+| `i_ft_needed_file_delete_power`                            | Benötigte DateilöschPower                                                      |
+| `i_ft_file_rename_power`                                   | Datei umbenennen Power                                                         |
+| `i_ft_needed_file_rename_power`                            | Benötigte Power zum Umbenennen von Dateien                                     |
+| `i_ft_file_browse_power`                                   | Power "Datei durchsuchen                                                       |
+| `i_ft_needed_file_browse_power`                            | Benötigte Power "Datei durchsuchen                                             |
+| `i_ft_directory_create_power`                              | Power "Verzeichnis erstellen                                                   |
+| `i_ft_needed_directory_create_power`                       | Benötigte Power zum Erstellen eines Verzeichnisses                             |
 | `i_ft_quota_mb_download_per_client`                        | Download-Kontingent pro Client in MByte                                        |
 | `i_ft_quota_mb_upload_per_client`                          | Upload-Kontingent pro Kunde in MByte                                           |
