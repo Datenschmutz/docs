@@ -6,7 +6,7 @@ description: Automate the execution of tasks at (recurring) times defined by you
 slug: /cron
 last_update:
   author: Fabian
-  date: 12/11/2022
+  date: 12/19/2022
 tags:
 - Tool
 - Cron

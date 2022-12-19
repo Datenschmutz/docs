@@ -6,7 +6,7 @@ description: Automatische Ausführung von Aufgaben zu von dir festgelegten (wied
 slug: /cron
 last_update:
   author: Fabian
-  date: 12/11/2022
+  date: 12/19/2022
 tags:
 - Tool
 - Cron
