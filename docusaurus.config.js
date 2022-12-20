@@ -134,15 +134,19 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Categories',
             items: [
               {
-                label: 'Docs - Home',
+                label: 'Documenations',
                 to: '/docs/intro',
               },
               {
-                label: 'Cheat Sheets - Home',
+                label: 'Cheat Sheets',
                 to: '/cheat-sheets/intro',
+              },
+              {
+                label: 'Projects',
+                to: '/Projects',
               },
             ],
           },
@@ -154,38 +158,42 @@ const config = {
                 to: '/CODE_OF_CONDUCT',
               },
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/users/20582833/datenschmutz',
+                label: 'Contribute',
+                to: 'https://github.com/Datenschmutz/docs/blob/main/CONTRIBUTING.md',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/Datenschmutz/docs',
               },
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/datenschmutz',
               },
+              //{
+              //  label: 'Stack Overflow',
+              //  href: 'https://stackoverflow.com/users/20582833/datenschmutz',
+              //},
             ],
           },
           {
-            title: 'More',
+            title: 'Pages',
             items: [
               {
                 label: 'TeamSpeak Badge List',
                 to: '/cheat-sheets/teamspeak-badges',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/Datenschmutz/docs',
+                label: 'Voron Backup Automation',
+                to: '/docs/category/voron-backup-automation',
               },
             ],
           },
           {
-            title: 'Projects & Friends',
+            title: 'About',
             items: [
               {
-                label: 'Projects',
-                to: '/Projects',
-              },
-              {
-                label: 'Gaming-Lounge',
-                to: 'https://www.gaming-lounge.at',
+                label: 'What does Datenschmutz mean?',
+                href: '/datenschmutz',
               },
               {
                 label: 'T4KUUY4',
