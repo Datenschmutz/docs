@@ -17,7 +17,13 @@ tags:
 
 # PuTTY
 
-PuTTY is a free SSH and Telnet Client for Windows and Linux, along with an xterm terminal emulator.
+PuTTY is a free and open-source terminal emulator, serial console, and network file transfer application. It is primarily used to connect to a remote computer over a network connection, such as over SSH (Secure Shell) or Telnet. PuTTY supports a wide range of protocols, including SSH, Telnet, rlogin, and raw TCP.
+
+PuTTY is available for Windows and is also available for Unix-like systems as a command-line application called plink. It was originally written and is maintained by Simon Tatham.
+
+PuTTY is commonly used to remotely access servers, configure networking devices, and manage remote systems. It is also frequently used for debugging and troubleshooting network issues.
+
+In addition to its terminal emulation and file transfer capabilities, PuTTY also includes a number of other useful features, such as support for public key authentication, agent forwarding, and port forwarding. It is a popular choice among network administrators and developers due to its versatility and ease of use.
 
 ## Installation
 

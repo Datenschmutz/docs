@@ -18,7 +18,13 @@ tags:
 
 # PuTTY
 
-PuTTY ist ein kostenloser SSH- und Telnet-Client für Windows und Linux sowie ein xterm-Terminalemulator.
+PuTTY ist ein freier und quelloffener Terminalemulator, eine serielle Konsole und eine Anwendung zur Dateiübertragung im Netzwerk. Es wird in erster Linie verwendet, um eine Verbindung zu einem entfernten Computer über eine Netzwerkverbindung herzustellen, z. B. über SSH (Secure Shell) oder Telnet. PuTTY unterstützt eine breite Palette von Protokollen, darunter SSH, Telnet, rlogin und raw TCP.
+
+PuTTY ist für Windows und als Befehlszeilenanwendung namens plink auch für Unix-ähnliche Systeme verfügbar. Es wurde ursprünglich von Simon Tatham geschrieben und wird von ihm gepflegt.
+
+PuTTY wird üblicherweise für den Fernzugriff auf Server, die Konfiguration von Netzwerkgeräten und die Verwaltung entfernter Systeme verwendet. Es wird auch häufig für die Fehlersuche und -behebung bei Netzwerkproblemen verwendet.
+
+Zusätzlich zu seinen Terminalemulations- und Dateiübertragungsfunktionen bietet PuTTY eine Reihe weiterer nützlicher Funktionen, wie z. B. Unterstützung für die Authentifizierung mit öffentlichen Schlüsseln, Agentenweiterleitung und Portweiterleitung. Aufgrund seiner Vielseitigkeit und Benutzerfreundlichkeit ist es bei Netzwerkadministratoren und Entwicklern sehr beliebt.
 
 ## Installation
 
