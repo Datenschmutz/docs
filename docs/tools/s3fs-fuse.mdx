@@ -6,7 +6,7 @@ description: s3fs allows Linux, macOS, and FreeBSD to mount an S3 bucket via FUS
 slug: /s3fs-fuse
 last_update:
   author: Fabian
-  date: 12/11/2022
+  date: 12/20/2022
 tags:
 - Tool
 - s3fs
@@ -15,7 +15,11 @@ tags:
 
 # s3fs-fuse
 
-[s3fs-fuse](https://github.com/s3fs-fuse/s3fs-fuse) allows you to mount S3 buckets under windows, linux or macOS as a normal folder 
+[s3fs-fuse](https://github.com/s3fs-fuse/s3fs-fuse) is a FUSE (File System in Userspace) filesystem that allows you to mount an S3 bucket as a local filesystem. It is written in C++ and uses the libfuse library to communicate with the Linux kernel and interact with the filesystem.
+
+s3fs can be used to access S3 buckets in a way that is similar to how you would access a local filesystem. You can use standard Linux tools, such as ls, cp, mv, and rm, to manage the files in your S3 bucket. You can also use s3fs to mount an S3 bucket as a read-only filesystem or to create a new bucket.
+
+s3fs is useful for a variety of use cases, including backup and recovery, data analysis, and media streaming. It is especially useful for accessing S3 buckets from servers or other environments where the AWS SDKs are not available or where it is not practical to use the AWS CLI.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
