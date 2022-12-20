@@ -17,6 +17,8 @@ tags:
 
 ## Headers
 
+Um Überschriften zu erstellen, verwende das Symbol `#`, gefolgt von einem Leerzeichen und dem Überschriftentext. Die Anzahl der `#`-Symbole gibt die Überschriftsebene an, wobei ein # die größte und sechs `#`-Symbole die kleinste Überschrift darstellen.
+
 ```markdown
 # Das ist ein <h1> Tag
   
@@ -53,6 +55,8 @@ tags:
 
 ## Hervorhebung
 
+Um Text hervorzuheben, kannst du entweder `*` oder `_` verwenden, um den Text, den du hervorheben möchtest, einzuschließen. Um kursiven Text zu erzeugen, verwende ein einzelnes * oder Symbol auf beiden Seiten des Textes. Um fetten Text zu erzeugen, verwende zwei Symbole `*` oder `_` auf beiden Seiten des Textes.
+
 ```markdown
 *Dieser Text wird kursiv gedruckt*.
 _Dieser Text wird ebenfalls kursiv dargestellt._
@@ -80,6 +84,8 @@ _Du **kannst** sie Kombinieren_
 ***Der gesamte Text ist fett und kursiv gedruckt.***
 
 ## Listen
+
+Um eine Aufzählung zu erstellen, verwende das Symbol `-` oder `*`, gefolgt von einem Leerzeichen und dem Text des Listenelements.
 
 ### Ungeordnete
 
@@ -125,6 +131,8 @@ _Du **kannst** sie Kombinieren_
 
 ## Bilder
 
+Um ein Bild in ein Dokument einzufügen, verwende die Syntax `![image alt text](image URL)`.
+
 ```markdown
 Format:  ![Alt Text](url)
 Beispiel: ![Datenschmutz Logo](@site/static/img/dmz-logo-main-350x-border.png)
@@ -133,6 +141,8 @@ Beispiel: ![Datenschmutz Logo](@site/static/img/dmz-logo-main-350x-border.png)
 ![Datenschmutz Logo](@site/static/img/dmz-logo-main-350x-border.png)
 
 ## Links
+
+Um einen Link zu erstellen, verwende einfach die Syntax `[Linktext](Link-URL)`.
 
 ```markdown
 https://docsdatenschmutz.dev - automatisch!
@@ -148,6 +158,8 @@ Beispiel: [Docs](https://docs.datenschmutz.dev)
 [Docs](https://docs.datenschmutz.dev)
 
 ## Blockzitate
+
+To create a blockquote, use the `>` symbol followed by a space and the quote text.
 
 ```markdown
 > Das Leben ist wie Fahrradfahren.
@@ -187,15 +199,15 @@ ______
 ----
 ______
 
-## Inline code
+## Code blöcke (Inline code)
+
+Um einen Codeblock zu erstellen, schließe den Code in Backticks (\`) ein. Um einen Codeblock zu erstellen, der sich über mehrere Zeilen erstreckt, schließe den Code in drei Backticks (\`) auf jeder Seite ein.
 
 ```markdown
 Ich denke, du solltest hier stattdessen ein `<addr>`-Element verwenden.
 ```
 
 Ich denke, du solltest hier stattdessen ein `<addr>`-Element verwenden.
-
-## Abgegrenzte Code-Blöcke
 
 ### Keine Hervorhebung
 
@@ -230,6 +242,8 @@ if (isAwesome) {
 ```
 
 ## Tabellen
+
+Um eine Tabelle zu erstellen, verwende das Pipe-Symbol (|), um die Spalten zu trennen, und das Bindestrich-Symbol (-), um den Tabellenkopf zu erstellen.
 
 ```markdown
 | Erste Überschrift  | Zweite Überschrift |
@@ -337,7 +351,3 @@ Markdown unterstützt auch rohes HTML.
 ```
 
 :+1: :sparkles: :camel: :tada: :rocket:
-
-***
-
-[Quelle](https://gist.github.com/Robert-96/048fddefc20e6860aeca6949a2443adf)

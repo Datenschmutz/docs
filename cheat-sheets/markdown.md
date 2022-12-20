@@ -14,7 +14,9 @@ tags:
 
 > To learn more about markdown visit [www.markdownguide.org](https://www.markdownguide.org/getting-started/#whats-markdown)
 
-## Headers
+## Headings
+
+To create headings, use the `#` symbol followed by a space and the heading text. The number of `#` symbols indicates the heading level, with one `#` being the largest and six `#` symbols being the smallest.
 
 ```markdown
 # This is an <h1> tag
@@ -52,6 +54,8 @@ tags:
 
 ## Emphasis
 
+To add emphasis to text, you can use either `*` or `_` to enclose the text that you want to emphasize. To create italic text, use a single `*` or _ symbol on either side of the text. To create bold text, use two `*` or `_` symbols on either side of the text.
+
 ```markdown
 *This text will be italic*
 _This will also be italic_
@@ -79,6 +83,8 @@ _You **can** combine them_
 ***All this text is bold and italic***
 
 ## Lists
+
+To create a bulleted list, use the `-` or `*` symbol followed by a space and the list item text.
 
 ### Unordered
 
@@ -124,6 +130,8 @@ _You **can** combine them_
 
 ## Images
 
+To include an image in a document, use the `![image alt text](image URL)` syntax.
+
 ```markdown
 Format:  ![Alt Text](url)
 Example: ![Datenschmutz Logo](@site/static/img/dmz-logo-main-350x-border.png)
@@ -132,6 +140,8 @@ Example: ![Datenschmutz Logo](@site/static/img/dmz-logo-main-350x-border.png)
 ![Datenschmutz Logo](@site/static/img/dmz-logo-main-350x-border.png)
 
 ## Links
+
+To create a link, simply paste or use the `[link text](link URL)` syntax.
 
 ```markdown
 https://docsdatenschmutz.dev - automatic!
@@ -147,6 +157,8 @@ Example: [Docs](https://docs.datenschmutz.dev)
 [Docs](https://docs.datenschmutz.dev)
 
 ## Blockquotes
+
+To create a blockquote, use the `>` symbol followed by a space and the quote text.
 
 ```markdown
 > Life is like riding a bicycle.
@@ -186,15 +198,15 @@ ______
 ----
 ______
 
-## Inline code
+## Code blocks (Inline code)
+
+To create a code block, enclose the code in backticks (\`). To create a code block that spans multiple lines, enclose the code in three backticks (\`) on either side.
 
 ```markdown
 I think you should use an `<addr>` element here instead.
 ```
 
 I think you should use an `<addr>` element here instead.
-
-## Fenced Code Blocks
 
 ### No highlighting
 
@@ -229,6 +241,8 @@ if (isAwesome) {
 ```
 
 ## Tabels 
+
+To create a table, use the pipe symbol (`|`) to separate the columns and the dash symbol (`-`) to create the table header.
 
 ```markdown
 | First Header  | Second Header |
@@ -338,5 +352,3 @@ Markdown also supports raw HTML.
 :+1: :sparkles: :camel: :tada: :rocket:
 
 ***
-
-[Source](https://gist.github.com/Robert-96/048fddefc20e6860aeca6949a2443adf)
