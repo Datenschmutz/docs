@@ -451,7 +451,7 @@
     "description": "The text for the link to report missing results"
   },
   "theme.SearchModal.placeholder": {
-    "message": "Durchsuche Docs",
+    "message": "Durchsuche docs",
     "description": "The placeholder of the input of the DocSearch pop-up modal"
   }
 }

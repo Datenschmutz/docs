@@ -2,5 +2,13 @@
   "version.label": {
     "message": "Next",
     "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.TeamSpeak": {
+    "message": "TeamSpeak",
+    "description": "The label for category TeamSpeak in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.TeamSpeak.link.generated-index.description": {
+    "message": "TeamSpeak Cheat-Sheet Sammlung",
+    "description": "The generated-index page description for category TeamSpeak in sidebar tutorialSidebar"
   }
 }
