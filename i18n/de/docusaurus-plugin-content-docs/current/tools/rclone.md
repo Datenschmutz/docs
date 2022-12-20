@@ -17,7 +17,13 @@ tags:
 
 # Rclone
 
-Rclone ist ein Befehlszeilentool zur Verwaltung von Dateien auf einem Cloud-Speicher.
+Rclone ist ein Befehlszeilen-Tool, mit dem man Dateien und Verzeichnisse zwischen verschiedenen Speicherdiensten, wie Google Drive, Amazon S3 und Dropbox, synchronisieren kann. Es ist einfach zu bedienen und unterstützt eine breite Palette von Speicheranbietern und -protokollen, darunter lokale Dateien, Google Drive, Amazon S3, Dropbox und viele andere.
+
+Rclone ist in Go geschrieben und ist für Linux, macOS und Windows verfügbar. Es ist quelloffen und unter der MIT-Lizenz veröffentlicht.
+
+Rclone kann für Aufgaben wie das Sichern von Daten in der Cloud, das Synchronisieren von Dateien zwischen verschiedenen Speicheranbietern und das Verschieben von Daten zwischen verschiedenen Speicherdiensten verwendet werden. Es unterstützt eine Vielzahl von Funktionen, darunter Datei- und Verzeichnissynchronisierung, serverseitige Verschlüsselung und mehrere gleichzeitige Übertragungen.
+
+Rclone ist ein nützliches Tool für die Verwaltung von Daten, die auf Cloud-Speicherdiensten gespeichert sind, und kann in einer Vielzahl von verschiedenen Szenarien eingesetzt werden, darunter für den privaten Gebrauch, für kleine Unternehmen und für Unternehmensumgebungen
 
 ## Installation[^1]
 
