@@ -4,7 +4,7 @@
     "description": "The title of the footer links column with title=Community in the footer"
   },
   "link.item.label.Code of Conduct": {
-    "message": "Code of Conduct",
+    "message": "Verhaltenskodex",
     "description": "The label of footer link with label=Code of Conduct linking to /CODE_OF_CONDUCT"
   },
   "link.item.label.Twitter": {
@@ -60,7 +60,7 @@
     "description": "The label of footer link with label=Voron Backup Automation linking to /docs/category/voron-backup-automation"
   },
   "link.item.label.What does Datenschmutz mean?": {
-    "message": "What does Datenschmutz mean?",
+    "message": "Was bedeutet Datenschmutz?",
     "description": "The label of footer link with label=What does Datenschmutz mean? linking to /datenschmutz"
   }
 }
