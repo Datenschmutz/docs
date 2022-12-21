@@ -18,7 +18,7 @@ tags:
 
 # Secure SSH server under Linux with Fail2ban
 
-Fail2ban protects your SSH server from unauthorized access attempts. It will monitor the log files and block any IP addresses that show signs of malicious activity, helping to keep your server secure.
+[Fail2ban](./fail2ban) protects your SSH server from unauthorized access attempts. It will monitor the log files and block any IP addresses that show signs of malicious activity, helping to keep your server secure.
 
 ## Installation
 
