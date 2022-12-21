@@ -26,7 +26,7 @@ Fail2ban schützt deinen SSH-Server vor unbefugten Zugriffsversuchen. Es überwa
 Stelle sicher, dass dein System auf dem neuesten Stand ist, indem du den folgenden Befehl ausführst:
 
 ```bash
-sudo apt updatesudo apt upgrade
+sudo apt update && sudo apt upgrade -y
 ```
 
 ### Fail2ban Installieren
@@ -41,7 +41,7 @@ sudo apt install fail2ban
 Kopiere die Standard-Fail2ban-Konfigurationsdatei in eine neue Datei, die Du dann bearbeiten kannst:
 
 ```bash
-sudo cp/etc/fail2ban/jail.conf /etc/fail2ban/jail.local
+sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
 ```
 
 ### Konfigurationsdatei Bearbeiten
@@ -74,7 +74,7 @@ sudo systemctl restart fail2ban
 Um sicherzustellen, dass Fail2ban automatisch startet, wenn das System hochfährt, führe den folgenden Befehl aus:
 
 ```bash
-sudo systemctl enablefail2ban
+sudo systemctl enable fail2ban
 ```
 
 ## Fail2ban status Überprüfen
