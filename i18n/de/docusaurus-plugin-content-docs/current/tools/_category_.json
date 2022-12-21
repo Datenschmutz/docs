@@ -1,7 +1,7 @@
 {
   "label": "Tools",
   "position": 2,
-  "collapsed": false,
+  "collapsed": true,
   "link": {
     "type": "generated-index",
     "description": "Tool documentation"
