@@ -8,7 +8,7 @@
     "description": "The label for category TeamSpeak in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.TeamSpeak.link.generated-index.description": {
-    "message": "TeamSpeak Cheat-Sheet Sammlung",
+    "message": "Cheat Sheets für TeamSpeak. Diese Cheat Sheets bieten schnellen Zugriff auf häufig verwendete Befehle und Funktionen sowie Tipps und Tricks für die effektive Nutzung von TeamSpeak. Wenn du TeamSpeak verwendest und deine Fähigkeiten verbessern willst, bist du hier genau richtig.",
     "description": "The generated-index page description for category TeamSpeak in sidebar tutorialSidebar"
   }
 }

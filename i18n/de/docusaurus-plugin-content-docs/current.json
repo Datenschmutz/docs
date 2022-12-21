@@ -8,7 +8,7 @@
     "description": "The label for category Tools in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Tools.link.generated-index.description": {
-    "message": "Tool documentation",
+    "message": "Softwareprodukte und Programme, die IT-Enthusiasten bei der Verwaltung und Wartung ihrer Systeme, Netzwerke und Daten helfen. Wenn du im IT-Bereich tätig bist und nach Tools suchst, die dir bei der Verwaltung deiner Systeme und Daten helfen, bist du hier genau richtig.",
     "description": "The generated-index page description for category Tools in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Scripts": {
@@ -16,7 +16,7 @@
     "description": "The label for category Scripts in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Scripts.link.generated-index.description": {
-    "message": "Script dokumentation",
+    "message": "Selbstgeschriebene Programme und Skripte für die Automatisierung im IT-Bereich. Diese Skripte sind in Sprachen wie Python, Bash oder PowerShell geschrieben. Wenn du Skripte suchst, um deine Arbeitsabläufe zu automatisieren, bist du hier genau richtig.",
     "description": "The generated-index page description for category Scripts in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Voron Backup Automation": {
@@ -32,7 +32,7 @@
     "description": "The label for category Guides in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Guides.link.generated-index.description": {
-    "message": "Anleitungs sammlung",
+    "message": "Vielzahl von Anleitungen und Tutorials zu verschiedenen IT- und Server-Themen auflistet. Diese Anleitungen sind für IT-Enthusiasten gedacht, die ihre Systeme und Server verwalten und warten müssen. Sie umfassen Themen wie Systemadministration, Netzwerkinstallation und -konfiguration, Sicherheitsrichtlinien und -verfahren, Datenschutz und vieles mehr. Wenn du in der IT-Branche tätig bist und nach Anleitungen suchst, um deine Systeme und Server zu verwalten, ist dies der richtige Ort für dich.",
     "description": "The generated-index page description for category Guides in sidebar tutorialSidebar"
   }
 }
