@@ -1,9 +1,0 @@
-{
-  "label": "Voron Backup Automation",
-  "position": 2,
-  "collapsed": false,
-  "link": {
-    "type": "generated-index",
-    "description": "Installation documentation for automated backups of Voron 3D printers"
-  }
-}
