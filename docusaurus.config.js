@@ -154,12 +154,12 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Code of Conduct',
-                to: '/CODE_OF_CONDUCT',
-              },
-              {
                 label: 'Contribute',
                 to: 'https://github.com/Datenschmutz/docs/blob/main/CONTRIBUTING.md',
+              },
+              {
+                label: 'Code of Conduct',
+                to: '/CODE_OF_CONDUCT',
               },
               {
                 label: 'GitHub',
