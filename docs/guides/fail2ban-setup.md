@@ -70,7 +70,7 @@ ignoreip  = 127.0.0.1/8 23.34.45.56
 sudo systemctl restart fail2ban
 ```
 
-### Start Fail2abn
+### Start Fail2ban
 To ensure that Fail2ban starts automatically when the system boots up, run the following command:
 
 ```bash

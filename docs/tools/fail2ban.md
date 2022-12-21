@@ -6,7 +6,7 @@ description: Fail2ban is a security tool that blocks malicious IP addresses and 
 slug: /fail2ban
 last_update:
   author: Fabian
-  date: 12/19/2022
+  date: 12/21/2022
 tags:
 - Tool
 - Fail2ban
