@@ -12,7 +12,6 @@
 </p>
 
 <h3 align="center">
-<a href="https://docs.datenschmutz.dev"><img src="./static/img/dmz-logo-cut.svg" width="30" height="30" alt="Datenschmutz logo"></a><br/>
 <p align="center">Our goal is to provide comprehensive, up-to-date information and resources on a wide range of topics related to information technology. Whether you're a professional IT worker, a student, or just someone who is interested in learning more about technology, we hope you'll find something useful here.</p>
 </h3>
 
