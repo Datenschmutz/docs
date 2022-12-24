@@ -39,7 +39,7 @@ Date Format: dd-mm-yyyy
 >There’s snow place like home<br/>
 >GUID: d4875b30-9908-43cb-a1eb-1a958e226078
 
-```md title='Badge Code: (Available until: probably 31.12.2022)'
+```md title='Badge Code: (Available until: 10.01.2023)'
 SANTA22
 ```
 
