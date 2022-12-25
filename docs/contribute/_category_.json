@@ -1,0 +1,9 @@
+{
+  "label": "Contribute to docs",
+  "position": 4,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Resources and guidelines on how to contribute to our website by creating and updating documentations and cheat sheets."
+  }
+}
