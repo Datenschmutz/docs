@@ -34,5 +34,13 @@
   "sidebar.tutorialSidebar.category.Guides.link.generated-index.description": {
     "message": "Vielzahl von Anleitungen und Tutorials zu verschiedenen IT- und Server-Themen auflistet. Diese Anleitungen sind für IT-Enthusiasten gedacht, die ihre Systeme und Server verwalten und warten müssen. Sie umfassen Themen wie Systemadministration, Netzwerkinstallation und -konfiguration, Sicherheitsrichtlinien und -verfahren, Datenschutz und vieles mehr. Wenn du in der IT-Branche tätig bist und nach Anleitungen suchst, um deine Systeme und Server zu verwalten, ist dies der richtige Ort für dich.",
     "description": "The generated-index page description for category Guides in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category. 🪧 Contribute to docs": {
+    "message": " 🪧 Zu docs Beitragen",
+    "description": "The label for category  🪧 Contribute to docs in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category. 🪧 Contribute to docs.link.generated-index.description": {
+    "message": "Informationen und Richtlinien, wie man zu unserer Website beitragen kann, indem man Dokumentationen und Cheat Sheets erstellt und aktualisiert.",
+    "description": "The generated-index page description for category  🪧 Contribute to docs in sidebar tutorialSidebar"
   }
 }
