@@ -27,7 +27,7 @@ const config = {
         htmlLang: 'en-GB'
       },
       de: {
-        htmlLang: 'en-GB'
+        htmlLang: 'de'
       }
     }
   },
@@ -94,6 +94,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [{name: 'keywords', content: 'datenschmutz, IT, documentation, docs, guides, how-to, cheat sheets, technical, support, troubleshooting'}],
       navbar: {
         title: 'Datenschmutz.dev',
         logo: {
