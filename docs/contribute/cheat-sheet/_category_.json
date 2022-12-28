@@ -1,0 +1,9 @@
+{
+  "label": "📄 Create Cheat-Sheet",
+  "position": 99,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "Resources and guidelines on how to contribute to our website by creating and updating documentations and cheat sheets."
+  }
+}
