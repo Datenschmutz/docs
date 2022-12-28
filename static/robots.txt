@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://docs.datenschmutz.dev/sitemap.xml
+Sitemap: https://docs.datenschmutz.dev/de/sitemap.xml
