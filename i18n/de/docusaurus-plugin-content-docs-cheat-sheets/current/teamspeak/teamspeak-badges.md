@@ -36,7 +36,8 @@ Datumsformat: tt-mm-jjjj
 
 ## Merry Christmas 2022
 
-![ts](./ts-img/santa22.png)
+![ts](./ts-img/christmas2022_details.svg)
+![ts](./ts-img/christmas2022.svg)
 >There’s snow place like home<br/>
 >GUID: d4875b30-9908-43cb-a1eb-1a958e226078
 
