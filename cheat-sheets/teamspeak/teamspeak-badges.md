@@ -6,7 +6,7 @@ description: Up to date TeamSpeak badge list
 slug: /teamspeak-badges
 last_update:
   author: Fabian
-  date: 12/24/2022
+  date: 01/01/2023
 tags:
   - TeamSpeak
   - List
@@ -16,7 +16,7 @@ tags:
 # TeamSpeak Badge List
 
 :::info
-Last Update: 24.12.2022 (Dec. 24th, 2022)<br/>
+Last Update: 01.01.2023 (Jan. 1st, 2023)<br/>
 Date Format: dd-mm-yyyy
 :::
 
@@ -32,6 +32,17 @@ Date Format: dd-mm-yyyy
 </details>
 
 ---
+
+## Happy New Year 2023
+
+![ts](./ts-img/2023_NewYear_details.svg)
+![ts](./ts-img/2023_NewYear.svg)
+>Aw man, here we go again<br/>
+>GUID: 1519e001-06a0-458c-9195-a8a6d0ec87fc
+
+```md title='Badge Code: (Available until: N/A)'
+KABOOM23
+```
 
 ## Merry Christmas 2022
 
