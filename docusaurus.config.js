@@ -110,7 +110,7 @@ const config = {
             label: 'Docs',
           },
           {to: '/cheat-sheets/intro', label: 'Cheat Sheets', position: 'left'},
-          {to: '/Projects', label: 'Projects', position: 'left'},
+          {to: '/projects', label: 'Projects', position: 'left'},
           {
             type: 'localeDropdown',
             position: 'right',
@@ -148,7 +148,7 @@ const config = {
               },
               {
                 label: 'Projects',
-                to: '/Projects',
+                to: '/projects',
               },
             ],
           },
