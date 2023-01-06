@@ -46,7 +46,7 @@ body:
 
   - type: input
     attributes:
-      label: Reproducible demo
+      label: Page URL
       description: |
         Paste here the URL of the page where you found the bug.
         Thanks for helping us help you!
@@ -89,7 +89,6 @@ body:
       description: Include as many relevant details about the environment you experienced the bug in.
       value: |
         - The browser you use incl. version (e.g. FireFox 107):
-        - Page URL:
         - Operating system and version (e.g. Ubuntu 20.04.2 LTS):
 
   - type: checkboxes
