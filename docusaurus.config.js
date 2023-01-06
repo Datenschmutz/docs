@@ -18,6 +18,7 @@ const config = {
   organizationName: 'Datenschmutz',
   projectName: 'docs',
   deploymentBranch: "gh-pages",
+  trailingSlash: true,
 
   i18n: {
     defaultLocale: 'en',
