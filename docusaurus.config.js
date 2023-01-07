@@ -198,6 +198,10 @@ const config = {
                 href: '/datenschmutz',
               },
               {
+                label: 'Datenschmutz Events (Usefull Calendars)',
+                href: 'https://events.datenschmutz.dev',
+              },
+              {
                 label: 'T4KUUY4',
                 href: 'https://github.com/T4KUUY4',
               },
