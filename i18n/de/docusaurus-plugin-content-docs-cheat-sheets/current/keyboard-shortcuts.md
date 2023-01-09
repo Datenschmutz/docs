@@ -10,6 +10,7 @@ tags:
 - MacOS
 - Keyboard
 - Shortcuts
+- German/Deutsch
 ---
 
 # Keyboard Shortcuts Cheat Sheet
