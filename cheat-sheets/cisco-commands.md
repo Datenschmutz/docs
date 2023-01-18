@@ -32,7 +32,7 @@ A comprehensive reference guide for CISCO CCNA CLI commands, both basic and adva
 |-:-:------------------------------------|-:-:----------------------------------------------------------------------------------------|
 | `enable`                               | Enters privilege mode                                                                      |
 | `configure terminal`                   | Enters configuration mode                                                                  |
-| `description` *<name-string>*          | Sets a description to the interface                                                        |
+| `description` <*name-string*>          | Sets a description to the interface                                                        |
 | `hostname` *name*                      | Sets a host name to the current Cisco network device                                       |
 | `interface` *fastethernet/number*      | Enters interface configuration mode for the specified fast ethernet interface              |
 | `default interface <interface>`        | Rests the specified interface to its default configuration                                 |
