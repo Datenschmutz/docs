@@ -138,7 +138,7 @@ A comprehensive reference guide for CISCO CCNA CLI commands, both basic and adva
 | `ip ospf process`                           | Rests the OSPF process                                    |
 | `ip ospf network` *type*                    | Manually configure the network type                       |
 | `ip ospf database`                          | Displays the contents of the OSPF routing database        |
-| `bandwidth` *<bandwidth in kilobits>*       | Changes the interface bandwidth                           |
+| `bandwidth` <*bandwidth in kilobits*>       | Changes the interface bandwidth                           |
 | `ip ospf authentication`                    | Enables authentication                                    |
 | `ip ospf authentication-key <password>`     | Configures an OSPF password on an interface               |
 | `show ip interface ospf` *brief*            | Disables each OSPF-enabled interface                      |
