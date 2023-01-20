@@ -33,6 +33,16 @@ Date Format: dd-mm-yyyy
 
 ---
 
+## Year of the Rabbit 2023
+
+>Do a barrel roll!<br/>
+>GUID: 970c70e6-00a1-41c1-ac5c-81c89a06c7a6
+
+```md title='Badge Code: (Available until: N/A)'
+N/A
+```
+
+
 ## Happy New Year 2023
 
 ![ts](./ts-img/2023_NewYear_details.svg)
