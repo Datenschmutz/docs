@@ -40,7 +40,7 @@ Date Format: dd-mm-yyyy
 >Do a barrel roll!<br/>
 >GUID: 970c70e6-00a1-41c1-ac5c-81c89a06c7a6
 
-```md title='Badge Code: (Available until: 2024)'
+```md title='Badge Code: (Available until: 01.01.2024)'
 PHYOTB23
 ```
 
@@ -51,7 +51,7 @@ PHYOTB23
 >Aw man, here we go again<br/>
 >GUID: 1519e001-06a0-458c-9195-a8a6d0ec87fc
 
-```md title='Badge Code: (Available until: N/A)'
+```md title='Badge Code: (Available until: 17.01.2023)'
 KABOOM23
 ```
 
