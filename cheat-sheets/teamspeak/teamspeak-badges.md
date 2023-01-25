@@ -6,7 +6,7 @@ description: Up to date TeamSpeak badge list
 slug: /teamspeak-badges
 last_update:
   author: Fabian
-  date: 01/22/2023
+  date: 01/25/2023
 tags:
   - TeamSpeak
   - List
@@ -16,7 +16,7 @@ tags:
 # TeamSpeak Badge List
 
 :::info
-Last Update: 22.01.2023<br/>
+Last Update: 25.01.2023<br/>
 Date Format: dd-mm-yyyy
 :::
 
@@ -35,13 +35,14 @@ Date Format: dd-mm-yyyy
 
 ## Year of the Rabbit 2023
 
+![ts](/img/cheat-sheets/teamspeak-badges/chineseNY2023_details.svg)
+![ts](/img/cheat-sheets/teamspeak-badges/chineseNY2023.svg)
 >Do a barrel roll!<br/>
 >GUID: 970c70e6-00a1-41c1-ac5c-81c89a06c7a6
 
 ```md title='Badge Code: (Available until: 2024)'
 PHYOTB23
 ```
-
 
 ## Happy New Year 2023
 
