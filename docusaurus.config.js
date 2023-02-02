@@ -42,7 +42,6 @@ const config = {
           path: 'docs',
           routeBasePath: 'docs',
           sidebarPath: require.resolve('./sidebars.js'),
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/datenschmutz/docs/tree/main',
           showLastUpdateAuthor: true,
