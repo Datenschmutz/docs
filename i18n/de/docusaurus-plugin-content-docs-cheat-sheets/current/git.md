@@ -1,6 +1,6 @@
 ---
 sidebar_position: 6
-sidebar_label: 'Git'
+sidebar_label: 'Git Cheat Sheet'
 id: git-cheat-sheet
 description: "Ein umfassendes Repertoire an Git-Befehlen, sowohl für Anfänger als auch für Fortgeschrittene."
 slug: /git-cheat-sheet
