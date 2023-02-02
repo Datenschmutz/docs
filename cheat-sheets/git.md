@@ -1,6 +1,6 @@
 ---
 sidebar_position: 6
-sidebar_label: 'Git'
+sidebar_label: 'Git Cheat Sheet'
 id: git-cheat-sheet
 description: "A comprehensive reference guide for Git commands, both basic and advanced."
 slug: /git-cheat-sheet
