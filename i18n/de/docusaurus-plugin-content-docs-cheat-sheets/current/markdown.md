@@ -2,7 +2,7 @@
 sidebar_position: 2
 sidebar_label: 'Markdown Cheat Sheet'
 id: markdown-cheat-sheet
-description: Markdown Cheat Sheet
+description: Dieses Markdown Cheat Sheet bietet eine umfassende Anleitung zu den Grundlagen von Markdown, einschließlich Tipps und Tricks zum Formatieren von Text, Erstellen von Links und vielem mehr.
 slug: /markdown-cheat-sheet
 tags:
 - Cheat Sheets
@@ -12,6 +12,8 @@ tags:
 ---
 
 # Markdown Cheat Sheet
+
+Dieses Markdown Cheat Sheet bietet eine umfassende Anleitung zu den Grundlagen von Markdown, einschließlich Tipps und Tricks zum Formatieren von Text, Erstellen von Links und vielem mehr.
 
 > Weitere Informationen über Markdown findest du unter [www.markdownguide.org](https://www.markdownguide.org/getting-started/#whats-markdown)
 
