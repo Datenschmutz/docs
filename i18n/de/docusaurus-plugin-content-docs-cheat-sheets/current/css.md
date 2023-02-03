@@ -2,7 +2,7 @@
 sidebar_position: 9
 sidebar_label: 'CSS Cheat Sheet'
 id: css-cheat-sheet
-description: "Eine Kurzreferenz für CSS"
+description: "Alle wichtigen CSS-Befehle auf einen Blick. Das ultimative Nachschlagewerk für Webentwickler."
 slug: /css-cheat-sheet
 tags:
 - CSS
