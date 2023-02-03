@@ -2,7 +2,7 @@
 sidebar_position: 8
 sidebar_label: 'SQL Commands'
 id: sql-commands
-description: "A quick reference guide for commonly used SQL commands and statements, including basic syntax and examples."
+description: "The ultimate reference for SQL commands. Quickly find the command you need with this easy-to-use cheat sheet."
 slug: /sql-commands
 tags:
 - Cheat Sheet

@@ -2,7 +2,7 @@
 sidebar_position: 3
 sidebar_label: 'Linux Cheat Sheet - Standard'
 id: linux-cmd-basic
-description: Linux CMD Cheat Sheet
+description: Beginne das Erlernen von Linux mit diesem Cheat Sheet mit den wichtigsten Befehlen. Einfach zu folgen und zu verstehen.
 slug: /linux-cmd-basic
 tags:
 - Cheat Sheet

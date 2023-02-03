@@ -2,7 +2,7 @@
 sidebar_position: 9
 sidebar_label: 'CSS Cheat Sheet'
 id: css-cheat-sheet
-description: "A quick reference guide for CSS"
+description: "Get up to speed with CSS fast. A comprehensive CSS cheat sheet for web developers."
 slug: /css-cheat-sheet
 tags:
 - CSS
