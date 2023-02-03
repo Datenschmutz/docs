@@ -4,6 +4,8 @@ sidebar_label: 'Introduction'
 id: intro
 description: Our IT cheat sheet platform offers concise technical information and resources for a fast-paced and challenging industry. With user contributions through GitHub, it aims to become a comprehensive, up-to-date resource for learning and development. Join our community of knowledge and collaboration.
 slug: /intro
+tags:
+- German/Deutsch
 ---
 
 # Welcome to Cheat Sheets!
