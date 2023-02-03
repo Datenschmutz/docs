@@ -2,7 +2,7 @@
 sidebar_position: 1
 sidebar_label: 'Introduction'
 id: intro
-description: Welcome to Cheat Sheets!
+description: Unsere IT-Cheat-Sheet-Plattform bietet dir kompakte technische Infos und Ressourcen für eine schnelle und herausfordernde Branche. Mit Benutzerbeiträgen über GitHub soll es eine umfassende, aktuelle Ressource für dein Lernen und Entwicklung werden. Werde Teil unserer Wissens- und Zusammenarbeitsgemeinschaft.
 slug: /intro
 ---
 
