@@ -2,7 +2,7 @@
 sidebar_position: 3
 sidebar_label: 'Linux Cheat Sheet - Basic'
 id: linux-cmd-basic
-description: Linux CMD Cheat Sheet
+description: Start learning Linux with this cheat sheet of essential commands. Easy to follow and understand.
 slug: /linux-cmd-basic
 tags:
 - Cheat Sheet
@@ -12,7 +12,7 @@ tags:
 - Bash
 ---
 
-# Linux CMD Cheat Sheet - Basic
+# Linux Command Cheat Sheet - Basic
 
 ## File Commands
 
