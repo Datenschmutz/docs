@@ -2,7 +2,7 @@
 sidebar_position: 4
 sidebar_label: 'Bash Coloring'
 id: linux-bash-coloring
-description: Linux Bash Coloring
+description: Quick reference for colorizing your Linux Bash terminal output, includes codes for text & background color, styling, & more.
 slug: /linux-bash-coloring
 tags:
 - Cheat Sheet
