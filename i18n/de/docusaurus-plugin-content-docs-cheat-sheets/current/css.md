@@ -20,137 +20,23 @@ tags:
 
 # CSS Cheat Sheet
 
-:::caution
-Dieses Cheat-Sheet wude noch nicht übersetzt. Hilf mit diese Seite zu übersetzen, in dem du den "Diese seite bearbeiten" am ende der Seite verwendest!
-:::
+Alle wichtigen CSS-Befehle auf einen Blick. Das ultimative Nachschlagewerk für Webentwickler.
 
 ## Box Model
 
-- `width`: Specifies the width of an element
-- `height`: Specifies the height of an element
-- `padding`: Specifies the padding inside an element
-- `border`: Specifies a border around an element
-- `margin`: Specifies the margin outside an element
+- `width`: Gibt die Breite eines Elements an
+- `height`: Legt die Höhe eines Elements fest
+- `padding`: Legt die Abstände innerhalb eines Elementes fest
+- `border`: Legt einen Rahmen um ein Element fest
+- `margin`: Legt den Seitenabstand außerhalb eines Elements fest.
 
 ## Text
 
-- `font-family`: Specifies the font for text
-- `font-size`: Specifies the size of text
-- `color`: Specifies the color of text
-- `text-align`: Specifies the horizontal alignment of text
-- `text-decoration`: Specifies the text decoration (underline, overline, line-through)
-
-## Background
-
-- `background-color`: Specifies the background color of an element
-- `background-image`: Specifies a background image for an element
-- `background-repeat`: Specifies if a background image should repeat or not
-- `background-attachment`: Specifies if a background image is fixed or scrolls with the rest of the page
-
-## Display
-
-- `display`: Specifies how an element should be displayed (inline, block, inline-block, none)
-- `visibility`: Specifies if an element is visible or hidden
-
-## Flexbox
-
-- `display: flex`: Specifies that an element is a flex container
-- `flex-direction`: Specifies the direction of the flex items (row, row-reverse, column, column-reverse)
-- `justify-content`: Specifies how the flex items are aligned along the main axis (flex-start, flex-end, center, space-between, space-around)
-- `align-items`: Specifies how the flex items are aligned along the cross axis (flex-start, flex-end, center, baseline, stretch)
-
-## Positioning
-
-- `position`: Specifies the type of positioning for an element (static, relative, absolute, fixed)
-- `top`: Specifies the distance of an element from the top of its containing element
-- `bottom`: Specifies the distance of an element from the bottom of its containing element
-- `left`: Specifies the distance of an element from the left of its containing element
-- `right`: Specifies the distance of an element from the right of its containing element
-
-## Transforms
-
-- `transform`: Specifies the transformation to be applied to an element
-- `translate`: Specifies the translation (movement) of an element in the x and y axis
-- `rotate`: Specifies the rotation of an element
-- `scale`: Specifies the scaling of an element in the x and y axis
-- `skew`: Specifies the skewing of an element in the x and y axis
-
-## Transitions
-
-- `transition`: Specifies the transition effect for an element
-- `transition-property`: Specifies the CSS property to which the transition effect should be applied
-- `transition-duration`: Specifies the duration of the transition effect
-- `transition-timing-function`: Specifies the speed curve of the transition effect
-- `transition-delay`: Specifies the delay before the transition effect starts
-
-## Animations
-
-- `animation`: Specifies the animation for an element
-- `animation-name`: Specifies the name of the @keyframes animation
-- `animation-duration`: Specifies the duration of the animation
-- `animation-timing-function`: Specifies the speed curve of the animation
-- `animation-delay`: Specifies the delay before the animation starts
-- `animation-iteration-count`: Specifies the number of times the animation should run
-- `animation-direction`: Specifies the direction of the animation (normal, reverse, alternate, alternate-reverse)
-
-## Border
-
-- `border-width`: Specifies the width of an element's border
-- `border-style`: Specifies the style of an element's border (solid, dotted, dashed, double, groove, ridge, inset, outset)
-- `border-color`: Specifies the color of an element's border
-- `border-radius`: Specifies the rounding of an element's corners
-
-## Shadows
-
-- `box-shadow`: Specifies a shadow for an element
-- `text-shadow`: Specifies a shadow for text
-
-## Typography
-
-- `line-height`: Specifies the height of a line of text
-- `letter-spacing`: Specifies the spacing between characters in text
-- `word-spacing`: Specifies the spacing between words in text
-- `text-transform`: Specifies the capitalization of text (none, capitalize, uppercase, lowercase)
-
-## Lists
-
-- `list-style`: Specifies the style of a list (disc, circle, square, none)
-- `list-style-position`: Specifies the position of the list marker (inside, outside)
-- `list-style-image`: Specifies an image as the list marker
-
-## Tables
-
-- `border-collapse`: Specifies whether table borders should be collapsed into a single border or separated
-- `border-spacing`: Specifies the distance between the borders of adjacent cells
-- `caption-side`: Specifies the position of the table caption (top, bottom)
-- `empty-cells`: Specifies whether or not to display borders and backgrounds for empty cells in a table
-
-## Flexbox
-
-- `display: flex`: Specifies that an element should be displayed as a flex container
-- `flex-direction`: Specifies the direction of the main axis of a flex container (row, row-reverse, column, column-reverse)
-- `flex-wrap`: Specifies whether flex items should wrap or not (nowrap, wrap, wrap-reverse)
-- `flex-flow`: Shorthand property for `flex-direction` and `flex-wrap`
-- `justify-content`: Specifies the alignment of flex items along the main axis (flex-start, flex-end, center, space-between, space-around)
-- `align-items`: Specifies the alignment of flex items along the cross axis (flex-start, flex-end, center, baseline, stretch)
-- `align-content`: Specifies the alignment of a flex container's lines within the flex container when there is extra space along the cross axis (flex-start, flex-end, center, space-between, space-around, stretch)
-
-## Grid
-
-- `display: grid`: Specifies that an element should be displayed as a grid container
-- `grid-template-columns`: Specifies the size and number of columns in a grid
-- `grid-template-rows`: Specifies the size and number of rows in a grid
-- `grid-template-areas`: Specifies named grid areas
-- `grid-column-gap`: Specifies the size of the gap between columns in a grid
-- `grid-row-gap`: Specifies the size of the gap between rows in a grid
-- `grid-gap`: Shorthand property for `grid-column-gap` and `grid-row-gap`
-- `justify-items`: Specifies the alignment of grid items along the row axis (start, end, center, stretch)
-- `align-items`: Specifies the alignment of grid items along the column axis (start, end, center, stretch)
-- `justify-content`: Specifies the alignment of grid items along the row axis within the grid area (start, end, center space-between, space-around)
-- `align-content`: Specifies the alignment of grid items along the column axis within the grid area (start, end, center, space-between, space-around, stretch)
-
-## Text
-
+- `font-family`: Gibt die Schriftart für den Text an
+- `font-size`: Legt die Größe des Textes fest
+- `color`: Legt die Farbe des Textes fest
+- `text-align`: Legt die horizontale Ausrichtung des Textes fest
+- `text-decoration`: Legt die Textdekoration fest (unterstrichen, überstrichen, durchgestrichen)
 - `text-align`: Specifies the horizontal alignment of text (left, right, center, justify)
 - `text-decoration`: Specifies the decoration of text (none, underline, overline, line-through, blink)
 - `text-indent`: Specifies the indentation of the first line of text in a block
@@ -159,46 +45,145 @@ Dieses Cheat-Sheet wude noch nicht übersetzt. Hilf mit diese Seite zu übersetz
 - `vertical-align`: Specifies the vertical alignment of an inline-level element in a line box (baseline, text-top, middle, text-bottom, super, sub)
 - `white-space`: Specifies how white space inside an element should be handled (normal, pre, nowrap, pre-wrap, pre-line)
 
-## Backgrounds
+## Hintergrund
 
-- `background`: Specifies all the background-related properties in one line of code
-- `background-color`: Specifies the background color of an element
-- `background-image`: Specifies an image as the background of an element
-- `background-repeat`: Specifies if and how a background image should repeat (repeat, repeat-x, repeat-y, no-repeat)
-- `background-attachment`: Specifies whether a background image should be fixed or scroll with the rest of the page (scroll, fixed)
-- `background-position`: Specifies the position of a background image (top, bottom, left, right, center)
+- `background-color`: Gibt die Hintergrundfarbe eines Elementes an
+- `background-image`: Legt ein Hintergrundbild für ein Element fest
+- `background-repeat`: Legt fest, ob ein Hintergrundbild wiederholt werden soll oder nicht
+- `background-attachment`: Legt fest, ob ein Hintergrundbild fixiert ist oder mit dem Rest der Seite scrollt
 
-## Borders
+## Display
 
-- `border`: Specifies a border for an element
-- `border-width`: Specifies the width of a border
-- `border-style`: Specifies the style of a border (solid, dotted, dashed, double, groove, ridge, inset, outset)
-- `border-color`: Specifies the color of a border
-- `border-top`, `border-right`, `border-bottom`, `border-left`: Specifies the width, style, and color of a border for each individual side of an element
-- `border-radius`: Specifies the rounding of the corners of a border
+- `display`: Gibt an, wie ein Element angezeigt werden soll (inline, block, inline-block, none)
+- `visibility`: Legt fest, ob ein Element sichtbar oder verborgen ist
 
-## Dimensions
+## Flexbox
 
-- `width`: Specifies the width of an element
-- `height`: Specifies the height of an element
-- `max-width`: Specifies the maximum width of an element
-- `max-height`: Specifies the maximum height of an element
-- `min-width`: Specifies the minimum width of an element
-- `min-height`: Specifies the minimum height of an element
+- `display: flex`: Gibt an, dass ein Element ein Flex-Container ist
+- `flex-direction`: Gibt die Richtung der Flex-Elemente an (Zeile, Zeile-umgekehrt, Spalte, Spalte-umgekehrt)
+- `justify-content`: Legt fest, wie die Flex-Elemente entlang der Hauptachse ausgerichtet werden (flex-start, flex-end, center, space-between, space-around)
+- `align-items`: Legt fest, wie die Flex-Elemente entlang der Querachse ausgerichtet werden (flex-start, flex-end, center, baseline, stretch)
+- `display: flex`: Gibt an, dass ein Element als Flex-Container angezeigt werden soll
+- `flex-direction`: Gibt die Richtung der Hauptachse eines Flex-Containers an (Zeile, Zeilenumkehr, Spalte, Spaltenumkehr)
+- `flex-wrap`: Gibt an, ob Flex-Elemente umbrochen werden sollen oder nicht (nowrap, wrap, wrap-reverse)
+- `flex-flow`: Shorthand-Eigenschaft für `flex-direction` und `flex-wrap`
+- `justify-content`: Legt die Ausrichtung der Flex-Elemente entlang der Hauptachse fest (flex-start, flex-end, center, space-between, space-around)
+- `align-items`: Gibt die Ausrichtung von Flex-Elementen entlang der Querachse an (Flex-Start, Flex-Ende, Mitte, Grundlinie, Dehnung)
+- `align-content`: Gibt die Ausrichtung der Zeilen eines Flex-Containers innerhalb des Flex-Containers an, wenn entlang der Querachse zusätzlicher Platz vorhanden ist (flex-start, flex-end, center, space-between, space-around, stretch)
+
+## Positionierung
+
+- `position`: Gibt die Art der Positionierung für ein Element an (statisch, relativ, absolut, fest)
+- `top`: Bestimmt den Abstand eines Elements vom oberen Rand des Elements, das es enthält
+- `bottom`: Gibt den Abstand eines Elements vom unteren Rand des Elements an, das es enthält
+- `left`: Gibt den Abstand eines Elements von der linken Seite des Elements an, das es enthält
+- `right`: Gibt den Abstand eines Elements von der rechten Seite des Elements an, das es enthält.
+
+## Transforms
+
+- `transform`: Gibt die auf ein Element anzuwendende Transformation an
+- `translate`: Gibt die Verschiebung (Bewegung) eines Elements in der x- und y-Achse an
+- `rotate`: Legt die Rotation eines Elements fest
+- `scale`: Legt die Skalierung eines Elements in der x- und y-Achse fest
+- `skew`: Legt die Schrägstellung eines Elements in der x- und y-Achse fest
+
+## Übergänge
+
+- `transition`: Gibt den Übergangseffekt für ein Element an
+- `transition-property`: Legt die CSS-Eigenschaft fest, auf die der Übergangseffekt angewendet werden soll
+- `transition-duration`: Legt die Dauer des Übergangseffekts fest
+- `transition-timing-function`: Legt die Geschwindigkeitskurve des Übergangseffekts fest
+- `transition-delay`: Legt die Verzögerung vor dem Beginn des Übergangseffekts fest
+
+## Animationen
+
+- `animation`: Gibt die Animation für ein Element an
+- `animation-name`: Legt den Namen der @keyframes-Animation fest
+- `animation-duration`: Legt die Dauer der Animation fest
+- `animation-timing-function`: Legt die Geschwindigkeitskurve der Animation fest
+- `animation-delay`: Legt die Verzögerung vor dem Start der Animation fest
+- `animation-iteration-count`: Gibt an, wie oft die Animation laufen soll
+- `animation-direction`: Legt die Richtung der Animation fest (normal, rückwärts, alternierend, alternierend-rückwärts)
+
+## Border
+
+- `border`: Legt einen Rahmen für ein Element fest
+- `border-width`: Gibt die Breite des Rahmens eines Elements an
+- `border-style`: Gibt den Stil der Umrandung eines Elements an (einfarbig, gepunktet, gestrichelt, doppelt, Rille, Grat, Einfügung, Vorsprung)
+- `border-color`: Legt die Farbe des Rahmens eines Elements fest.
+- `border-top`, `border-right`, `border-bottom`, `border-left`: Gibt die Breite, den Stil und die Farbe eines Rahmens für jede einzelne Seite eines Elements an
+- `border-radius`: Bestimmt die Abrundung der Ecken eines Rahmens
+
+## Schatten
+
+- `box-shadow`: Gibt einen Schatten für ein Element an
+- `text-shadow`: Legt einen Schatten für Text fest
+
+## Typografie
+
+- `line-height`: Gibt die Höhe einer Textzeile an
+- `letter-spacing`: Legt den Abstand zwischen den Zeichen im Text fest
+- `word-spacing`: Legt den Abstand zwischen den Wörtern im Text fest
+- `text-transform`: Legt die Großschreibung des Textes fest (keine, Großschreibung, Großbuchstaben, Kleinbuchstaben)
+
+## Listen
+
+- `list-style`: Gibt den Stil einer Liste an (Scheibe, Kreis, Quadrat, keine)
+- `list-style-position`: Gibt die Position der Listenmarkierung an (innen, außen)
+- `list-style-image`: Gibt ein Bild als Listenmarkierung an
+
+## Tabellen
+
+- `border-collapse`: Legt fest, ob Tabellenränder zu einem einzigen Rahmen zusammengeklappt oder getrennt werden sollen
+- `border-spacing`: Gibt den Abstand zwischen den Rändern benachbarter Zellen an
+- `caption-side`: Gibt die Position der Tabellenüberschrift an (oben, unten)
+- `empty-cells`: Gibt an, ob Rahmen und Hintergründe für leere Zellen in einer Tabelle angezeigt werden sollen oder nicht
+
+## Raster
+
+- `display: grid`: Gibt an, dass ein Element als Grid-Container angezeigt werden soll
+- `grid-template-columns`: Gibt die Größe und Anzahl der Spalten in einem Gitter an
+- `grid-template-rows`: Gibt die Größe und Anzahl der Zeilen in einem Gitter an
+- `grid-template-areas`: Legt benannte Gitterbereiche fest
+- `grid-column-gap`: Gibt die Größe des Abstandes zwischen den Spalten in einem Raster an
+- `grid-row-gap`: Gibt die Größe des Abstands zwischen den Zeilen in einem Gitter an
+- `grid-gap`: Shorthand-Eigenschaft für `grid-column-gap` und `grid-row-gap`.
+- `justify-items`: Legt die Ausrichtung der Gitterelemente entlang der Zeilenachse fest (Anfang, Ende, Mitte, Dehnung)
+- `align-items`: Legt die Ausrichtung der Gitterelemente entlang der Spaltenachse fest (Anfang, Ende, Mitte, Dehnung)
+- `justify-content`: Legt die Ausrichtung von Gitterelementen entlang der Zeilenachse innerhalb des Gitterbereichs fest (Anfang, Ende, Mitte, Zwischenraum, Raum-um)
+- `align-content`: Legt die Ausrichtung von Gitterelementen entlang der Spaltenachse innerhalb des Gitterbereichs fest (Anfang, Ende, Mitte, Zwischenraum zwischen den Spalten, Zwischenraum um die Spalten, Dehnung)
+
+## Hintergrund
+
+- `background`: Legt alle hintergrundbezogenen Eigenschaften in einer einzigen Codezeile fest
+- `background-color`: Gibt die Hintergrundfarbe eines Elements an
+- `background-image`: Legt ein Bild als Hintergrund für ein Element fest
+- `background-repeat`: Gibt an, ob und wie ein Hintergrundbild wiederholt werden soll (repeat, repeat-x, repeat-y, no-repeat)
+- `background-attachment`: Gibt an, ob ein Hintergrundbild fixiert oder mit dem Rest der Seite verschoben werden soll (scroll, fixed)
+- `background-position`: Gibt die Position eines Hintergrundbildes an (oben, unten, links, rechts, mittig)
+
+## Dimensionen
+
+- `width`: Gibt die Breite eines Elements an
+- `height`: Gibt die Höhe eines Elements an
+- `max-width`: Gibt die maximale Breite eines Elements an
+- `max-height`: Gibt die maximale Höhe eines Elements an
+- `min-width`: Gibt die Mindestbreite eines Elements an
+- `min-height`: Gibt die Mindesthöhe eines Elements an
 
 ## Margins
 
-- `margin`: Specifies the margin of an element (can be set for all sides with one property, or for each side individually with `margin-top`, `margin-right`, `margin-bottom`, `margin-left`)
-- `auto`: Lets the browser calculate the margin
+- `margin`: Gibt den Rand eines Elements an (kann für alle Seiten mit einer Eigenschaft oder für jede Seite einzeln mit `margin-top`, `margin-right`, `margin-bottom`, `margin-left` festgelegt werden)
+- `auto`: Lässt den Browser den Rand berechnen
 
 ## Padding
 
-- `padding`: Specifies the padding of an element (can be set for all sides with one property, or for each side individually with `padding-top`, `padding-right`, `padding-bottom`, `padding-left`)
+- `padding`: Bestimmt die Auffüllung eines Elements (kann für alle Seiten mit einer Eigenschaft oder für jede Seite einzeln mit `padding-top`, `padding-right`, `padding-bottom`, `padding-left` festgelegt werden)
 
-## Miscellaneous
+## Sonstiges
 
-- `opacity`: Specifies the opacity of an element
-- `overflow`: Specifies what to do if content overflows an element's box (visible, hidden, scroll, auto)
-- `cursor`: Specifies the type of cursor to be displayed (default, pointer, auto, etc.)
-- `transition`: Specifies the transition effect for an element to change from one style to another (property, duration, timing-function, delay)
-- `transform`: Specifies a two-dimensional transformation for an element (scale, rotate, translate, skew)
+- `opacity`: Gibt die Deckkraft eines Elements an
+- `overflow`: Legt fest, was zu tun ist, wenn der Inhalt den Rahmen eines Elements übersteigt (sichtbar, verborgen, scrollen, auto)
+- `cursor`: Gibt die Art des anzuzeigenden Cursors an (Standard, Zeiger, Auto usw.)
+- `transition`: Gibt den Übergangseffekt für ein Element an, um von einem Stil zu einem anderen zu wechseln (Eigenschaft, Dauer, Zeitfunktion, Verzögerung)
+- `transform`: Gibt eine zweidimensionale Transformation für ein Element an (Skalieren, Drehen, Übersetzen, Schrägstellen)
