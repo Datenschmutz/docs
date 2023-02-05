@@ -19,6 +19,8 @@ tags:
 
 # CSS Cheat Sheet
 
+Get up to speed with CSS fast. A comprehensive CSS cheat sheet for web developers.
+
 ## Box Model
 
 - `width`: Specifies the width of an element
@@ -34,6 +36,11 @@ tags:
 - `color`: Specifies the color of text
 - `text-align`: Specifies the horizontal alignment of text
 - `text-decoration`: Specifies the text decoration (underline, overline, line-through)
+- `text-indent`: Specifies the indentation of the first line of text in a block
+- `text-shadow`: Specifies a shadow for text
+- `text-transform`: Specifies the capitalization of text (none, capitalize, uppercase, lowercase)
+- `vertical-align`: Specifies the vertical alignment of an inline-level element in a line box (baseline, text-top, middle, text-bottom, super, sub)
+- `white-space`: Specifies how white space inside an element should be handled (normal, pre, nowrap, pre-wrap, pre-line)
 
 ## Background
 
@@ -53,6 +60,10 @@ tags:
 - `flex-direction`: Specifies the direction of the flex items (row, row-reverse, column, column-reverse)
 - `justify-content`: Specifies how the flex items are aligned along the main axis (flex-start, flex-end, center, space-between, space-around)
 - `align-items`: Specifies how the flex items are aligned along the cross axis (flex-start, flex-end, center, baseline, stretch)
+- `flex-wrap`: Specifies whether flex items should wrap or not (nowrap, wrap, wrap-reverse)
+- `flex-flow`: Shorthand property for `flex-direction` and `flex-wrap`
+- `justify-content`: Specifies the alignment of flex items along the main axis (flex-start, flex-end, center, space-between, space-around)
+- `align-content`: Specifies the alignment of a flex container's lines within the flex container when there is extra space along the cross axis (flex-start, flex-end, center, space-between, space-around, stretch)
 
 ## Positioning
 
@@ -120,16 +131,6 @@ tags:
 - `caption-side`: Specifies the position of the table caption (top, bottom)
 - `empty-cells`: Specifies whether or not to display borders and backgrounds for empty cells in a table
 
-## Flexbox
-
-- `display: flex`: Specifies that an element should be displayed as a flex container
-- `flex-direction`: Specifies the direction of the main axis of a flex container (row, row-reverse, column, column-reverse)
-- `flex-wrap`: Specifies whether flex items should wrap or not (nowrap, wrap, wrap-reverse)
-- `flex-flow`: Shorthand property for `flex-direction` and `flex-wrap`
-- `justify-content`: Specifies the alignment of flex items along the main axis (flex-start, flex-end, center, space-between, space-around)
-- `align-items`: Specifies the alignment of flex items along the cross axis (flex-start, flex-end, center, baseline, stretch)
-- `align-content`: Specifies the alignment of a flex container's lines within the flex container when there is extra space along the cross axis (flex-start, flex-end, center, space-between, space-around, stretch)
-
 ## Grid
 
 - `display: grid`: Specifies that an element should be displayed as a grid container
@@ -143,16 +144,6 @@ tags:
 - `align-items`: Specifies the alignment of grid items along the column axis (start, end, center, stretch)
 - `justify-content`: Specifies the alignment of grid items along the row axis within the grid area (start, end, center space-between, space-around)
 - `align-content`: Specifies the alignment of grid items along the column axis within the grid area (start, end, center, space-between, space-around, stretch)
-
-## Text
-
-- `text-align`: Specifies the horizontal alignment of text (left, right, center, justify)
-- `text-decoration`: Specifies the decoration of text (none, underline, overline, line-through, blink)
-- `text-indent`: Specifies the indentation of the first line of text in a block
-- `text-shadow`: Specifies a shadow for text
-- `text-transform`: Specifies the capitalization of text (none, capitalize, uppercase, lowercase)
-- `vertical-align`: Specifies the vertical alignment of an inline-level element in a line box (baseline, text-top, middle, text-bottom, super, sub)
-- `white-space`: Specifies how white space inside an element should be handled (normal, pre, nowrap, pre-wrap, pre-line)
 
 ## Backgrounds
 
