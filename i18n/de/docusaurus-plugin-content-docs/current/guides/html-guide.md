@@ -19,7 +19,7 @@ tags:
 # Learn HTML: A Comprehensive Guide for Beginners and Pros
 
 :::caution
-Wir brauchen deine Hilfe! Diesen Guide wude noch nicht übersetzt. Hilf mit diese Seite zu übersetzen, in dem du den "[✎Diese seite bearbeiten](https://github.com/datenschmutz/docs/tree/main/i18n/de/docusaurus-plugin-content-docs-cheat-sheets/current/html.md)" button verwendest! DANKE!
+Wir brauchen deine Hilfe! Diesen Guide wude noch nicht übersetzt. Hilf mit diese Seite zu übersetzen, in dem du den "[✎Diese seite bearbeiten](https://github.com/datenschmutz/docs/tree/main/i18n/de/docusaurus-plugin-content-docs/current/guides/html-guide.md)" button verwendest! DANKE!
 :::
 
 ## 1. Introduction to HTML
