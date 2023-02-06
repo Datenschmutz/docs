@@ -40,6 +40,11 @@ The first line of an HTML document should be the Document Type Declaration, whic
 ```
 
 ### HTML Elements
+
+:::info
+**A compact and comprehensive HTML cheat sheet can be found here [*Markdown Cheat Sheet*](../cheat-sheets/html-cheat-sheet)**
+:::
+
 HTML elements are the building blocks of a web page. They consist of a tag, surrounded by angle brackets, and content, which is placed between the opening and closing tags.
 
 For example:
