@@ -6,7 +6,7 @@ description: Aktuelle TeamSpeak-Badge-Liste
 slug: /teamspeak-badges
 last_update:
   author: Fabian
-  date: 01/25/2023
+  date: 02/18/2023
 tags:
   - TeamSpeak
   - List
@@ -17,7 +17,7 @@ tags:
 # TeamSpeak Badge Liste
 
 :::info
-Letzte Aktualisierung: 25.01.2023<br/>
+Letzte Aktualisierung: 18.02.2023<br/>
 Datumsformat: tt-mm-jjjj
 :::
 
@@ -33,6 +33,17 @@ Datumsformat: tt-mm-jjjj
 </details>
 
 ---
+
+## Valentine’s Day 2023
+
+![ts](/img/cheat-sheets/teamspeak-badges/ValentinesDay23_details.svg)
+![ts](/img/cheat-sheets/teamspeak-badges/ValentinesDay23.svg)
+>Love you like my Tamagotchi<br/>
+>GUID: 958f904b-8260-48a4-a961-f786cbd39411
+
+```md title='Badge Code: (Available until: 01.01.2024)'
+VLTND23
+```
 
 ## Year of the Rabbit 2023
 
