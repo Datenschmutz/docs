@@ -19,7 +19,7 @@ tags:
 # HTML Cheat Sheet: The Most Comprehensive Guide to Common HTML Tags
 
 :::caution
-Wir brauchen deine Hilfe! Dieses Cheat-Sheet wude noch nicht übersetzt. Hilf mit diese Seite zu übersetzen, in dem du den "[✎Diese seite bearbeiten](https://github.com/datenschmutz/docs/tree/main/i18n/de/docusaurus-plugin-content-docs-cheat-sheets/current/html.md)" button verwendest! DANKE!
+Wir brauchen deine Hilfe! Dieses Cheat-Sheet wude noch nicht übersetzt. Hilf mit diese Seite zu übersetzen, in dem du den [**✎Diese seite bearbeiten**](https://github.com/datenschmutz/docs/tree/main/i18n/de/docusaurus-plugin-content-docs-cheat-sheets/current/html.md) button verwendest! DANKE!
 :::
 
 This comprehensive HTML cheat sheet covers the essential HTML elements, attributes, and tags. Perfect for web developers and beginners to quickly reference and improve their HTML skills.
