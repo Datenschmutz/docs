@@ -62,5 +62,9 @@
   "link.item.label.What does Datenschmutz mean?": {
     "message": "Was bedeutet Datenschmutz?",
     "description": "The label of footer link with label=What does Datenschmutz mean? linking to /datenschmutz"
+  },
+  "link.item.label.Datenschmutz Events (Usefull Calendars)": {
+    "message": "Datenschmutz Events (Usefull Calendars)",
+    "description": "The label of footer link with label=Datenschmutz Events (Usefull Calendars) linking to https://events.datenschmutz.dev"
   }
 }
