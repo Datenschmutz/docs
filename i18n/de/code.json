@@ -286,26 +286,6 @@
     "message": "Öffne Docs! 📝",
     "description": "homepage main button text"
   },
-  "Work in progress": {
-    "message": "Website in Arbeit",
-    "description": "Homepage left text section Title"
-  },
-  "You are looking for something?": {
-    "message": "Du suchst etwas Bestimmtes?",
-    "description": "Homepage middle text section Title"
-  },
-  "Well then we hope you find it here! If not and you think it would fit well in here, but do not want to create a doc yourself create a GitHub Issue. Maybe we will take care of it then.": {
-    "message": "Nun, dann hoffen wir, dass du es hier findest! Wenn nicht und du denkst, dass es gut hierher passen würde, du aber nicht selbst ein Dokumentation erstellen möchtest, dann erstelle einen GitHub Issue. Vielleicht kümmern wir uns dann darum.",
-    "description": "Homepage middle text section Title"
-  },
-  "You got the missing piece?": {
-    "message": "Du hast das fehlende Teil?",
-    "description": "Homepage right text section Title"
-  },
-  "Homepage.right.txt.cont": {
-    "message": "Du hast einen Fehler gefunden oder kannst etwas zu einer Dokumentation hinzufügen? Benutze den Button \"Diese Seite bearbeiten\" unten auf der Seite und teile dein Wissen mit anderen!",
-    "description": "Homepage right text section conent"
-  },
   "A gaming project by Fabian with associated Teamspeak and forum": {
     "message": "Ein Gaming-Projekt von Fabian mit zugehörigem Teamspeak und Forum"
   },
@@ -318,10 +298,6 @@
   "Check it out!": {
     "message": "Schau Vorbei!",
     "description": "Projects-Visit-Button"
-  },
-  "We are just getting started with this website. Please get involved and share your knowledge, e.g. about tools not covered, bugs or improvements.": {
-    "message": "Wir fangen gerade erst mit dieser Website an. Wir arbeiten daran. Bitte beteilige dich und teile dein Wissen, z.B. über nicht abgedeckte Tools, Fehler oder Verbesserungen.",
-    "description": "Homepage left text section conent"
   },
   "theme.SearchBar.seeAll": {
     "message": "Alle {count} Ergebnisse anzeigen"
@@ -453,5 +429,37 @@
   "theme.SearchModal.placeholder": {
     "message": "Durchsuche docs",
     "description": "The placeholder of the input of the DocSearch pop-up modal"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "Main",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Docs sidebar",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "Homepage.left.text.title": {
+    "message": "Von allen für alle",
+    "description": "Homepage left text section Title"
+  },
+  "Homepage.left.text": {
+    "message": "Unsere Plattform lebt von den Beiträgen einer lebendigen Community von Technikbegeisterten und Experten. Egal, ob du ein erfahrener IT-Experte bist oder gerade erst anfängst, du kannst dein Wissen weitergeben und anderen helfen, indem du Inhalte zu unserer Website hinzufügst. Gemeinsam können wir eine wertvolle Ressource für alle Mitglieder der Tech-Community schaffen.",
+    "description": "Homepage left text section conent"
+  },
+  "Homepage.middle.text.title": {
+    "message": "Du suchst etwas Bestimmtes??",
+    "description": "Homepage middle text section Title"
+  },
+  "Homepage.middle.text": {
+    "message": "Dann hoffen wir, dass du hier fündig wirst! Unsere Community fügt ständig Inhalte hinzu und aktualisiert sie, um die aktuellsten und genauesten Informationen bereitzustellen. Wenn nicht und du denkst, dass es gut hierher passen würde, du aber nicht selbst ein Dokument erstellen möchtest, dann erstelle einen GitHub Issue. Vielleicht werden wir uns dann darum kümmern.",
+    "description": "Homepage middle text section"
+  },
+  "Homepage.right.text.title": {
+    "message": "Du hast das fehlende Teil?",
+    "description": "Homepage right text section Title"
+  },
+  "Homepage.right.text": {
+    "message": "Du hast einen Fehler gefunden oder kannst etwas zu einer Dokumentation hinzufügen? Verwende doch einfach den Button \"Diese Seite bearbeiten\" unten auf der Seite und teile dein Wissen mit anderen!",
+    "description": "Homepage right text section conent"
   }
 }
