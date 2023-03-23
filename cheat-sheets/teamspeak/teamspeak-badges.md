@@ -35,8 +35,8 @@ Date Format: dd-mm-yyyy
 
 ## Happy Hanami
 
-![ts](/img/cheat-sheets/teamspeak-badges/ValentinesDay23_details.svg)
-![ts](/img/cheat-sheets/teamspeak-badges/ValentinesDay23.svg)
+![ts](/img/cheat-sheets/teamspeak-badges/hanami2023_details.svg)
+![ts](/img/cheat-sheets/teamspeak-badges/hanami2023.svg)
 >Enjoy the view<br/>
 >GUID: e6679ce2-d458-493c-8ffb-5660e47ac99f
 
