@@ -6,7 +6,7 @@ description: Up to date TeamSpeak badge list
 slug: /teamspeak-badges
 last_update:
   author: Fabian
-  date: 02/18/2023
+  date: 03/30/2023
 tags:
   - TeamSpeak
   - List
@@ -16,7 +16,7 @@ tags:
 # TeamSpeak Badge List
 
 :::info
-Last Update: 18.02.2023<br/>
+Last Update: 30.03.2023<br/>
 Date Format: dd-mm-yyyy
 :::
 
@@ -32,6 +32,16 @@ Date Format: dd-mm-yyyy
 </details>
 
 ---
+
+## World Backup Day
+
+![ts](/img/cheat-sheets/teamspeak-badges/world-backup-day.png)
+>Don’t be an April Fool. Back up your data!<br/>
+>GUID: c54a9f92-07f7-4214-90f3-eafeea8005da
+
+```md title='Badge Code: (Available until: ?)'
+?
+```
 
 ## Happy Hanami
 
