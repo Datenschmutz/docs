@@ -6,7 +6,7 @@ description: Up to date TeamSpeak badge list
 slug: /teamspeak-badges
 last_update:
   author: Fabian
-  date: 03/30/2023
+  date: 03/31/2023
 tags:
   - TeamSpeak
   - List
@@ -16,7 +16,7 @@ tags:
 # TeamSpeak Badge List
 
 :::info
-Last Update: 30.03.2023<br/>
+Last Update: 31.03.2023<br/>
 Date Format: dd-mm-yyyy
 :::
 
@@ -40,7 +40,7 @@ Date Format: dd-mm-yyyy
 >GUID: c54a9f92-07f7-4214-90f3-eafeea8005da
 
 ```md title='Badge Code: (Available until: ?)'
-?
+WRLDBCKPDY
 ```
 
 ## Happy Hanami
