@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdatenschmutz_docs=self.webpackChunkdatenschmutz_docs||[]).push([[3561],{76975:s=>{s.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"cheat-sheets"}')}}]);
