@@ -6,7 +6,7 @@ description: Up to date TeamSpeak badge list
 slug: /teamspeak-badges
 last_update:
   author: Fabian
-  date: 03/31/2023
+  date: 04/04/2023
 tags:
   - TeamSpeak
   - List
@@ -16,7 +16,7 @@ tags:
 # TeamSpeak Badge List
 
 :::info
-Last Update: 31.03.2023<br/>
+Last Update: 04.04.2023<br/>
 Date Format: dd-mm-yyyy
 :::
 
@@ -35,11 +35,18 @@ Date Format: dd-mm-yyyy
 
 ## World Backup Day
 
-![ts](/img/cheat-sheets/teamspeak-badges/world-backup-day.png)
+![ts](/img/cheat-sheets/teamspeak-badges/backupday_2023_details.svg)
+![ts](/img/cheat-sheets/teamspeak-badges/backupday_2023.svg)
+
+>This was originally the "World Backup Day" badge, released on 31 March 2023. As part of this year's April Fool's Day prank, the badge was later changed to a broken image symbol, indicating that no backup had been created for the original badge.
+
+![ts](/img/cheat-sheets/teamspeak-badges/original_backupday_2023_details.png)
+![ts](/img/cheat-sheets/teamspeak-badges/original_backupday_2023.png)
+
 >Don’t be an April Fool. Back up your data!<br/>
 >GUID: c54a9f92-07f7-4214-90f3-eafeea8005da
 
-```md title='Badge Code: (Available until: ?)'
+```md title='Badge Code: (Available until: 09.04.2023)'
 WRLDBCKPDY
 ```
 
