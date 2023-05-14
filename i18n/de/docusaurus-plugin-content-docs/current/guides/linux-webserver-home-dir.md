@@ -6,7 +6,7 @@ description: Diese Anleitung erklärt, wie man das Stammverzeichnis eines Linux-
 slug: /linux-webserver-home-dir
 last_update:
   author: Fabian
-  date: 12/19/2022
+  date: 05/14/2023
 tags:
 - Guide
 - Linux
@@ -21,8 +21,7 @@ tags:
 
 # Linux/Ubuntu Webserver-Stammverzeichnis ändern
 
-Diese Anleitung erklärt, wie man das Stammverzeichnis eines Linux-Webservers ändert.
-Ändere das Standardverzeichnis von `/var/www/html` in ein anderes.
+In dieser Anleitung wird erläutert, wie das Stammverzeichnis eines Linux-Webservers geändert werden kann, indem das Standardverzeichnis von `/var/www/html` in ein anderes Verzeichnis geändert wird.
 
 ## Neues Stammverzeichnis erstellen
 
