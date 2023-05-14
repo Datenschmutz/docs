@@ -6,7 +6,7 @@ description: This guide explains how to change the Linux Webserver home director
 slug: /linux-webserver-home-dir
 last_update:
   author: Fabian
-  date: 12/19/2022
+  date: 05/14/2023
 tags:
 - Guide
 - Linux
@@ -20,8 +20,7 @@ tags:
 
 # Change Linux/Ubuntu Webserver home directory
 
-This guide explains how to change the Linux Webserver home directory.
-Change default directory from `/var/www/html` to another one.
+This guide explains how to change the root directory of a Linux web server by changing the default directory from `/var/www/html` to a different one.
 
 ## Create new home directory
 
