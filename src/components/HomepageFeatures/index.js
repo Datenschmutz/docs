@@ -29,8 +29,7 @@ const FeatureList = [
     Svg: require('@site/static/img/missing-piece.svg').default,
     description: (
       <Translate id='Homepage.right.text' description="Homepage right text section conent">
-          You' ve found a bug or can add something to a documentation?
-          Feel free to use the "Edit this page" button at the bottom of the page and share your knowledge with others!
+      If you've come across a bug  or have discovered something that could improve the documentation, don't hesitate to take action and contribute to the community. By using the "Edit this page" button located at the bottom of the page, you can easily make changes or additions to the content and share your insights with others. So don't be shy - take the initiative and start contributing today!
       </Translate>
     ),
   },
