@@ -6,7 +6,7 @@ description: Aktuelle TeamSpeak-Badge-Liste
 slug: /teamspeak-badges
 last_update:
   author: Fabian
-  date: 04/04/2023
+  date: 05/15/2023
 tags:
   - TeamSpeak
   - List
@@ -17,7 +17,7 @@ tags:
 # TeamSpeak Badge Liste
 
 :::info
-Letzte Aktualisierung: 04.04.2023<br/>
+Letzte Aktualisierung: 15.05.2023<br/>
 :::
 
 <details>
@@ -32,6 +32,16 @@ Letzte Aktualisierung: 04.04.2023<br/>
 </details>
 
 ---
+
+## World Bonsai Day
+
+![ts](/img/cheat-sheets/teamspeak-badges/World-Bonsai-Day.png)
+>harmony, balance, patience<br/>
+>GUID: 448a6d13-4e08-46a1-aafa-b4ff6d6c2d06
+
+```md title='Badge Code: (Available until: TBD)'
+WLRDBONSAIDAY
+```
 
 ## World Backup Day
 
