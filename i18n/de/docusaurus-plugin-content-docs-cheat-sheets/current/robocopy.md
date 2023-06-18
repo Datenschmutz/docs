@@ -2,7 +2,7 @@
 sidebar_position: 12
 sidebar_label: 'Robocopy Cheat Sheet'
 id: robocopy-cheat-sheet
-description: This comprehensive Robocopy cheat sheet provides a complete guide with all available options. Learn how to use Robocopy effectively and efficiently.
+description: Dieses umfassende Robocopy-Cheat Sheet bietet eine vollständige Anleitung mit allen verfügbaren Optionen. Erfahre, wie du Robocopy effektiv und effizient einsetzen kannst.
 slug: /robocopy-cheat-sheet
 tags:
 - Robocopy
@@ -19,79 +19,77 @@ tags:
 - System administration
 - Data management
 - Server
+- German/Deutsch
 ---
 
 # Robocopy Cheat Sheet
 
-:::caution
-Wir brauchen deine Hilfe! Dieses Cheat-Sheet wude noch nicht übersetzt. Hilf mit diese Seite zu übersetzen, in dem du den [**✎Diese seite bearbeiten**](https://github.com/datenschmutz/docs/tree/main/i18n/de/docusaurus-plugin-content-docs-cheat-sheets/current/robocopy.md) button verwendest! DANKE!
-:::
-
-Robocopy is a command-line tool used for file replication. It is available in Windows operating systems and is used to copy large files or large amounts of files from one location to another.
+Robocopy ist ein Befehlszeilenwerkzeug zur Dateireplikation. Es ist in Windows-Betriebssystemen verfügbar und wird verwendet, um große Dateien oder große Dateimengen von einem Ort zum anderen zu kopieren.
 
 ## Syntax
 ```Bash
-ROBOCOPY source_folder destination_folder [file(s)_to_copy] [options]
+ROBOCOPY quell_ordner ziel_ordner [zu_kopierende_datei(en)] [optionen]
 ```
 
-- **source_folder**: Specifies the folder that contains the files to copy.
-- **destination_folder**: Specifies the destination folder for the copied files.
-- **file(s)_to_copy**: Specifies the file(s) to be copied. You can use wildcard characters to specify multiple files.
-- **options**: Specifies the options to use when copying the files.
+- **quell_ordner**: Gibt den Ordner an, der die zu kopierenden Dateien enthält.
+- **ziel_ordner**: SGibt den Zielordner für die kopierten Dateien an.
+- **zu_kopierende_datei(en)**: Gibt die zu kopierende(n) Datei(en) an. Du kannst Platzhalterzeichen verwenden, um mehrere Dateien anzugeben.
+- **optionen**: Gibt die Optionen an, die beim Kopieren der Dateien verwendet werden sollen.
 
-## Options
+## Optionen
 
-### Copy Options
-| Option          | Description                                                                                                                                  |
-|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| /S              | Copies subdirectories.                                                                                                                       |
-| /E              | Copies subdirectories, including empty ones.                                                                                                 |
-| /LEV:n          | Copies only the top n levels of the source directory tree.                                                                                   |
-| /Z              | Copies files in restartable mode.                                                                                                            |
-| /B              | Copies files in backup mode (backup operator privileges required).                                                                           |
-| /ZB             | Uses restartable mode; if access is denied, Robocopy will use backup mode.                                                                   |
-| /COPY:copyflag  | Copies file information specified by copyflag. You can specify multiple copyflag values separated by commas.                                 |
-| /DCOPY:copyflag | Copies directory information specified by copyflag. You can specify multiple copyflag values separated by commas.                            |
-| /TIMFIX         | Fixes file times to prevent timestamp drift.                                                                                                 |
-| /PURGE          | Deletes destination files or directories that no longer exist in the source.                                                                 |
-| /MIR            | Mirrors a directory tree (copies all files, including empty directories). Deletes files in the destination that are no longer in the source. |
-| /MT[:n]         | Specifies the number of threads to use when copying files. The default is 8 threads.                                                         |
+### Kopier Optionen
+| Option       | Beschreibung                                                                                                                |
+|--------------|-----------------------------------------------------------------------------------------------------------------------------|
+| /L           | Zeigt die Dateien an, die kopiert werden würden, kopiert sie jedoch nicht.                                                  |
+| /X           | Schließt Dateien aus, die mit angegebenen Namen oder Pfaden übereinstimmen.                                                 |
+| /XC          | Schließt geänderte Dateien aus.                                                                                             |
+| /XN          | Schließt neuere Dateien aus.                                                                                                |
+| /XO          | Schließt ältere Dateien aus.                                                                                                |
+| /XX          | Schließt zusätzliche Dateien und Verzeichnisse aus.                                                                         |
+| /XL          | Schließt "einsame" Dateien und Verzeichnisse aus (die nur in der Quelle oder im Ziel, aber nicht in beiden vorhanden sind). |
+| /LOG:file    | Schreibt die Statusausgabe in eine Protokolldatei.                                                                          |
+| /LOG+:file   | Hängt die Statusausgabe an eine Protokolldatei an.                                                                          |
+| /TEE         | Schreibt die Statusausgabe in das Konsolenfenster und in die Protokolldatei.                                                |
+| /NJH         | Unterdrückt den "Jobheader" in der Statusausgabe.                                                                           |
+| /NJS         | Unterdrückt die "Jobzusammenfassung" in der Statusausgabe.                                                                  |
+| /UNILOG:file | Schreibt die Statusausgabe in eine Protokolldatei im Unicode-Format.                                                        |
 
-### Retry Options
-| Option | Description                                                                                                |
-|--------|------------------------------------------------------------------------------------------------------------|
-| /R:n   | Specifies the number of times that Robocopy should retry copying a file. The default is 1 million retries. |
-| /W:n   | Specifies the time, in seconds, that Robocopy should wait between retries. The default is 30 seconds.      |
-| /REG   | Saves retry information to the system registry instead of a file.                                          |
+### Wiederholungsoptionen
+| Option | Beschreibung                                                                                                              |
+|--------|---------------------------------------------------------------------------------------------------------------------------|
+| /R:n   | Gibt an, wie oft Robocopy versuchen soll, eine Datei zu kopieren. Standardmäßig sind 1 Million Wiederholungen vorgesehen. |
+| /W:n   | Gibt die Wartezeit in Sekunden an, die Robocopy zwischen den Wiederholungen einlegt. Standardmäßig sind es 30 Sekunden.   |
+| /REG   | Speichert Wiederholungsinformationen in der Systemregistrierung anstelle einer Datei.                                     |
 
-### Logging Options
-| Option       | Description                                                                                               |
-|--------------|-----------------------------------------------------------------------------------------------------------|
-| /L           | Displays the files that would be copied, but does not copy them.                                          |
-| /X           | Excludes files that match specified names or paths.                                                       |
-| /XC          | Excludes changed files.                                                                                   |
-| /XN          | Excludes newer files.                                                                                     |
-| /XO          | Excludes older files.                                                                                     |
-| /XX          | Excludes extra files and directories.                                                                     |
-| /XL          | Excludes "lonely" files and directories (those that are only in the source or destination, but not both). |
-| /LOG:file    | Writes the status output to a log file.                                                                   |
-| /LOG+:file   | Appends the status output to a log file.                                                                  |
-| /TEE         | Writes the status output to the console window and to the log file.                                       |
-| /NJH         | Suppresses the "job header" in the status output.                                                         |
-| /NJS         | Suppresses the "job summary" in the status output.                                                        |
-| /UNILOG:file | Writes the status output to a log file in Unicode format.                                                 |
+### Protokolloptionen
+| Option       | Beschreibung                                                                                                                |
+|--------------|-----------------------------------------------------------------------------------------------------------------------------|
+| /L           | Zeigt die Dateien an, die kopiert werden würden, kopiert sie jedoch nicht.                                                  |
+| /X           | Schließt Dateien aus, die mit angegebenen Namen oder Pfaden übereinstimmen.                                                 |
+| /XC          | Schließt geänderte Dateien aus.                                                                                             |
+| /XN          | Schließt neuere Dateien aus.                                                                                                |
+| /XO          | Schließt ältere Dateien aus.                                                                                                |
+| /XX          | Schließt zusätzliche Dateien und Verzeichnisse aus.                                                                         |
+| /XL          | Schließt "einsame" Dateien und Verzeichnisse aus (die nur in der Quelle oder im Ziel, aber nicht in beiden vorhanden sind). |
+| /LOG:file    | Schreibt die Statusausgabe in eine Protokolldatei.                                                                          |
+| /LOG+:file   | Hängt die Statusausgabe an eine Protokolldatei an.                                                                          |
+| /TEE         | Schreibt die Statusausgabe in das Konsolenfenster und in die Protokolldatei.                                                |
+| /NJH         | Unterdrückt den "Jobheader" in der Statusausgabe.                                                                           |
+| /NJS         | Unterdrückt die "Jobzusammenfassung" in der Statusausgabe.                                                                  |
+| /UNILOG:file | Schreibt die Statusausgabe in eine Protokolldatei im Unicode-Format.                                                        |
 
-### Other Options
-| Option | Description                                                                      |
-| ------ | -------------------------------------------------------------------------------- |
-| /NFL   | Specifies that file names should not be logged.                                  |
-| /NDL   | Specifies that directory names should not be logged.                             |
-| /NC    | Specifies that file classes should not be logged.                                |
-| /NS    | Specifies that file sizes should not be logged.                                  |
-| /NP    | Specifies that the progress of the copy operation should not be displayed.       |
-| /BYTES | Displays file sizes in bytes.                                                    |
-| /K     | Copies file attributes.                                                          |
-| /A     | Copies only files that have the archive attribute set.                           |
-| /M     | Copies only files that have the archive attribute set, and resets the attribute. |
-| /FFT   | Uses FAT file timing instead of NTFS.                                            |
-| /256   | Uses 256-color mode.                                                             |
+### Weitere Optionen
+| Option | Beschreibung                                                                  |
+|--------|-------------------------------------------------------------------------------|
+| /NFL   | Gibt an, dass Dateinamen nicht protokolliert werden sollen.                   |
+| /NDL   | Gibt an, dass Verzeichnisnamen nicht protokolliert werden sollen.             |
+| /NC    | Gibt an, dass Dateiklassen nicht protokolliert werden sollen.                 |
+| /NS    | Gibt an, dass Dateigrößen nicht protokolliert werden sollen.                  |
+| /NP    | Gibt an, dass der Fortschritt des Kopiervorgangs nicht angezeigt werden soll. |
+| /BYTES | Zeigt Dateigrößen in Bytes an.                                                |
+| /K     | Kopiert Dateiattribute.                                                       |
+| /A     | Kopiert nur Dateien mit dem Attribut "Archiv".                                |
+| /M     | Kopiert nur Dateien mit dem Attribut "Archiv" und setzt das Attribut zurück.  |
+| /FFT   | Verwendet FAT-Dateizeit statt NTFS.                                           |
+| /256   | Verwendet den 256-Farben-Modus.                                               |

@@ -13,7 +13,7 @@ tags:
 
 # Git - Cheat Sheet
 
-A comprehensive reference guide for Git commands, both basic and advanced.
+Welcome to Git - Cheat Sheet! Here you'll find all the important Git commands, compact and clear. Whether you're a beginner or a pro, everything you need for the perfect overview is here. This way, you'll always have your repository under control!
 
 ## Basic Commands
 

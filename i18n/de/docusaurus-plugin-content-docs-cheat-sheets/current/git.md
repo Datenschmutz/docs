@@ -14,7 +14,7 @@ tags:
 
 # Git - Cheat Sheet
 
-Ein umfassendes Repertoire an Git-Befehlen, sowohl für Anfänger als auch für Fortgeschrittene.
+Willkommen im Git - Cheat Sheet! Hier findest du alle wichtigen Git-Befehle, kompakt und übersichtlich. Ob Anfänger oder Profi, hier ist alles dabei, was du für den perfekten Überblick brauchst. So hast du dein Repository immer im Griff!
 
 ## Basic Commands
 
