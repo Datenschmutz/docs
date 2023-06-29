@@ -194,8 +194,8 @@ const config = {
                 to: '/docs/category/voron-backup-automation',
               },
               {
-                label: 'Sitemap',
-                to: '/sitemap.xml',
+                label: 'sitemap',
+                href: 'https://docs.datenschmutz.dev/sitemap.xml',
               },
             ],
           },
