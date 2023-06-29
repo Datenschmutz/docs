@@ -3,7 +3,7 @@ sidebar_position: 7
 sidebar_label: 'Cisco CLI Commands'
 id: cisco-cli-commands
 description: "A comprehensive reference guide for CISCO CCNA CLI commands, both basic and advanced."
-slug: /cisco-cli-commands
+slug: /cisco-cli-cheat-sheet
 tags:
 - Cheat Sheet
 - CISCO
