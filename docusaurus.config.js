@@ -193,6 +193,10 @@ const config = {
                 label: 'Voron Backup Automation',
                 to: '/docs/category/voron-backup-automation',
               },
+              {
+                label: 'Sitemap',
+                to: '/sitemap.xml',
+              },
             ],
           },
           {
