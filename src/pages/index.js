@@ -32,7 +32,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Datenschmutz.dev is a vibrant platform for IT documentations, cheat sheets, and projects, powered by a community of tech enthusiasts and experts. Explore a wide array of topics, from networking and programming to cybersecurity and server management. Join in and share your knowledge to help expand our collection of resources.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

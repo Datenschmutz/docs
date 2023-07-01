@@ -5,7 +5,7 @@
   },
   "theme.ErrorPageContent.tryAgain": {
     "message": "Nochmal versuchen",
-    "description": "The label of the button to try again when the page crashed"
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
   },
   "theme.NotFound.title": {
     "message": "Seite nicht gefunden",
@@ -438,28 +438,52 @@
     "message": "Docs sidebar",
     "description": "The ARIA label for the sidebar navigation"
   },
-  "Homepage.left.text.title": {
-    "message": "Von allen für alle",
-    "description": "Homepage left text section Title"
+  "Homepage.1.text.title": {
+    "message": "Tauche ein in die Welt der IT",
+    "description": "Homepage 1left text section Title"
   },
-  "Homepage.left.text": {
-    "message": "Unsere Plattform lebt von den Beiträgen einer lebendigen Community von Technikbegeisterten und Experten. Egal, ob du ein erfahrener IT-Experte bist oder gerade erst anfängst, du kannst dein Wissen weitergeben und anderen helfen, indem du Inhalte zu unserer Website hinzufügst. Gemeinsam können wir eine wertvolle Ressource für alle Mitglieder der Tech-Community schaffen.",
-    "description": "Homepage left text section conent"
+  "Homepage.1.text": {
+    "message": "Unabhängig von deinem Hintergrund oder deinem Fachwissen gibt es immer etwas Neues in dem schnelllebigen Feld der Informationstechnologie zu lernen. Unsere Plattform bietet eine Fülle von Ressourcen zu einer breiten Palette von Themen - von Netzwerken und Programmierung bis hin zu Cybersicherheit und Server-Management. Starte heute deine Entdeckungsreise und erweitere deine Fähigkeiten.",
+    "description": "Homepage 1left text section conent"
   },
-  "Homepage.middle.text.title": {
-    "message": "Du suchst etwas Bestimmtes??",
-    "description": "Homepage middle text section Title"
+  "Homepage.2.text.title": {
+    "message": "Lernen, Beitragen, wiederholen",
+    "description": "Homepage 1middle text section Title"
   },
-  "Homepage.middle.text": {
-    "message": "Dann hoffen wir, dass du hier fündig wirst! Unsere Community fügt ständig Inhalte hinzu und aktualisiert sie, um die aktuellsten und genauesten Informationen bereitzustellen. Wenn nicht und du denkst, dass es gut hierher passen würde, du aber nicht selbst ein Dokument erstellen möchtest, dann erstelle einen GitHub Issue. Vielleicht werden wir uns dann darum kümmern.",
-    "description": "Homepage middle text section"
+  "Homepage.2.text": {
+    "message": "Jeder Beitrag - groß oder klein - macht einen Unterschied. Ob du einen bestehenden Artikel aktualisierst, einen neuen Leitfaden hinzufügst oder einfach nur einen Fehler aufzeigst, deine Bemühungen helfen, die Qualität und Breite unserer Inhalte zu verbessern. Denk daran, in der Welt der Technik ist das Lernen eine lebenslange Reise. Tauche ein, leiste einen Beitrag, lerne und wiederhole dann den Zyklus!",
+    "description": "Homepage 1middle text section"
   },
-  "Homepage.right.text.title": {
-    "message": "Du hast das fehlende Teil?",
-    "description": "Homepage right text section Title"
+  "Homepage.3.text.title": {
+    "message": "Gemeinsam formen, gemeinsam lernen",
+    "description": "Homepage 1right text section Title"
   },
-  "Homepage.right.text": {
-    "message": "Wenn du auf einen Fehler gestoßen bist oder etwas entdeckt hast, das die Dokumentation verbessern könnte, zögere nicht, aktiv zu werden und zur Gemeinschaft beizutragen. Über die Schaltfläche \"Diese Seite bearbeiten\" unten auf der Seite kannst du ganz einfach Änderungen oder Ergänzungen an den Inhalten vornehmen und deine Erkenntnisse mit anderen teilen. Sei also nicht schüchtern - ergreife die Initiative und fange noch heute an, etwas beizutragen!",
-    "description": "Homepage right text section conent"
+  "Homepage.3.text": {
+    "message": "Datenschmutz.dev ist eine blühende Plattform, angetrieben von einer Community aus Technik-Enthusiasten und Experten. Wir bieten eine Fülle von Dokumentationen, Anleitungen und Cheat Sheets zu Themen wie Windows und Linux Server, Scripting, Programme und vieles mehr.",
+    "description": "Homepage 1right text section Title"
+  },
+  "Homepage.4.text.title": {
+    "message": "Auf der Suche nach etwas Bestimmtem?",
+    "description": "Homepage 2left text section Title"
+  },
+  "Homepage.4.text": {
+    "message": "Unsere Community erweitert und aktualisiert ständig unsere Inhalte, um dir die aktuellsten und genauesten Informationen zu liefern. Wenn du nicht findest, was du suchst, zögere nicht, ein GitHub Issue zu erstellen. Wir schätzen dein Feedback und deine Beiträge!",
+    "description": "Homepage 2left text section conent"
+  },
+  "Homepage.5.text.title": {
+    "message": "Möchtest du einen Unterschied machen?",
+    "description": "Homepage 2middle text section Title"
+  },
+  "Homepage.5.text": {
+    "message": "Wenn du auf einen Fehler gestoßen bist oder etwas entdeckt hast, das unsere Dokumentation verbessern könnte, ermutigen wir dich, aktiv zu werden und zur Gemeinschaft beizutragen. Nutze den Button \"Diese Seite bearbeiten\", um Änderungen oder Ergänzungen am Inhalt vorzunehmen. Deine Erkenntnisse sind wertvoll für uns und für die gesamte Tech-Community.",
+    "description": "Homepage 2middle text section content"
+  },
+  "Homepage.6.text.title": {
+    "message": "Werde Teil unserer wachsenden Community",
+    "description": "Homepage 2right text section Title"
+  },
+  "Homepage.6.text": {
+    "message": "Die Stärke unserer Plattform liegt in den Beiträgen unserer Community-Mitglieder. Jeder Artikel, jeder Leitfaden und jede Cheat Sheet ist ein Zeugnis unserer gemeinsamen Leidenschaft für Technologie und Lernen. Werde Teil von uns, füge dich in die Unterhaltung ein und hilf dabei, Datenschmutz.dev zu einer noch wertvolleren Ressource für die Tech-Community weltweit zu machen.",
+    "description": "Homepage 2right text section conent"
   }
 }

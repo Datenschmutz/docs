@@ -14,5 +14,9 @@
   "item.label.Projects": {
     "message": "Projects",
     "description": "Navbar item with label Projects"
+  },
+  "logo.alt": {
+    "message": "Datenschmutz Logo",
+    "description": "The alt text of navbar logo"
   }
 }
