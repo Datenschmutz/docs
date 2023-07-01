@@ -5,7 +5,7 @@
   },
   "theme.ErrorPageContent.tryAgain": {
     "message": "Nochmal versuchen",
-    "description": "The label of the button to try again when the page crashed"
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
   },
   "theme.NotFound.title": {
     "message": "Seite nicht gefunden",
@@ -443,15 +443,15 @@
     "description": "Homepage left text section Title"
   },
   "Homepage.left.text": {
-    "message": "Unsere Plattform lebt von den Beiträgen einer lebendigen Community von Technikbegeisterten und Experten. Egal, ob du ein erfahrener IT-Experte bist oder gerade erst anfängst, du kannst dein Wissen weitergeben und anderen helfen, indem du Inhalte zu unserer Website hinzufügst. Gemeinsam können wir eine wertvolle Ressource für alle Mitglieder der Tech-Community schaffen.",
+    "message": "Datenschmutz.dev lebt von den Beiträgen einer lebendigen Community von Technikbegeisterten und Experten. Ob du ein erfahrener IT-Experte bist oder gerade erst anfängst, hier kannst du dein Wissen weitergeben und anderen helfen, indem du Inhalte zu unserer Website hinzufügst. Zusammen können wir eine wertvolle Ressource für alle Mitglieder der Tech-Community schaffen.",
     "description": "Homepage left text section conent"
   },
   "Homepage.middle.text.title": {
-    "message": "Du suchst etwas Bestimmtes??",
+    "message": "Suchst du was Bestimmtes?",
     "description": "Homepage middle text section Title"
   },
   "Homepage.middle.text": {
-    "message": "Dann hoffen wir, dass du hier fündig wirst! Unsere Community fügt ständig Inhalte hinzu und aktualisiert sie, um die aktuellsten und genauesten Informationen bereitzustellen. Wenn nicht und du denkst, dass es gut hierher passen würde, du aber nicht selbst ein Dokument erstellen möchtest, dann erstelle einen GitHub Issue. Vielleicht werden wir uns dann darum kümmern.",
+    "message": "Unsere Community fügt ständig Inhalte hinzu und aktualisiert sie, um die aktuellsten und genauesten Informationen bereitzustellen. Wenn nicht und du denkst, dass es gut hierher passen würde, du aber nicht selbst ein Dokument erstellen möchtest, dann erstelle einen GitHub Issue. Vielleicht kümmern wir uns dann darum.",
     "description": "Homepage middle text section"
   },
   "Homepage.right.text.title": {
@@ -459,7 +459,7 @@
     "description": "Homepage right text section Title"
   },
   "Homepage.right.text": {
-    "message": "Wenn du auf einen Fehler gestoßen bist oder etwas entdeckt hast, das die Dokumentation verbessern könnte, zögere nicht, aktiv zu werden und zur Gemeinschaft beizutragen. Über die Schaltfläche \"Diese Seite bearbeiten\" unten auf der Seite kannst du ganz einfach Änderungen oder Ergänzungen an den Inhalten vornehmen und deine Erkenntnisse mit anderen teilen. Sei also nicht schüchtern - ergreife die Initiative und fange noch heute an, etwas beizutragen!",
+    "message": "Bist du auf einen Fehler gestoßen oder hast du etwas entdeckt, das die Dokumentation verbessern könnte? Zögere nicht, aktiv zu werden und zur Gemeinschaft beizutragen. Über die Schaltfläche \"Diese Seite bearbeiten\" unten auf der Seite kannst du ganz einfach Änderungen oder Ergänzungen an den Inhalten vornehmen und deine Erkenntnisse mit anderen teilen. Also sei nicht schüchtern - ergreife die Initiative und fange noch heute an, etwas beizutragen!",
     "description": "Homepage right text section conent"
   }
 }
