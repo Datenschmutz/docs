@@ -66,5 +66,13 @@
   "link.item.label.Datenschmutz Events (Usefull Calendars)": {
     "message": "Datenschmutz Events (Usefull Calendars)",
     "description": "The label of footer link with label=Datenschmutz Events (Usefull Calendars) linking to https://events.datenschmutz.dev"
+  },
+  "link.item.label.sitemap": {
+    "message": "sitemap",
+    "description": "The label of footer link with label=sitemap linking to https://docs.datenschmutz.dev/sitemap.xml"
+  },
+  "logo.alt": {
+    "message": "Datenschmutz logo",
+    "description": "The alt text of footer logo"
   }
 }
