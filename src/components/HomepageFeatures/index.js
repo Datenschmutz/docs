@@ -5,31 +5,32 @@ import Translate from '@docusaurus/Translate';
 
 const FeatureList = [
   {
-    title: <Translate id='Homepage.left.text.title' description="Homepage left text section Title">By all for all</Translate>,
+    title: <Translate id='Homepage.left.text.title' description="Homepage left text section Title">A Platform, Shaped by the Community, for the Community</Translate>,
     Svg: require('@site/static/img/by-all-for-all.svg').default,
     description: (
       <Translate id='Homepage.left.text' description="Homepage left text section conent">
-        Our platform thrives on the contributions of a vibrant community of tech enthusiasts and experts. 
-        Whether you're a seasoned IT professional or just starting out, you can share your knowledge and help others by adding content to our site. 
-        Together, we can create a valuable resource for everyone in the tech community.
+        Datenschmutz.dev is a thriving platform, powered by a community of tech enthusiasts and experts. 
+        We provide a wealth of documentations, guides, and cheat sheets on topics like Windows and Linux Server, Scripts, Programms, and much more.
       </Translate>
     ),
   },
   {
-    title: <Translate id='Homepage.middle.text.title' description="Homepage middle text section Title">You are looking for something?</Translate>,
+    title: <Translate id='Homepage.middle.text.title' description="Homepage middle text section Title">Looking for Something Specific?</Translate>,
     Svg: require('@site/static/img/looking.svg').default,
     description: (
       <Translate id='Homepage.middle.text' description="Homepage middle text section">
-        Well then we hope you find it here! Our community is constantly adding and updating content to provide the most current and accurate information available. If not and you think it would fit well in here, but do not want to create a doc yourself create a GitHub Issue. Maybe we will take care of it then.
+        Our community is constantly expanding and updating our content to provide you with the most current and accurate information. 
+        If you can't find what you're looking for, don't hesitate to create a GitHub Issue. We value your feedback and contributions!
       </Translate>
     ),
   },
   {
-    title: <Translate id='Homepage.right.text.title' description="Homepage right text section Title">You got the missing piece?</Translate>,
+    title: <Translate id='Homepage.right.text.title' description="Homepage right text section Title">Have Something to Contribute?</Translate>,
     Svg: require('@site/static/img/missing-piece.svg').default,
     description: (
       <Translate id='Homepage.right.text' description="Homepage right text section conent">
-      If you've come across a bug  or have discovered something that could improve the documentation, don't hesitate to take action and contribute to the community. By using the "Edit this page" button located at the bottom of the page, you can easily make changes or additions to the content and share your insights with others. So don't be shy - take the initiative and start contributing today!
+      If you've encountered a bug or have discovered something that could enhance our documentation, we encourage you to take action and contribute to the community. Use the "Edit this page" button to make changes or additions to the content. 
+      Your insights are valuable to us and to the entire tech community. So don't be shy - take the initiative and start contributing today!
       </Translate>
     ),
   },
