@@ -6,7 +6,7 @@ description: Up to date TeamSpeak badge list
 slug: /teamspeak-badges
 last_update:
   author: Fabian
-  date: 05/15/2023
+  date: 07/20/2023
 tags:
   - TeamSpeak
   - List
@@ -16,7 +16,7 @@ tags:
 # TeamSpeak Badge List
 
 :::info
-Last Update: 15.05.2023<br/>
+Last Update: 20.07.2023<br/>
 Date Format: dd-mm-yyyy
 :::
 
@@ -33,13 +33,23 @@ Date Format: dd-mm-yyyy
 
 ---
 
+## G2_Esports
+
+![ts](/img/cheat-sheets/teamspeak-badges/g2.png)
+>Aged 20 years being a G2 fan<br/>
+>GUID: 809bdd5a-2601-4152-82ff-a21d23d8fd46
+
+```md title='Badge Code - !TBA!: (Available until: TBA)'
+
+```
+
 ## World Bonsai Day
 
 ![ts](/img/cheat-sheets/teamspeak-badges/World-Bonsai-Day.png)
 >harmony, balance, patience<br/>
 >GUID: 448a6d13-4e08-46a1-aafa-b4ff6d6c2d06
 
-```md title='Badge Code: (Available until: TBD)'
+```md title='Badge Code: (Available until: 31.05.2023)'
 WLRDBONSAIDAY
 ```
 ## World Backup Day
