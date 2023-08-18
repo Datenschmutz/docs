@@ -6,7 +6,7 @@ description: Up to date TeamSpeak badge list
 slug: /teamspeak-badges
 last_update:
   author: Fabian
-  date: 07/20/2023
+  date: 08/18/2023
 tags:
   - TeamSpeak
   - List
@@ -16,7 +16,7 @@ tags:
 # TeamSpeak Badge List
 
 :::info
-Last Update: 20.07.2023<br/>
+Last Update: 18.08.2023<br/>
 Date Format: dd-mm-yyyy
 :::
 
@@ -32,6 +32,16 @@ Date Format: dd-mm-yyyy
 </details>
 
 ---
+
+## Happy Summer 2023
+
+![ts](/img/cheat-sheets/teamspeak-badges/Happy_Summer_2023.png)
+>heat death of the universe<br/>
+>GUID: 834d4cc1-cd80-48d6-96c4-23d131d78649
+
+```md title='Badge Code - !TBA!: (Available until: TBA)'
+
+```
 
 ## G2_Esports
 
