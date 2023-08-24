@@ -6,7 +6,7 @@ description: Aktuelle TeamSpeak-Badge-Liste
 slug: /teamspeak-badges
 last_update:
   author: Fabian
-  date: 08/18/2023
+  date: 08/24/2023
 tags:
   - TeamSpeak
   - List
@@ -17,7 +17,7 @@ tags:
 # TeamSpeak Badge Liste
 
 :::info
-Letzte Aktualisierung: 18.08.2023<br/>
+Letzte Aktualisierung: 24.08.2023<br/>
 :::
 
 <details>
@@ -39,8 +39,8 @@ Letzte Aktualisierung: 18.08.2023<br/>
 >heat death of the universe<br/>
 >GUID: 834d4cc1-cd80-48d6-96c4-23d131d78649
 
-```md title='Badge Code - !TBA!: (Available until: TBA)'
-
+```md title='Badge Code: (Available until: 30.09.2023)'
+PROPELLER2023 
 ```
 
 ## G2_Esports
